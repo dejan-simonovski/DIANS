@@ -1,0 +1,6 @@
+open osmconverter.exe
+	press a
+	convert to osm, save to macedonia-latest.osm
+DROP ALL USELESS NODES
+open osmfilter.exe via cmd terminal(go to directory of .exe and write start osmfilter.exe)
+	osmfilter macedonia-latest.osm --drop-relations --keep="tourism=museum or historic" --ignore-dependencies -o=output.osm
