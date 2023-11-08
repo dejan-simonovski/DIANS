@@ -2,11 +2,11 @@
 Design and Architecture of Software Project at FCSE(FINKI) Skopje
 
 
-Collaborators:
+Collaborators: <br /><br />
 
-Dejan Simonovski 211039
-Angel Risteski 211095
-Ivan Cekikj 211146
-Antonio Stevkovski 212029
-Panche Findachki 211056
+Dejan Simonovski 211039 <br />
+Angel Risteski 211095 <br />
+Ivan Cekikj 211146 <br />
+Antonio Stevkovski 212029 <br />
+Panche Findachki 211056 <br />
 
