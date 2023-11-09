@@ -20,7 +20,7 @@
 
 # DIANS Project
 
-**Subject**: Design and Architecture of Software Project at FCSE Skopje
+**Subject**: Design and Architecture of Software
 
 **Authors** <br/>
 Dejan Simonovski 211039 <br />
