@@ -1,0 +1,3377 @@
+{
+    "nodes": {
+        "367853384": {
+            "id": 367853384,
+            "lat": 41.9936737,
+            "lon": 21.433319,
+            "name": "Питу Гули",
+            "name:en": "Pitu Guli",
+			"category": "monument"
+        },
+        "367860262": {
+            "id": 367860262,
+            "lat": 42.0032812,
+            "lon": 21.4233737,
+            "name": "Гоце Делчев",
+            "name:en": "Goce Delchev",
+	        "category": "monument"
+        },
+        "369750026": {
+            "id": 369750026,
+            "lat": 42.0008716,
+            "lon": 21.4338778,
+            "name": "Влез на Скопското кале",
+            "name:en": "Skopje Fortress Gate",
+	    "category": "building"
+        },
+        "373488269": {
+            "id": 373488269,
+            "lat": 42.0195738,
+            "lon": 20.960153,
+            "name": "Тетовско Кале",
+            "name:en": "Tetovo Fortress",
+			"category": "building"
+        },
+        "382635381": {
+            "id": 382635381,
+            "lat": 41.4325212,
+            "lon": 22.0228463,
+            "name": "Костурница",
+            "name:en": "Kosturnica",
+			"category": "monument"
+        },
+        "390757439": {
+            "id": 390757439,
+            "lat": 41.1155576,
+            "lon": 20.7914836,
+            "name": "Лихнид",
+            "name:en": "Lichnid",
+			"category": "ruins"
+        },
+        "410115784": {
+            "id": 410115784,
+            "lat": 41.3377228,
+            "lon": 21.257898,
+            "name": "Мечкин Камен",
+            "name:en": "Mechkin Kamen",
+			"category": "monument"
+        },
+        "410115785": {
+            "id": 410115785,
+            "lat": 41.3880768,
+            "lon": 21.2273776,
+            "name": "Слива",
+			"name:en": "Sliva",
+			"category": "monument"
+        
+        },
+        "414714609": {
+            "id": 414714609,
+            "lat": 41.5113691,
+            "lon": 21.6904592,
+            "name": "Споменин на паднатите борци",
+            "name:en": "Monument of fallen fighters",
+			"category": "monument"
+        },
+        "444334991": {
+            "id": 444334991,
+            "lat": 41.9188903,
+            "lon": 22.4069917,
+            "name": "Споменик на слободата",
+            "name:en": "Monument of Freedom",
+			"category": "monument"
+        },
+        "473902990": {
+            "id": 473902990,
+            "lat": 42.2916094,
+            "lon": 22.3507979,
+            "name": "Борба од втората светска војна - 17та македонска бригада против бугарската армија",
+            "name:en": "WWII Battle - 17th Macedonian Brigade ws Bulgarian army",
+			"category": "monument"
+        },
+        "495558836": {
+            "id": 495558836,
+            "lat": 41.1776616,
+            "lon": 20.679835,
+            "name": "Споменик на Револуцијата",
+            "name:en": "Monument of the Revolution",
+			"category": "monument"
+        },
+        "908273421": {
+            "id": 908273421,
+            "lat": 41.9959035,
+            "lon": 21.4314474,
+            "name": "Споменик на Александар Македонски",
+            "name:en": "Statue of Alexander the Great",
+	    "category": "monument"
+        },
+        "1475328742": {
+            "id": 1475328742,
+            "lat": 42.0586697,
+            "lon": 21.3527926,
+            "name": "Римска црква",
+            "name:en": "Roman church",
+  	    "category": "building"
+        },
+        "1475331129": {
+            "id": 1475331129,
+            "lat": 42.0843452,
+            "lon": 21.3548716,
+            "name": "Давина Кула",
+            "name:en": "Davina Kula",
+  	    "category": "building"
+        },
+        "1475333181": {
+            "id": 1475333181,
+            "lat": 42.0587494,
+            "lon": 21.2786993,
+            "name": "Голема Кула - Кучково",
+            "name:en": "Great Tower - Kuchkovo",
+  	    "category": "building"
+        },
+        "1475333182": {
+            "id": 1475333182,
+            "lat": 42.0585741,
+            "lon": 21.2844339,
+            "name": "Мала Кула - Кучково",
+            "name:en": "Small Tower - Kuchkovo",
+  	    "category": "building"
+        },
+        "1708412126": {
+            "id": 1708412126,
+            "lat": 42.1355189,
+            "lon": 21.7200501,
+            "name": "Јосип Броз Тито",
+            "name:en": "Josip Broz Tito",
+	    "category": "monument"
+        },
+        "1734593430": {
+            "id": 1734593430,
+            "lat": 42.0766913,
+            "lon": 21.398848,
+            "name": "Археолошки парк Бразда",
+            "name:en": "Archeological Park Brazda",
+	    "category": "ruins"
+        },
+        "1831180502": {
+            "id": 1831180502,
+            "lat": 41.9505936,
+            "lon": 21.2991931,
+            "name": "Манастир Св. Андреј",
+            "name:en": "Monastery St. Andrej",
+	    "category": "building"
+        },
+        "1857486060": {
+            "id": 1857486060,
+            "lat": 42.0017233,
+            "lon": 21.4617772,
+            "name": "Филип Втори",
+            "name:en": "Philip II",
+	    "category": "monument"
+        },
+        "1859114111": {
+            "id": 1859114111,
+            "lat": 41.9984602,
+            "lon": 21.4349949,
+            "name": "Филип II Македонски",
+            "name:en": "Philip II of Macedon",
+	    "category": "monument"
+        },
+        "1866944575": {
+            "id": 1866944575,
+            "lat": 41.9983057,
+            "lon": 21.4254968,
+            "name": "Св. Климент Охридски",
+            "name:en": "Clement of Ohrid",
+	    "category": "monument"
+        },
+        "1867151652": {
+            "id": 1867151652,
+            "lat": 41.9993163,
+            "lon": 21.437162,
+            "name": "Скендербег",
+            "name:en": "Skanderbeg",
+	    "category": "monument"
+        },
+        "1867606193": {
+            "id": 1867606193,
+            "lat": 40.8570205,
+            "lon": 21.1195933,
+            "name": "Маркова Нога",
+            "name:en": "Markova Noga",
+	    "category": "monument"
+        },
+        "1879436069": {
+            "id": 1879436069,
+            "lat": 42.1706665,
+            "lon": 21.809838,
+            "name": "Костоперска Карпа",
+            "name:en": "Kostoperska Karpa",
+	    "category": "monument"
+        },
+        "1879461479": {
+            "id": 1879461479,
+            "lat": 42.2633818,
+            "lon": 21.953118,
+            "name": "Кокино",
+            "name:en": "Kokino",
+	    "category": "ruins"
+        },
+        "1995790447": {
+            "id": 1995790447,
+            "lat": 42.1355778,
+            "lon": 21.7194275,
+            "name": "Јосип Броз - Тито",
+            "name:en": "Josip Broz - Tito",
+	    "category": "monument"
+        },
+        "2024605291": {
+            "id": 2024605291,
+            "lat": 42.2782511,
+            "lon": 21.8500367,
+            "name": "Меморијален центар АСНОМ",
+            "name:en": "Memorial Center ASNOM",
+            "category": "building"
+        },
+        "2026119373": {
+            "id": 2026119373,
+            "lat": 41.794932,
+            "lon": 20.9108574,
+            "name": "Саат кула",
+            "name:en": "Clock tower",
+	    "category": "building"
+        },
+        "2026891418": {
+            "id": 2026891418,
+            "lat": 42.1068795,
+            "lon": 21.1545235,
+            "name": "Орашко Кале",
+            "name:en": "Orashko Kale",
+	    "category": "building"
+        },
+        "2026911763": {
+            "id": 2026911763,
+            "lat": 41.5119269,
+            "lon": 20.9702432,
+            "name": "Саат кула",
+            "name:en": "Clock tower",
+	    "category": "building"
+        },
+        "2026930302": {
+            "id": 2026930302,
+            "lat": 41.7140782,
+            "lon": 21.7840512,
+            "name": "Саат кула",
+            "name:en": "Clock tower",
+	    "category": "building"
+        },
+        "2026975410": {
+            "id": 2026975410,
+            "lat": 41.2775784,
+            "lon": 22.4937679,
+            "name": "Исар Марвинци",
+            "name:en": "Isar Marvinci",
+    	    "category": "ruins"
+        },
+        "2189840728": {
+            "id": 2189840728,
+            "lat": 41.3451182,
+            "lon": 21.5519842,
+            "name": "Народен Херој Кузман Јосифоски-Питу",
+            "name:en": "Peoples hero Kuzman Josifoski-Pitu",
+	    "category": "monument"
+        },
+        "2189840898": {
+            "id": 2189840898,
+            "lat": 41.3451518,
+            "lon": 21.554267,
+            "name": "Пеце Атанасоски",
+            "name:en": "Pece Atanasovski",
+	    "category": "monument"
+        },
+        "2189840958": {
+            "id": 2189840958,
+            "lat": 41.3452617,
+            "lon": 21.5522173,
+            "name": "Ѓорче Петров",
+            "name:en": "Gjorche Petrov",
+	    "category": "monument"
+        },
+        "2268500979": {
+            "id": 2268500979,
+            "lat": 41.3748344,
+            "lon": 21.2480535,
+            "name": "Питу Гули",
+            "name:en": "Pitu Guli",
+  	    "category": "monument"
+        },
+        "2268500995": {
+            "id": 2268500995,
+            "lat": 41.3748686,
+            "lon": 21.2482546,
+            "name": "Тоше Проески",
+            "name:en": "Tose Proeski",
+ 	    "category": "monument"
+        },
+        "2269431831": {
+            "id": 2269431831,
+            "lat": 41.3736665,
+            "lon": 21.2463296,
+            "name": "Никола Карев",
+            "name:en": "Nikola Karev",
+ 	    "category": "monument"
+        },
+        "2316156278": {
+            "id": 2316156278,
+            "lat": 41.024615,
+            "lon": 21.3368929,
+            "name": "Стефан Наумов-Стив",
+            "name:en": "Stefan Naumov-Stiv",
+ 	    "category": "monument"
+        },
+        "2327281126": {
+            "id": 2327281126,
+            "lat": 41.3649692,
+            "lon": 21.2497316,
+            "name": "Споменик на Питу Гули",
+            "name:en": "Statue of Pitu Guli",
+ 	    "category": "monument"
+        },
+        "2330629820": {
+            "id": 2330629820,
+            "lat": 41.3653856,
+            "lon": 21.2484409,
+            "name": "Наум Наумоски-Борче",
+            "name:en": "Naum Naumoski-Borche",
+ 	    "category": "monument"
+        },
+        "2350137461": {
+            "id": 2350137461,
+            "lat": 41.5516379,
+            "lon": 21.9751675,
+            "name": "Римски театар",
+            "name:en": "Roman theater",
+	    "category": "building"
+        },
+    
+        "2373710718": {
+            "id": 2373710718,
+            "lat": 42.0836218,
+            "lon": 21.9862589,
+            "name": "Цоцев Камен",
+            "name:en": "Cocev Kamen",
+ 	    "category": "ruins"
+        },
+        "2545342051": {
+            "id": 2545342051,
+            "lat": 40.9765203,
+            "lon": 20.9119981,
+            "name": "Преспанско Советување",
+            "name:en": "Prespansko Sovetuvanje",
+ 	    "category": "monument"
+        },
+        "2598104053": {
+            "id": 2598104053,
+            "lat": 41.3475544,
+            "lon": 21.5564074,
+            "name": "Карпалак",
+            "name:en": "Karpalak",
+ 	    "category": "monument"
+        },
+        "2616082758": {
+            "id": 2616082758,
+            "lat": 42.1491368,
+            "lon": 21.7853235,
+            "name": "Спомен Зебрњак",
+            "name:en": "Spomen Zebrnjak",
+	    "category": "building"
+
+        },
+        "2759245083": {
+            "id": 2759245083,
+            "lat": 41.1126936,
+            "lon": 20.7995376,
+            "name": "Свети Климент Охридски",
+            "name:en": "Monument St. Clement Ohridski",
+	    "category": "monument"
+        },
+        "2759253188": {
+            "id": 2759253188,
+            "lat": 41.1120476,
+            "lon": 20.799994,
+            "name": "Свети Кирил и Методиј",
+            "name:en": "Monuments of Saints Cyril and Methodius",
+	    "category": "monument"
+        },
+        "2759263738": {
+            "id": 2759263738,
+            "lat": 41.1122955,
+            "lon": 20.7990226,
+            "name": "Свети Наум Охридски Чудотворец",
+            "name:en": "Monument to St. Naum of Ohrid",
+	    "category": "monument"
+        },
+        "2795154377": {
+            "id": 2795154377,
+            "lat": 41.1124606,
+            "lon": 20.7977703,
+            "name": "Долна Порта",
+            "name:en": "Lower Gate",
+	    "category": "building"
+        },
+        "2829462221": {
+            "id": 2829462221,
+            "lat": 42.0853984,
+            "lon": 21.9627449,
+            "name": "Мачка камен",
+            "name:en": "Macka kamen",
+	    "category": "ruins"
+        },
+        "2851570672": {
+            "id": 2851570672,
+            "lat": 41.4182291,
+            "lon": 21.0770931,
+            "name": "Христо Узунов",
+            "name:en": "Hristo Uzunov",
+	    "category": "monument"
+        },
+        "3011061690": {
+            "id": 3011061690,
+            "lat": 41.0596796,
+            "lon": 20.8135106,
+            "name": "Св. Никола",
+            "name:en": "Sv. Nikola",
+	    "category": "building"
+        },
+        "3039854149": {
+            "id": 3039854149,
+            "lat": 41.9062629,
+            "lon": 20.9636151,
+            "name": "Споменик на жртви од НОВ",
+            "name:en": "Spomenik na zhrtvi od NOV",
+	    "category": "monument"
+        },
+        "3409068903": {
+            "id": 3409068903,
+            "lat": 41.3460556,
+            "lon": 21.5524989,
+            "name": "Александар Македонски",
+            "name:en": "Alexander Macedonian",
+	    "category": "monument"
+        },
+        "3409068904": {
+            "id": 3409068904,
+            "lat": 41.3462544,
+            "lon": 21.5528281,
+            "name": "Методија Андонов-Ченто",
+            "name:en": "Metodija Andonov-Chento",
+	    "category": "monument"
+        },
+        "3418320912": {
+            "id": 3418320912,
+            "lat": 41.822914,
+            "lon": 21.7360635,
+            "name": "Масакр кај Пуста Кула",
+            "name:en": "Masakr kaj Pusta Kula",
+	    "category": "monument"
+        },
+        "3456913802": {
+            "id": 3456913802,
+            "lat": 41.3434323,
+            "lon": 21.5479723,
+            "name": "Карпалак 2001",
+            "name:en": "Karpalak 2001",
+	    "category": "monument"
+        },
+        "3457966074": {
+            "id": 3457966074,
+            "lat": 41.3341123,
+            "lon": 21.554646,
+            "name": "Крипта",
+            "name:en": "Cript",
+	    "category": "monument"
+        },
+        "3642663981": {
+            "id": 3642663981,
+            "lat": 41.345456,
+            "lon": 21.5548417,
+            "name": "Итар Пејо",
+            "name:en": "Sly Peter",
+	    "category": "monument"
+        },
+        "3694881124": {
+            "id": 3694881124,
+            "lat": 41.975162,
+            "lon": 22.8187714,
+            "name": "Дедо Јаким - Воденица",
+            "name:en": "Dedo Jakim - Mill",
+	    "category": "building"
+        },
+        "3694922580": {
+            "id": 3694922580,
+            "lat": 41.9769054,
+            "lon": 22.8193451,
+            "name": "Илин Камен",
+            "name:en": "Ilin Kamen",
+	    "category": "monument"
+        },
+        "3695208787": {
+            "id": 3695208787,
+            "lat": 41.9668611,
+            "lon": 22.7768724,
+            "name": "Гоце Делчев (Биста)",
+            "name:en": "Goce Delchev",
+	    "category": "monument"
+        },
+        "3695208788": {
+            "id": 3695208788,
+            "lat": 41.9643843,
+            "lon": 22.7742882,
+            "name": "Гоце Делчев",
+            "name:en": "Goce Delchev",
+	    "category": "monument"
+        },
+        "3695770497": {
+            "id": 3695770497,
+            "lat": 41.9653801,
+            "lon": 22.7716387,
+            "name": "Споменик на паднати борци во НОБ",
+            "name:en": "Monument for The fallen warriors of NOB",
+	    "category": "monument"
+        },
+        "3696656682": {
+            "id": 3696656682,
+            "lat": 41.9425359,
+            "lon": 22.7954411,
+            "name": "Кула",
+            "name:en": "Kula",
+	    "category": "ruins"
+        },
+        "3713662739": {
+            "id": 3713662739,
+            "lat": 41.9952169,
+            "lon": 21.426153,
+            "name": "Јосип Броз Титo",
+            "name:en": "Josip Broz Tito",
+	    "category": "monument"
+        },
+        "3951819342": {
+            "id": 3951819342,
+            "lat": 41.9682709,
+            "lon": 21.4313461,
+            "name": "Маркови Кули",
+            "name:en": "Markovi Kuli",
+	    "category": "ruins"
+        },
+        "4078676807": {
+            "id": 4078676807,
+            "lat": 41.139367,
+            "lon": 22.5093733,
+            "name": "Леонид Јанков",
+            "name:en": "Leonid Jankov",
+	    "category": "monument"
+        },
+        "4128156209": {
+            "id": 4128156209,
+            "lat": 41.9977079,
+            "lon": 21.4339766,
+            "name": "Св. Кирил и Методиј",
+            "name:en": "Saints Cyril and Methodius",
+	    "category": "monument"
+        },
+        "4128156210": {
+            "id": 4128156210,
+            "lat": 41.9975624,
+            "lon": 21.4341509,
+            "name": "Св. Климент Охридски и Наум Охридски Чудотворец",
+            "name:en": "Saints Clement of Ohrid and Naum",
+	    "category": "monument"
+        },
+        "4149143991": {
+            "id": 4149143991,
+            "lat": 41.9953917,
+            "lon": 21.4313414,
+            "name": "Цар Самоил",
+            "name:en": "Tsar Samuel",
+	    "category": "monument"
+        },
+        "4161113452": {
+            "id": 4161113452,
+            "lat": 41.9964949,
+            "lon": 21.4321474,
+            "name": "Даме Груев",
+            "name:en": "Dame Gruev",
+	    "category": "monument"
+        },
+        "4161113453": {
+            "id": 4161113453,
+            "lat": 41.9968799,
+            "lon": 21.4323054,
+            "name": "Јустинијан I",
+            "name:en": "Justinian I",
+	    "category": "monument"
+        },
+        "4161249330": {
+            "id": 4161249330,
+            "lat": 41.9979046,
+            "lon": 21.4344182,
+            "name": "Олимпија",
+            "name:en": "Olympias",
+	    "category": "monument"
+        },
+        "4183631289": {
+            "id": 4183631289,
+            "lat": 41.993303,
+            "lon": 21.4337226,
+            "name": "Прометеј",
+            "name:en": "Prometheus",
+	    "category": "monument"
+        },
+        "4242928035": {
+            "id": 4242928035,
+            "lat": 41.9834333,
+            "lon": 21.439106,
+            "name": "Тодор Александров",
+            "name:en": "Todor Aleksandrov",
+	    "category": "monument"
+        },
+        "4271160712": {
+            "id": 4271160712,
+            "lat": 41.9936684,
+            "lon": 21.4317487,
+            "name": "Бегова кула",
+            "name:en": "Beygov Tower",
+	    "category": "building"
+        },
+        "4278022934": {
+            "id": 4278022934,
+            "lat": 41.4166941,
+            "lon": 22.7549207,
+            "name": "Гоце Делчев",
+            "name:en": "Goce Delcev",
+	    "category": "monument"
+        },
+        "4306447780": {
+            "id": 4306447780,
+            "lat": 41.3661079,
+            "lon": 21.6749495,
+            "name": "Борка Талески-Модерното / Лазо Филиповски-Лавски",
+            "name:en": "Borka Taleski / Lazo Filipovski",
+	    "category": "monument"
+        },
+        "4351691820": {
+            "id": 4351691820,
+            "lat": 40.9142149,
+            "lon": 20.7412554,
+            "name": "Свети Наум",
+            "name:en": "St. Naum",
+	    "category": "monument"
+        },
+        "4357166289": {
+            "id": 4357166289,
+            "lat": 41.736405,
+            "lon": 22.1903758,
+            "name": "Споменик на загинатите евреи",
+            "name:en": "Monument for the fallen Jews",
+	    "category": "monument"
+        },
+        "4365876494": {
+            "id": 4365876494,
+            "lat": 42.000853,
+            "lon": 21.4375046,
+            "name": "Мустафа-пашина џамија",
+            "name:en": "Murat Pasha Mosque",
+	    "category": "building"
+        },
+        "4378846992": {
+            "id": 4378846992,
+            "lat": 41.9130467,
+            "lon": 21.4333848,
+            "name": "Vila Varvarka",
+            "name:en": "Vila Varvarka",
+	    "category": "building"
+        },
+        "4380846206": {
+            "id": 4380846206,
+            "lat": 41.9949279,
+            "lon": 21.4108745,
+            "name": "Споменик на Јуриј Гагарин",
+            "name:en": "Yuri Gagarin Monument",
+	    "category": "building"
+        },
+        "4386764089": {
+            "id": 4386764089,
+            "lat": 41.9930188,
+            "lon": 21.4332009,
+            "name": "Никола Карев",
+            "name:en": "Nikola Karev",
+	    "category": "building"
+        },
+        "4477202789": {
+            "id": 4477202789,
+            "lat": 42.0016804,
+            "lon": 21.4283664,
+            "name": "Вера Јоциќ",
+            "name:en": "Vera Jocik",
+	    "category": "monument"
+        },
+        "4575831104": {
+            "id": 4575831104,
+            "lat": 41.3455416,
+            "lon": 21.5532375,
+            "name": "Марко Мрњавчевиќ",
+            "name:en": "Marko Mrnjavchevikj",
+	    "category": "monument"
+        },
+        "4575841428": {
+            "id": 4575841428,
+            "lat": 41.3450704,
+            "lon": 21.5505634,
+            "name": "Круме Кепески",
+            "name:en": "Krume Kepeski",
+	    "category": "monument"
+        },
+        "4575841429": {
+            "id": 4575841429,
+            "lat": 41.3451329,
+            "lon": 21.5506707,
+            "name": "Блаже Конески",
+            "name:en": "Blazhe Koneski",
+	    "category": "monument"
+        },
+        "4575841430": {
+            "id": 4575841430,
+            "lat": 41.3451792,
+            "lon": 21.5505581,
+            "name": "Марко Цепенков",
+            "name:en": "Marko Cepenkov",
+	    "category": "monument"
+        },
+        "4585716598": {
+            "id": 4585716598,
+            "lat": 41.5130946,
+            "lon": 20.9663459,
+            "name": "Китино Кале",
+            "name:en": "Kita Castle",
+	    "category": "building"
+        },
+        "4751492691": {
+            "id": 4751492691,
+            "lat": 41.158263,
+            "lon": 22.5006786,
+            "name": "Споменик на слободата",
+            "name:en": "Monument of freedom",
+	    "category": "monument"
+        },
+        "4895300521": {
+            "id": 4895300521,
+            "lat": 42.0048505,
+            "lon": 21.4368762,
+            "name": "Џамија",
+            "name:en": "Haji Balaban Masjid",
+            "category": "building"
+        },
+        "4907386415": {
+            "id": 4907386415,
+            "lat": 41.3738524,
+            "lon": 21.5025867,
+            "name": "Борецот",
+            "name:en": "Fighter",
+	    "category": "monument"
+        },
+        "4972835907": {
+            "id": 4972835907,
+            "lat": 41.1736526,
+            "lon": 20.6783749,
+            "name": "Сергеј Есенин",
+            "name:en": "Sergej Esenin",
+	    "category": "monument"
+        },
+        "5055432425": {
+            "id": 5055432425,
+            "lat": 42.0769461,
+            "lon": 22.1823517,
+            "name": "Емин-бегова кула",
+            "name:en": "Emin Bey Tower",
+	    "category": "building"
+	    
+        },
+        "5055432426": {
+            "id": 5055432426,
+            "lat": 42.0768838,
+            "lon": 22.1826261,
+            "name": "Крстева кула",
+            "name:en": "Krsteva Tower",
+	    "category": "building"
+        },
+        "5055444424": {
+            "id": 5055444424,
+            "lat": 41.1949939,
+            "lon": 22.6878453,
+            "name": "Споменик „Солунски фронт“ од I светска војна",
+            "name:en": "World War I Salonica Front memorial",
+	    "category": "monument"
+        },
+        "5055444426": {
+            "id": 5055444426,
+            "lat": 42.0768628,
+            "lon": 22.1822635,
+            "name": "Хаџикостова кула",
+            "name:en": "Hadji Kostov Tower",
+	    "category": "building"
+        },
+        "5055455123": {
+            "id": 5055455123,
+            "lat": 42.0792053,
+            "lon": 22.1818109,
+            "name": "Саат-кула",
+            "name:en": "Clock Tower",
+	    "category": "building"
+        },
+        "5055455125": {
+            "id": 5055455125,
+            "lat": 42.0788289,
+            "lon": 22.1809805,
+            "name": "Златковичева кула",
+            "name:en": "Zlatkovich Tower",
+	    "category": "building"
+        },
+        "5055455126": {
+            "id": 5055455126,
+            "lat": 42.0786957,
+            "lon": 22.1794714,
+            "name": "Симиќева кула",
+            "name:en": "Simikj Tower",
+	    "category": "building"
+        },
+        "5115436809": {
+            "id": 5115436809,
+            "lat": 41.1142035,
+            "lon": 20.7958058,
+            "name": "Григор Прличев",
+            "name:en": "Grigor Prlicev grave",
+	    "category": "monument"
+        },
+        "5551392390": {
+            "id": 5551392390,
+            "lat": 41.1745272,
+            "lon": 20.6778868,
+            "name": "Никола Кукунешоски - Дунѓерски",
+            "name:en": "Nikola Kukuneshoski - Dungjerski",
+	    "category": "monument"
+        },
+        "5551392391": {
+            "id": 5551392391,
+            "lat": 41.1747311,
+            "lon": 20.6779485,
+            "name": "Крсте Јовановски",
+            "name:en": "Krste Jovanovski",
+	    "category": "monument"
+        },
+        "5551392392": {
+            "id": 5551392392,
+            "lat": 41.1749451,
+            "lon": 20.6779833,
+            "name": "Димче Кошаркоски",
+            "name:en": "Dimche Kosharoski",
+	    "category": "monument"
+        },
+        "5551410938": {
+            "id": 5551410938,
+            "lat": 41.1756537,
+            "lon": 20.6782194,
+            "name": "Боро Шаин",
+            "name:en": "Boro Shain",
+	    "category": "monument"
+        },
+        "5551410939": {
+            "id": 5551410939,
+            "lat": 41.1755185,
+            "lon": 20.6781791,
+            "name": "Јово Стефановски - Риле",
+            "name:en": "Jovo Stefanovski - Rile",
+	    "category": "monument"
+        },
+        "5551410940": {
+            "id": 5551410940,
+            "lat": 41.1753893,
+            "lon": 20.6781416,
+            "name": "Разме Малески",
+            "name:en": "Razme Maleski",
+	    "category": "monument"
+        },
+        "5551410941": {
+            "id": 5551410941,
+            "lat": 41.1752843,
+            "lon": 20.6781067,
+            "name": "Петре Гончески - Гиле",
+            "name:en": "Petre Gonceski - Gile",
+	    "category": "monument"
+        },
+        "5596272451": {
+            "id": 5596272451,
+            "lat": 41.05924,
+            "lon": 20.8033957,
+            "name": "Св. Благовештение",
+            "name:en": "Sv. Blagoveshtenie",
+	    "category": "building"
+        },
+        "5711419372": {
+            "id": 5711419372,
+            "lat": 41.9963577,
+            "lon": 21.4323793,
+            "name": "Гоце Делчев",
+            "name:en": "Goce Delchev",
+	    "category": "monument"
+        },
+        "5722266446": {
+            "id": 5722266446,
+            "lat": 42.1003011,
+            "lon": 21.9665342,
+            "name": "Коњув",
+            "name:en": "Konjuh",
+	    "category": "ruins"
+        },
+        "5725139643": {
+            "id": 5725139643,
+            "lat": 41.7995125,
+            "lon": 22.289829,
+            "name": "Баргала",
+            "name:en": "Bargala",
+	    "category": "ruins"
+        },
+        "5728312945": {
+            "id": 5728312945,
+            "lat": 41.3825161,
+            "lon": 22.7542141,
+            "name": "Римски бањи",
+            "name:en": "Roman Bathhouse",
+	    "category": "ruins"
+        },
+        "5841674945": {
+            "id": 5841674945,
+            "lat": 41.9963717,
+            "lon": 21.4339472,
+            "name": "Мост на цивилизациите",
+            "name:en": "The Bridge of Civilizations in Macedonia",
+            "category": "building"
+        },
+        "5901740885": {
+            "id": 5901740885,
+            "lat": 41.9952759,
+            "lon": 21.4319995,
+            "name": "Спомен плоча на Мајка Тереза",
+            "name:en": "Mother Teresa Old House Place",
+	    "category": "building"
+        },
+        "5926438456": {
+            "id": 5926438456,
+            "lat": 41.1057278,
+            "lon": 20.8078335,
+            "name": "Ард ден Долард",
+            "name:en": "Aard den Dolaard",
+	    "category": "monument"
+        },
+
+        "6054048485": {
+            "id": 6054048485,
+            "lat": 41.9957136,
+            "lon": 21.4306041,
+            "name": "Методија Андонов - Ченто",
+            "name:en": "Metodija Andonov - Cento",
+	    "category": "monument"
+        },
+        "6349721704": {
+            "id": 6349721704,
+            "lat": 41.7213441,
+            "lon": 22.6569551,
+            "name": "Споменик на Малешевскиот (Малешки) народноослободителен одред",
+            "name:en": "Monument of the hero from Maleshevo",
+	    "category": "monument"
+        },
+        "6418857588": {
+            "id": 6418857588,
+            "lat": 41.0043725,
+            "lon": 20.9282003,
+            "name": "Кале",
+            "name:en": "Kale",
+	    "category": "building"
+        },
+        "6471416045": {
+            "id": 6471416045,
+            "lat": 41.9856377,
+            "lon": 22.5905605,
+            "name": "Калата",
+            "name:en": "Kalata",
+	    "category": "ruins"
+        },
+        "6535106716": {
+            "id": 6535106716,
+            "lat": 41.6952366,
+            "lon": 21.628172,
+            "name": "Бањичко Кале",
+            "name:en": "Banjica Fortress",
+	    "category": "building"
+
+        },
+        "6563726510": {
+            "id": 6563726510,
+            "lat": 41.3747079,
+            "lon": 20.7630424,
+            "name": "Мирче Ацев Баталјон",
+            "name:en": "Mirche Acev Bataljon",
+			"category": "monument"
+        },
+        "6821158694": {
+            "id": 6821158694,
+            "lat": 41.9943288,
+            "lon": 21.4307922,
+            "name": "2 музичари и еден танцер",
+            "name:en": "2 musicians and one dancing man",
+	    "category": "monument"
+        },
+        "6833101185": {
+            "id": 6833101185,
+            "lat": 41.1120953,
+            "lon": 20.795694,
+            "name": "Коста Абраш",
+            "name:en": "Kosta Abrash",
+	    "category": "monument"
+        },
+        "6901630767": {
+            "id": 6901630767,
+            "lat": 41.2754595,
+            "lon": 21.3684104,
+            "name": "Љубе Грујоски",
+            "name:en": "Ljube Grujoski",
+	    "category": "monument"
+        },
+        "7124138432": {
+            "id": 7124138432,
+            "lat": 41.1857198,
+            "lon": 22.7227512,
+            "name": "Споменик на Дојрана",
+            "name:en": "Dojrana",
+	    "category": "monument"
+        },
+        "7124138466": {
+            "id": 7124138466,
+            "lat": 41.1825947,
+            "lon": 22.7233826,
+            "name": "Чешма Света Петка",
+            "name:en": "Faucet St. Petka",
+	    "category": "building"
+        },
+        "7475537800": {
+            "id": 7475537800,
+            "lat": 41.3724643,
+            "lon": 21.5605466,
+            "name": "Дабнички масакр",
+            "name:en": "Masacre of Dabnica",
+	    "category": "monument"
+        },
+        "7504362426": {
+            "id": 7504362426,
+            "lat": 41.2064953,
+            "lon": 21.6536957,
+            "name": "Толе Паша",
+            "name:en": "Tole Pasha",
+	    "category": "monument"
+        },
+        "7508523395": {
+            "id": 7508523395,
+            "lat": 42.022416,
+            "lon": 21.5476216,
+            "name": "Ацо Ангеловски",
+            "name:en": "Aco Angelovski",
+	    "category": "monument"
+        },
+        "7508523396": {
+            "id": 7508523396,
+            "lat": 42.0225556,
+            "lon": 21.5480468,
+            "name": "Кирил Петрушевски",
+            "name:en": "Kiril Petrushevski",
+	    "category": "monument"
+        },
+        "7508523397": {
+            "id": 7508523397,
+            "lat": 42.0227044,
+            "lon": 21.5486015,
+            "name": "Ерол Готак",
+            "name:en": "Erol Gotak",
+	    "category": "monument"
+        },
+        "7564103281": {
+            "id": 7564103281,
+            "lat": 41.9764851,
+            "lon": 21.1660504,
+            "name": "Нане Наумоски",
+            "name:en": "Nane Naumoski",
+	    "category": "monument"
+        },
+        "7564103282": {
+            "id": 7564103282,
+            "lat": 41.977847,
+            "lon": 21.1773385,
+            "name": "Сашо Китаноски",
+            "name:en": "Sasho Kitanoski",
+	    "category": "monument"
+        },
+        "7564103283": {
+            "id": 7564103283,
+            "lat": 41.97753,
+            "lon": 21.1679024,
+            "name": "Бранко Секулоски",
+            "name:en": "Branko Sekuloski",
+	    "category": "monument"
+        },
+        "7564125585": {
+            "id": 7564125585,
+            "lat": 41.9781971,
+            "lon": 21.1745241,
+            "name": "Горан Миноски",
+            "name:en": "Goran Minoski",
+	    "category": "monument"
+        },
+        "7564125586": {
+            "id": 7564125586,
+            "lat": 41.977893,
+            "lon": 21.1713626,
+            "name": "Марко Деспотоски",
+            "name:en": "Marko Despotoski",
+	    "category": "monument"
+        },
+        "7564125587": {
+            "id": 7564125587,
+            "lat": 41.9767167,
+            "lon": 21.1675604,
+            "name": "Ердован Шабаноски",
+            "name:en": "Erdovan Shabanoski",
+	    "category": "monument"
+        },
+        "7564125588": {
+            "id": 7564125588,
+            "lat": 41.9772958,
+            "lon": 21.1694976,
+            "name": "Љубе Грујоски",
+            "name:en": "Ljube Grujoski",
+	    "category": "monument"
+        },
+        "7564125589": {
+            "id": 7564125589,
+            "lat": 41.9770406,
+            "lon": 21.1717935,
+            "name": "Дарко Велјаноски",
+            "name:en": "Darko Veljanoski",
+	    "category": "monument"
+        },
+        "7564125590": {
+            "id": 7564125590,
+            "lat": 41.9767893,
+            "lon": 21.1747438,
+            "name": "Веби Рушитоски",
+            "name:en": "Vebi Rushitoski",
+	    "category": "monument"
+        },
+        "7564125591": {
+            "id": 7564125591,
+            "lat": 41.977042,
+            "lon": 21.1770879,
+            "name": "Пеце Секулоски",
+            "name:en": "Pece Sekuloski",
+	    "category": "monument"
+        },
+        "7623493347": {
+            "id": 7623493347,
+            "lat": 41.3575814,
+            "lon": 21.6256855,
+            "name": "Карпалак",
+            "name:en": "Karpalak",
+	    "category": "monument"
+        },
+        "7626158238": {
+            "id": 7626158238,
+            "lat": 41.4014262,
+            "lon": 22.0284286,
+            "name": "Масакр во Ваташа",
+            "name:en": "Vatasha Massacre",
+	    "category": "monument"
+        },
+        "7626874879": {
+            "id": 7626874879,
+            "lat": 41.3428704,
+            "lon": 21.5583071,
+            "name": "Пере Тошев",
+            "name:en": "Pere Toshev",
+	    "category": "monument"
+        },
+        "7771077503": {
+            "id": 7771077503,
+            "lat": 41.4436592,
+            "lon": 20.8721449,
+            "name": "Дуко Ташев",
+            "name:en": "Duko Tasev",
+	    "category": "monument"
+        },
+        "7796229745": {
+            "id": 7796229745,
+            "lat": 41.4831122,
+            "lon": 20.9229426,
+            "name": "Гоце Делчев",
+            "name:en": "Goce Delcev",
+	    "category": "monument"
+        },
+        "7796229746": {
+            "id": 7796229746,
+            "lat": 41.483575,
+            "lon": 20.9222623,
+            "name": "Христо Узунов",
+            "name:en": "Hristo Uzunov",
+	    "category": "monument"
+        },
+        "7826733791": {
+            "id": 7826733791,
+            "lat": 41.4528994,
+            "lon": 20.9658462,
+            "name": "Битката на Ѓурѓејца",
+            "name:en": "Battle of Gjurgjejca",
+	    "category": "monument"
+        },
+        "7833094677": {
+            "id": 7833094677,
+            "lat": 41.8646892,
+            "lon": 21.942062,
+            "name": "Споменик Св. Никола",
+            "name:en": "Monument of St. Nicholas",
+	    "category": "monument"
+        },
+        "7833095397": {
+            "id": 7833095397,
+            "lat": 41.8644645,
+            "lon": 21.9410121,
+            "name": "Споменик Лазар Колишевски",
+            "name:en": "Monument Lazar Kolishevski",
+	    "category": "monument"
+        },
+        "7947878810": {
+            "id": 7947878810,
+            "lat": 41.9156602,
+            "lon": 22.412778,
+            "name": "Споменик на Никола Карев",
+            "name:en": "Monument to Nikola Karev",
+	    "category": "monument"
+        },
+        "8048135011": {
+            "id": 8048135011,
+            "lat": 41.3464944,
+            "lon": 21.5629735,
+            "name": "Кире Гаврилоски-Јане / Круме Волнароски-Коља",
+            "name:en": "Kire Gavriloski-Jane / Krume Volnaroski-Kolja",
+	    "category": "monument"
+        },
+        "8063563409": {
+            "id": 8063563409,
+            "lat": 41.3421058,
+            "lon": 21.5572532,
+            "name": "Александар Македонски",
+            "name:en": "Alexander The Great",
+	    "category": "monument"
+        },
+        "8193704891": {
+            "id": 8193704891,
+            "lat": 41.3761727,
+            "lon": 21.2464617,
+            "name": "Мирослав Јоксимовиќ",
+            "name:en": "Miroslav Joksimovikj",
+	    "category": "monument"
+        },
+        "8279921462": {
+            "id": 8279921462,
+            "lat": 41.3653786,
+            "lon": 21.2488407,
+            "name": "Кица Петрески",
+            "name:en": "Kica Petreski",
+	    "category": "monument"
+        },
+        "8412381211": {
+            "id": 8412381211,
+            "lat": 41.366045,
+            "lon": 20.6489384,
+            "name": "1. Бригада",
+            "name:en": "1st Brigade",
+	    "category": "monument"
+        },
+        "8433354043": {
+            "id": 8433354043,
+            "lat": 41.9998632,
+            "lon": 21.4292436,
+            "name": "Ослободителите на Скопје",
+            "name:en": "Monument to the Liberators of Skopje",
+	    "category": "monument"
+        },
+        "8880547039": {
+            "id": 8880547039,
+            "lat": 41.9998618,
+            "lon": 21.4485415,
+            "name": "Генерал Михаило Апостолски",
+            "name:en": "General Mihailo Apostoloski",
+	    "category": "monument"
+        },
+    
+        "8883349544": {
+            "id": 8883349544,
+            "lat": 41.9960184,
+            "lon": 21.4412009,
+            "name": "Крсте Петков Мисирков",
+            "name:en": "Krste Petkov Misirkov",
+	    "category": "monument"
+        },
+        "8883349545": {
+            "id": 8883349545,
+            "lat": 41.9960802,
+            "lon": 21.4408764,
+            "name": "Блаже Конески",
+            "name:en": "Blaze Koneski",
+	    "category": "monument"
+        },
+        "8951219184": {
+            "id": 8951219184,
+            "lat": 41.1119818,
+            "lon": 20.799333,
+            "name": "Фаќач на чесниот крст",
+            "name:en": "Beholder of the Holy Cross",
+	    "category": "monument"
+        },
+        "9026624343": {
+            "id": 9026624343,
+            "lat": 41.9945304,
+            "lon": 21.4326511,
+            "name": "Павел Шатев",
+            "name:en": "Pavel Šatev",
+	    "category": "monument"
+        },
+        "9078062189": {
+            "id": 9078062189,
+            "lat": 41.993726,
+            "lon": 21.4332709,
+            "name": "Невена Георгиева-Дуња",
+            "name:en": "Nevena Georgieva-Dunja",
+	    "category": "monument"
+        },
+        "9080920713": {
+            "id": 9080920713,
+            "lat": 42.0640097,
+            "lon": 21.0288552,
+            "name": "Ѓоко Лазаревски",
+            "name:en": "Gjoko Lazarevski",
+	    "category": "monument"
+        },
+        "9080921338": {
+            "id": 9080921338,
+            "lat": 42.0700178,
+            "lon": 21.027212,
+            "name": "Теодорит",
+            "name:en": "Teodorit",
+	    "category": "monument"
+        },
+        "9086030878": {
+            "id": 9086030878,
+            "lat": 42.0669654,
+            "lon": 21.0282911,
+            "name": "Кирил Пејчиновиќ-Тетоец",
+            "name:en": "Kiril Pejchinovikj-Tetoec",
+	    "category": "monument"
+        },
+        "9086030879": {
+            "id": 9086030879,
+            "lat": 42.0668701,
+            "lon": 21.0285176,
+            "name": "Загинати Лешочани во војните 1903-2001",
+            "name:en": "Fallen during the wars in Leshochani 1903-2001",
+	    "category": "monument"
+        },
+        "9200215821": {
+            "id": 9200215821,
+            "lat": 41.1141534,
+            "lon": 20.798276,
+            "name": "Нада Филева",
+            "name:en": "Nada Fileva",
+	    "category": "monument"
+        },
+        "9200216072": {
+            "id": 9200216072,
+            "lat": 41.9986089,
+            "lon": 21.4377285,
+            "name": "Воин со пушка на коњ",
+            "name:en": "Soldier with gun on horse",
+	    "category": "monument"
+        },
+        "9200216569": {
+            "id": 9200216569,
+            "lat": 42.0043082,
+            "lon": 21.4185013,
+            "name": "Дане Краптзев",
+            "name:en": "Dane Kraptzev",
+	    "category": "monument"
+        },
+        "9269907745": {
+            "id": 9269907745,
+            "lat": 41.9918182,
+            "lon": 21.4296159,
+            "name": "Атентат на Киро Глигоров",
+            "name:en": "Atentat of Kiro Gligorov",
+	    "category": "monument"
+        },
+        "9661472617": {
+            "id": 9661472617,
+            "lat": 41.9135927,
+            "lon": 22.4105061,
+            "name": "Браќата Просветители Св. Кирил и Методиј",
+            "name:en": "Brothers St. Cyrill and Methodius",
+	    "category": "monument"
+        },
+        "9661483288": {
+            "id": 9661483288,
+            "lat": 41.9143473,
+            "lon": 22.410612,
+            "name": "Љупчо Сантов",
+            "name:en": "Ljupco Santov",
+            "category": "monument"
+        }, 
+	"10173766195": {
+            "id": 10173766195,
+            "lat": 41.8768098,
+            "lon": 22.5027575,
+            "name": "Виничко Кале",
+            "name:en": "Vinichko Kale",
+	    "category": "ruins"
+        },
+        "10204019571": {
+            "id": 10204019571,
+            "lat": 41.1757975,
+            "lon": 20.6778798,
+            "name": "Нико Нестор-Дживджан",
+            "name:en": "Niko Nestor-Dzhivdzhan", 
+            "category": "monument"
+        },
+        "10913797906": {
+            "id": 10913797906,
+            "lat": 41.9964125,
+            "lon": 21.4328484,
+            "name": "Споменик „Солунски атентатори и Гемиџии“",
+            "name:en": "Monument Boatmen of Thessaloniki",
+            "category": "monument"		
+        },
+        "10914553383": {
+            "id": 10914553383,
+            "lat": 41.9538189,
+            "lon": 21.288822,
+            "name": "Света Троица и Свети Ѓорѓија",
+            "name:en": "Holy Trinity and Holy George",
+            "category": "building"
+	}
+    },
+    "ways": {
+        "34093752": {
+            "id": 34093752,
+            "name": "Самуилова тврдина",
+            "name:en": "Samuils Fortress",
+            "lat": 41.115889,
+            "lon": 20.7918305,
+			"category": "building",
+            "nodes": [
+                2049648527,
+                6781576801,
+                2049648501,
+                2049648345,
+                2049648638,
+                2049648610,
+                2049648620,
+                2049648479,
+                2049648496,
+                2049648193,
+                2049648543,
+                2049648369,
+                2049648192,
+                2049648219,
+                2049648207,
+                2049648299,
+                2049648099,
+                2049648446,
+                2049648531,
+                2049648520,
+                2049648770,
+                2049648277,
+                2049648280,
+                2049648749,
+                6781576802,
+                2049648754,
+                2049648123,
+                2049648234,
+                2049648336,
+                2049648218,
+                2049648642,
+                2049648753,
+                2049648199,
+                2049648747,
+                2049648253,
+                2049648503,
+                2049648502,
+                2049648600,
+                2049648684,
+                2049648252,
+                2049648314,
+                2049648265,
+                2049648188,
+                2049648400,
+                2049648214,
+                2049648533,
+                2049648104,
+                2049648413,
+                2049648760,
+                2049648191,
+                2049648089,
+                2049648119,
+                2049648284,
+                2049648527
+            ]
+        },
+        "34093853": {
+            "id": 34093853,
+            "name": "Антички театар",
+            "name:en": "Ancient Theatre",
+            "lat": 41.114509,
+            "lon": 20.7935224,
+			"category": "building",
+            "nodes": [
+                390757129,
+                390757131,
+                2049648779,
+                390757134,
+                2049648182,
+                390757136,
+                2049648138,
+                390757139,
+                2049648441,
+                390757142,
+                390757144,
+                390757147,
+                390757150,
+                390757152,
+                390757159,
+                390757162,
+                2049648290,
+                390757164,
+                390757168,
+                390757171,
+                390757129
+            ]
+        },
+        "34094279": {
+            "id": 34094279,
+            "name": "Плаошник",
+            "name:en": "Plaoshnik",
+            "lat": 41.1137069,
+            "lon": 20.7904973,
+			"category": "building",
+            "nodes": [
+                390770928,
+                6754181014,
+                11232405552,
+                6754181054,
+                6754181016,
+                6754181017,
+                6754181015,
+                6754181018,
+                6754181019,
+                6754181021,
+                6754181020,
+                6754181010,
+                6754181009,
+                6754181008,
+                6754181007,
+                6754181011,
+                6754181012,
+                6754181034,
+                2049776767,
+                2049776581,
+                2049776216,
+                2049776577,
+                2049776625,
+                2049776917,
+                2049776921,
+                534926233,
+                6754181079,
+                390770931,
+                6754180992,
+                6781576800,
+                390770933,
+                6754181003,
+                2049792470,
+                6754180991,
+                6754180986,
+                2049792503,
+                4367024875,
+                4367024878,
+                4367024877,
+                4367024876,
+                4367024869,
+                4367024870,
+                4367024871,
+                4367024872,
+                4367024873,
+                4367024874,
+                390770928
+            ]
+        },
+        "34321902": {
+            "id": 34321902,
+            "name": "Споменик Сила, Слава и Победа",
+            "name:en": "Monument power, fame and victory",
+            "lat": 42.0004656,
+            "lon": 21.4322943,
+			"category": "monument",
+            "nodes": [
+                393713781,
+                4128439179,
+                4687349454,
+                393713784,
+                393713785,
+                393713786,
+                393713787,
+                4128439146,
+                4128439142,
+                4128439141,
+                4128439135,
+                4128439127,
+                393713789,
+                393713790,
+                393713791,
+                6381974560,
+                393713792,
+                393713793,
+                6381974561,
+                6381974562,
+                6381974564,
+                1881184664
+            ]
+        },
+        "37956139": {
+            "id": 37956139,
+            "name": "Хераклеа Линкестис",
+            "name:en": "Heraclea Lyncestis",
+            "lat": 41.011223,
+            "lon": 21.3434247,
+			"category": "ruins",
+            "nodes": [
+                445811700,
+                3612989296,
+                3612982766,
+                3612989303,
+                3612982782,
+                3612982725,
+                445811707,
+                3612982745,
+                3612989333,
+                445811710,
+                3612989302,
+                445811716,
+                445811719,
+                3612989304,
+                10159675327,
+                445811723,
+                10159675328,
+                447878204,
+                10159661378,
+                10159661379,
+                10159661381,
+                10159661382,
+                3612989317,
+                445811700
+            ]
+        },
+        "172186249": {
+            "id": 172186249,
+            "name": "Меморијален центар на холокаустот на Евреите од Македонија",
+            "name:en": "Holocaust Memorial Center for the Jews of Macedonia",
+            "lat": 41.9984101,
+            "lon": 21.4331205,
+			"category": "building",
+            "nodes": [
+                1831180534,
+                1831180452,
+                5339314490,
+                5339314489,
+                1831180534
+            ]
+        },
+        "177144178": {
+            "id": 177144178,
+            "name": "Антички македонски град Стоби",
+            "name:en": "Ancient Macedonian city of Stobi",
+            "lat": 41.5509169,
+            "lon": 21.9763618,
+			"category": "ruins",
+            "nodes": [
+                1876015659,
+                1876015660,
+                1876015664,
+                1876015661
+            ]
+        },
+      
+     
+        "179291828": {
+            "id": 179291828,
+            "name": "Манастир „Свети Наум“",
+            "name:en": "Monastery of Saint Naum",
+            "lat": 40.913963,
+            "lon": 20.7404962,
+			"category": "building",
+            "nodes": [
+                1896338752,
+                1896338804,
+                1896339047,
+                1896339166,
+                1896338752
+            ]
+        },
+        "180360206": {
+            "id": 180360206,
+            "name": "Аквадукт Скопје",
+            "name:en": "Skopje Aqueduct",
+            "lat": 42.0237958,
+            "lon": 21.4188676,
+			"category": "ruins",
+            "nodes": [
+                1908058066,
+                1908058054,
+                1908075920,
+                1908058076,
+                1908058043,
+                1908058050,
+                1908058048,
+                1908058061,
+                1908058036
+            ]
+        },
+        "181727867": {
+            "id": 181727867,
+            "name": "Манастир Св. Јоаким Осоговски",
+            "name:en": "Monastery of St. Joakim Osogovski",
+            "lat": 42.2091103,
+            "lon": 22.3613619,
+			"category": "building",
+            "nodes": [
+                1921568104,
+                4569078163,
+                1921568107,
+                4569078166,
+                1921568110,
+                1921568116,
+                1921568118,
+                1921568102,
+                1921568125,
+                1921568112,
+                1921568144,
+                1921568148,
+                1921568104
+            ]
+        },
+        "181986735": {
+            "id": 181986735,
+            "name": "Лесновски манастир",
+            "name:en": "Lesnovo Monastery",
+            "lat": 42.0133138,
+            "lon": 22.2274526,
+			"category": "building",
+            "nodes": [
+                1923380094,
+                1923380546,
+                1923379996,
+                1923380109,
+                1923380189,
+                1923380098,
+                1923380084,
+                1923380442,
+                1923380394,
+                1923380252,
+                1923380544,
+                1923380000,
+                1923380031,
+                1923380329,
+                1923380094
+            ]
+        },
+        "182927657": {
+            "id": 182927657,
+            "name": "Манастир Св. Богородица",
+            "name:en": "St. Holy Mother of God Monastery",
+            "lat": 42.1252224,
+            "lon": 21.4280757,
+			"category": "building",
+            "nodes": [
+                1932828083,
+                1932828095,
+                1932827992,
+                1932828086,
+                1932827922,
+                1932828093,
+                1932828019,
+                1932827940,
+                1932827936,
+                1932828083
+            ]
+        },
+        "182933841": {
+            "id": 182933841,
+            "name": "Манастир Св. Никола",
+            "name:en": "Saint Nicholas Monastery",
+            "lat": 42.1096091,
+            "lon": 21.4692395,
+			"category": "building",
+            "nodes": [
+                1932883269,
+                1932883264,
+                371532764,
+                1932883259,
+                1932883258,
+                1932883269
+            ]
+        },
+        "184307286": {
+            "id": 184307286,
+            "name": "Средновековна Кула",
+            "name:en": "Medieval Tower",
+            "lat": 41.9215823,
+            "lon": 22.4090133,
+			"category": "building",
+            "nodes": [
+                1947686916,
+                1947686912,
+                1947686913,
+                1947686915,
+                1947686916
+            ]
+        },
+        "189909367": {
+            "id": 189909367,
+            "name": "Баргала",
+            "name:en": "Bargala",
+            "lat": 41.8007957,
+            "lon": 22.2883548,
+			"category": "ruins",
+            "nodes": [
+                2005240271,
+                2005240245,
+                2005240241,
+                2005240225,
+                2005240277,
+                2005240280,
+                2005240258,
+                2005240233,
+                2005240228,
+                2005240252,
+                2005240237,
+                2005240248,
+                2005240273,
+                2005240268,
+                2005240274,
+                2005240266,
+                2005240239,
+                2005240265,
+                2005240279,
+                2005240229,
+                2005240226,
+                2005240271
+            ]
+        },
+        "192125506": {
+            "id": 192125506,
+            "name": "Китино Кале",
+            "name:en": "Kita Castle",
+            "lat": 41.5130747, 
+            "lon": 20.9666504,
+			"category": "building",
+            "nodes": [
+                2026909073,
+                2026909074,
+                2026909063,
+                2026909072,
+                2026909065,
+                2026909061,
+                2026909062,
+                2026909057,
+                2026909059,
+                2026909068,
+                2026909070,
+                2026909069,
+                2026909066,
+                2026909071,
+                2026909073
+            ]
+        },
+        "194640359": {
+            "id": 194640359,
+            "name": "Римска тврдина",
+            "name:en": "Roman fortress",
+            "lat": 40.9964577,
+            "lon":  20.7969313,
+			"category": "building",
+            "nodes": [
+                2051418373,
+                2051418736,
+                2272392178,
+                2272392187,
+                2051418962,
+                2051418371,
+                2051418098,
+                2051418686,
+                2051418742,
+                2051418586,
+                2051418596,
+                2051418618,
+                2051418377,
+                2051419044,
+                2051419010,
+                2051418594,
+                2051418425,
+                2051418524,
+                2051418672,
+                2051418637,
+                2051419038,
+                2051419037,
+                2051419040,
+                2051418203,
+                2051419022,
+                2051418450,
+                2051418445,
+                2051419069,
+                2051418991,
+                2051418678,
+                2051418807,
+                2051418602,
+                2051418451,
+                2051418516,
+                2051418131,
+                2051419025
+            ]
+        },
+        "199052359": {
+            "id": 199052359,
+            "name": "Стара базилика",
+            "name:en": "Old Basilica",
+            "lat": 40.867063,
+            "lon": 20.9886913,
+			"category": "ruins",
+            "nodes": [
+                2091031408,
+                2091031410,
+                2091031371,
+                2091031344,
+                2091031408
+            ]
+        },
+        "199052629": {
+            "id": 199052629,
+            "name": "Римска цистерна",
+            "name:en": "Roman Cisterna",
+            "lat": 40.8681553,
+            "lon":20.9903828,
+			"category": "ruins",
+            "nodes": [
+                2091032739,
+                2091032741,
+                2091032740,
+                2091032738,
+                2091032739
+            ]
+        },
+        "199056987": {
+            "id": 199056987,
+            "name": "Старохристијанска базилика",
+            "name:en": "Old Basilica",
+            "lat": 40.8688965,
+            "lon": 20.9908415,
+			"category": "ruins",
+            "nodes": [
+                2091081350,
+                2091081284,
+                2091081495,
+                2091081236,
+                2091081350
+            ]
+        },
+        "199056988": {
+            "id": 199056988,
+            "name": "Римска Куќа",
+            "name:en": "Roman house",
+            "lat": 40.8685639,
+            "lon": 20.9909817,
+			"category": "building",
+            "nodes": [
+                2091081443,
+                2091081382,
+                2091081317,
+                2091081305,
+                2091081443
+            ]
+        },
+        "199056991": {
+            "id": 199056991,
+            "name": "Ранохристијанска базилика",
+            "name:en": "Basilica",
+            "lat": 40.8692246,
+            "lon":  20.9909743,
+			"category": "ruins",
+            "nodes": [
+                2091081483,
+                2091081326,
+                2091081428,
+                2091081386,
+                2091081413,
+                2091081395,
+                2091081344,
+                2091081469,
+                2091081347,
+                2091081486,
+                2091081323,
+                2091081407,
+                2091081416,
+                2091081373,
+                2091081293,
+                2091081434,
+                2091081483
+            ]
+        },
+       
+        "212703196": {
+            "id": 212703196,
+            "name": "Цареви Кули",
+            "name:en": "Czar’s Towers",
+            "lat": 41.4326225,
+            "lon": 22.6296717,
+			"category": "building",
+            "nodes": [
+                2225207340,
+                2225207113,
+                2225206144,
+                2225206740,
+                2225206061,
+                2225205448,
+                2225204640,
+                2225206192,
+                2225205285,
+                2225206555,
+                2225205562,
+                2225205528,
+                2225207023,
+                2225204609,
+                2225206659,
+                2225206931,
+                2225206770,
+                2225206258,
+                2225206616,
+                2225204500,
+                2225204287,
+                2225205127,
+                2225206194,
+                2225205520,
+                2225204341,
+                2225207076,
+                2225205511,
+                2225207429,
+                2225207069,
+                2225206100,
+                2225205104,
+                2225207340
+            ]
+        },
+        "217563724": {
+            "id": 217563724,
+            "name": "Спомен куќа Тоше Проески",
+            "name:en": "Memorial house of Tose Proeski",
+            "lat": 41.3743763,
+            "lon": 21.2460773,
+			"category": "building",
+            "nodes": [
+                2268485124,
+                2268485076,
+                2268485115,
+                2268485091,
+                2268485078,
+                2268485107,
+                2268485145,
+                2268485146,
+                2268485109,
+                2268485142,
+                2268485111,
+                2268485105,
+                2268485099,
+                2268485122,
+                2268485071,
+                2268485143,
+                8314871076,
+                2268485063,
+                2268485074,
+                2268485087,
+                2268485124
+            ]
+        },
+        "217568679": {
+            "id": 217568679,
+            "name": "Македониум",
+            "name:en": "Macedonium",
+            "lat": 41.377518,
+            "lon": 21.2484459,
+			"category": "building",
+            "nodes": [
+                2268544543,
+                2268544549,
+                2268544558,
+                2268544551,
+                2268544557,
+                2268544546,
+                2268544563,
+                2268544566,
+                2268544550,
+                2268544544,
+                2268544541,
+                2268544538,
+                2268544542,
+                2268544559,
+                2268544561,
+                2268544539,
+                2268544553,
+                2268544540,
+                2268544545,
+                2268544554,
+                2268544548,
+                2268544564,
+                2268544556,
+                2268544560,
+                2268544555,
+                2268544543
+            ]
+        },
+        "217836998": {
+            "id": 217836998,
+            "name": "Базилика Свети Еразмо",
+            "name:en": "Basilica St. Erazmo",
+            "lat": 41.140609,
+            "lon": 20.7635431,
+			"category": "ruins",
+            "nodes": [
+                2271392090,
+                2271392073,
+                2271392079,
+                2271392088,
+                2271392084,
+                2271392086,
+                2271392071,
+                2271392075,
+                2271392077,
+                2271392081,
+                2271392090
+            ]
+        },
+        "217849357": {
+            "id": 217849357,
+            "name": "Манастир „Свети Наум",
+            "name:en": "The Monastery of Saint Naum",
+            "lat": 40.9140882,
+            "lon": 20.7404917,
+			"category": "building",
+            "nodes": [
+                2289074894,
+                2271551051,
+                2271551053,
+                2271551057,
+                2271551076,
+                2271551104,
+                10309901603,
+                10309901601,
+                10309901600,
+                10309901602,
+                2271551100,
+                2271551106,
+                10309901607,
+                10309901604,
+                10309901605,
+                10309901606,
+                2271551059,
+                2271551091,
+                4351773654,
+                10309901530,
+                10309901531,
+                10309901537,
+                2289074903,
+                2289074880,
+                10309901538,
+                10309901539,
+                10309901540,
+                2271551099,
+                2271551103,
+                10309901597,
+                10309901598,
+                2289074896,
+                2271551105,
+                2271551049,
+                10309901562,
+                2271551098,
+                2271551062,
+                2271551066,
+                2271551079,
+                2271551075,
+                2289074905,
+                2271551061,
+                2271551073,
+                2271551083,
+                2271551080,
+                2271551086,
+                2271551084,
+                2271551088,
+                2289074894
+            ]
+        },
+      
+    
+        "227433408": {
+            "id": 227433408,
+            "name": "Вардарски Рид",
+            "name:en": "Vardar Hill",
+            "lat": 41.1493831,
+            "lon": 22.5215329,
+			"category": "ruins",
+            "nodes": [
+                2361011357,
+                2361011410,
+                2361011327,
+                2361011369,
+                2361011442,
+                2361011397,
+                2361011298,
+                2361011373,
+                2361011420,
+                2361011334,
+                2361011330,
+                2361011338,
+                2361011359,
+                2361011383,
+                2361011303,
+                2361011307,
+                2361011464,
+                2361011296,
+                2361011446,
+                2361011301,
+                2361011357
+            ]
+        },
+  
+        "239422349": {
+            "id": 239422349,
+            "name": "Порта Македонија",
+            "name:en": "Porta Macedonia",
+            "lat": 41.9944086,
+            "lon": 21.4324977,
+			"category": "building",
+            "nodes": [
+                2472016892,
+                2472016893,
+                6291839152,
+                2472016894,
+                2472016895,
+                6291839151,
+                2472016892
+            ]
+        },
+        "241085465": {
+            "id": 241085465,
+            "name": "Шарена Џамија",
+            "name:en": "Pashas Mosque",
+            "lat": 42.0057897,
+            "lon": 20.9666022,
+			"category": "building",
+            "nodes": [
+                2487753159,
+                2487753170,
+                2487753200,
+                2487753209,
+                4430868192,
+                2487753174,
+                2487753159
+            ]
+        },
+        "242582497": {
+            "id": 242582497,
+            "name": "Остатоци од Виа Егнатиа",
+            "name:en": "Remains of Via Egnatia",
+            "lat": 41.0995115,
+            "lon": 20.6329722,
+			"category": "ruins",
+            "nodes": [
+                2500500242,
+                2500500243,
+                2500500244,
+                2500499344,
+                2500499343,
+                2500499342,
+                2500499341,
+                2500499340,
+                2500499339,
+                2500499338
+            ]
+        },
+        "243981081": {
+            "id": 243981081,
+            "name": "Стибера",
+            "name:en": "Stibera",
+            "lat": 41.2440347,
+            "lon": 21.3984335,
+			"category": "ruins",
+            "nodes": [
+                2483423050,
+                2483423051,
+                2483423052,
+                2483423053,
+                2483423054,
+                2261277830,
+                2026812048,
+                2026812050,
+                2026812070,
+                2026812061,
+                2483423055,
+                2483423056,
+                2483423057,
+                2483423058,
+                2483423059,
+                2483423060,
+                2483423061,
+                2483423050
+            ]
+        },
+        "295526114": {
+            "id": 295526114,
+            "name": "Безистен",
+            "name:en": "Bezisten",
+            "lat": 42.0016202,
+            "lon": 21.437018,
+			"category": "museum",
+            "nodes": [
+                2992591934,
+                2992591935,
+                2992591936,
+                2992591937,
+                2992591934
+            ]
+        },
+        "334649006": {
+            "id": 334649006,
+            "name": "Антигона",
+            "name:en": "Antigona",
+            "lat":41.5022538,
+            "lon": 22.0999915,
+			"category": "monument",
+            "nodes": [
+                3417101275,
+                3417101276,
+                3417101277,
+                3417101278,
+                3417101279,
+                3417101280,
+                3417101281,
+                3417101282,
+                3417101283,
+                3417101284,
+                3417101285,
+                3417101286,
+                3417101287,
+                3417101288,
+                3417101289,
+                3417101290,
+                3417101291,
+                3417101292,
+                3417101293,
+                3417101294,
+                3417101295,
+                3417101296,
+                3417101297,
+                3417101298,
+                3417101299,
+                3417101300,
+                3417101301,
+                3417101275
+            ]
+        },
+        "338675543": {
+            "id": 338675543,
+            "name": "Могила на непобедените",
+            "name:en": "Mound of the undefeated",
+            "lat": 41.333929,
+            "lon": 21.5547667,
+			"category": "monument",
+            "nodes": [
+                3457966045,
+                3457966046,
+                3457966047,
+                3457966048,
+                3457966049,
+                3457966050,
+                3457966051,
+                3457966052,
+                3457966053,
+                3457966054,
+                3457966055,
+                3457966056,
+                3457966057,
+                3457966058,
+                3600497215,
+                3457966059,
+                3457966060,
+                3457966061,
+                3457966062,
+                3457966063,
+                3457966064,
+                3457966065,
+                3457966066,
+                3457966067,
+                3457966068,
+                3457966069,
+                3457966070,
+                3457966071,
+                3457966072,
+                3457966073,
+                3457966045
+            ]
+        },
+  
+        "411079115": {
+            "id": 411079115,
+            "name": "Камен мост",
+            "name:en": "Stone Bridge",
+            "lat": 41.997767,
+            "lon": 21.4341939,
+			"category": "building",
+            "nodes": [
+                4128130610,
+                4914834167,
+                506977042
+            ]
+        },
+        "417361056": {
+            "id": 417361056,
+            "name": "Меморијален комплекс на паднатите борци на Револуцијата",
+            "name:en": "Memorial for the fallen warriors of the Revolution",
+            "lat": 41.7384674,
+            "lon": 22.1872731,
+			"category": "museum",
+            "nodes": [
+                4179171238,
+                4179171230,
+                4179171270,
+                4179171231,
+                4179171233,
+                4179171266,
+                4179171222,
+                4179171272,
+                4356252389,
+                4179171232,
+                4179171238
+            ]
+        },
+        "417361065": {
+            "id": 417361065,
+            "name": "Исар - Штипска Тврдина",
+            "name:en": "Isar - Shtip Fortress",
+            "lat": 41.7372077,
+            "lon": 22.186455,
+			"category": "ruins",
+            "nodes": [
+                4179171239,
+                4179171269,
+                4179171229,
+                4179171245,
+                4179171260,
+                4179171227,
+                4179171259,
+                4179171257,
+                4179171254,
+                4179171253,
+                4179171258,
+                4179171256,
+                4179171267,
+                4179171250,
+                4179171242,
+                4179171224,
+                4179171226,
+                4179171262,
+                4179171223,
+                4179171246,
+                4179171251,
+                4179171234,
+                4179171271,
+                4179171255,
+                4179171225,
+                4429276591,
+                4179171249,
+                4429276592,
+                4429276593,
+                4179171252,
+                4179171238,
+                4179171230,
+                4179171270,
+                4179171231,
+                4179171233,
+                4179171237,
+                4179171243,
+                4179171221,
+                4179171239
+            ]
+        },
+     
+        "477021071": {
+            "id": 477021071,
+            "name": "Штакле",
+            "name:en": "Castle Stakle",
+            "lat": 42.0054446,
+            "lon": 21.4475868,
+			"category": "ruins",
+            "nodes": [
+                4704329101,
+                4369173591,
+                4704329100,
+                4704329099,
+                4704329101
+            ]
+        },
+      
+        "514513452": {
+            "id": 514513452,
+            "name": "Билазора",
+            "name:en": "Bilazora",
+            "lat": 42.0054446,
+            "lon": 21.4475868,
+			"category": "ruins",
+            "nodes": [
+                5026420971,
+                5026420972,
+                5026420973,
+                5026420974,
+                5026420975,
+                5026420976,
+                5026420977,
+                5026420978,
+                5026420979,
+                5026420980,
+                5026420981,
+                5026420982,
+                5026420983,
+                5026420971
+            ]
+        },
+       
+        "553070358": {
+            "id": 553070358,
+            "name": "Колонада независна Македонија",
+            "name:en": "Colonnade Independent Macedonia",
+            "lat": 41.9963659,
+            "lon": 21.4359221,
+			"category": "building",
+            "nodes": [
+                5339131896,
+                5339131897,
+                5339131898,
+                5339131919,
+                5339131899,
+                5339131918,
+                5339131900,
+                5339131917,
+                5339131901,
+                5339131916,
+                5339131902,
+                5339131914,
+                5339131903,
+                5339131915,
+                5339131904,
+                5339131905,
+                5339131906,
+                5339131907,
+                5339131920,
+                5339131908,
+                5339133121,
+                5339131909,
+                5339133126,
+                5339133122,
+                5339131910,
+                5339133123,
+                5339131911,
+                5339133124,
+                5339131912,
+                5339133125,
+                5339131913,
+                5339131896
+            ]
+        },
+      
+        "603405553": {
+            "id": 603405553,
+            "name": "Римска - Османлиска бања",
+            "name:en": "Roman - Ottoman Bathouse",
+            "lat": 41.3829596, 
+            "lon": 22.7533399,
+			"category": "ruins",
+            "nodes": [
+                5728310898,
+                5728310899,
+                5728310900,
+                5728310901,
+                5728310902,
+                5728310903,
+                5728310904,
+                5728310905,
+                5728310906,
+                5728310907,
+                5728310908,
+                5728310909,
+                5728310898
+            ]
+        },
+        "679215630": {
+            "id": 679215630,
+            "name": "Александар Македонски",
+            "name:en": "Alexander Macedonian",
+            "lat": 41.7372426,
+			"lon": 22.1940888,
+			"category": "monument",
+            "nodes": [
+                6360169800,
+                6360169801,
+                6360169802,
+                6360169803,
+                6360169804,
+                6360169805,
+                6360169806,
+                6360169807,
+                6360169808,
+                6360169809,
+                6360169791,
+                6360169792,
+                6360169796,
+                6360169797,
+                6360169798,
+                6360169799,
+                6360169793,
+                6360169794,
+                6360169795,
+                6360169800
+            ]
+        },
+      
+        "704079412": {
+            "id": 704079412,
+            "name": "Велешки Гемиџија",
+            "name:en": "Veles assassin",
+            "lat": 41.7161334,
+            "lon": 21.7834044,
+			"category": "monument",
+            "nodes": [
+                6611076969,
+                6611076970,
+                6611076971,
+                6611076972,
+                6611076969
+            ]
+        },
+     
+   
+        "816604528": {
+            "id": 816604528,
+            "name": "Музеј на икони",
+            "name:en": "Museum of icons",
+            "lat": 41.34388,
+            "lon": 21.5584745,
+			"category": "museum",
+            "nodes": [
+                7626874849,
+                7626874850,
+                7626874851,
+                7626874852,
+                7626874849
+            ]
+        },
+       
+        "838638808": {
+            "id": 838638808,
+            "name": "Спомен плоча - Ѓурѓејца",
+            "name:en": "Gjurgjejca",
+            "lat": 41.4531014,
+            "lon": 20.9660085,
+			"category": "monument",
+            "nodes": [
+                7826733795,
+                7826733794,
+                7826733793,
+                7826733792,
+                7826733795
+            ]
+        },
+        "839150823": {
+            "id": 839150823,
+            "name": "Споменик на Народоослободителната борба",
+            "name:en": "Monument for The national liberation struggle",
+            "lat": 41.8648032,
+            "lon": 21.938984,
+			"category": "monument",
+            "nodes": [
+                7830690530,
+                7830690531,
+                7830690532,
+                7830690533,
+                7830690534,
+                7830690535,
+                7830690536,
+                7830690537,
+                7830690538,
+                7830690530
+            ]
+        },
+     
+  
+        "888421002": {
+            "id": 888421002,
+            "name": "Археолошко наоѓалиште на Маневци",
+            "name:en": "Archaeological site of Mancevci",
+            "lat": 41.1127715,
+            "lon": 20.7933692,
+			"category": "ruins",
+            "nodes": [
+                8259642263,
+                8259642264,
+                8259642265,
+                8259642266,
+                8259642267,
+                8259642268,
+                8259642263
+            ]
+        },
+      
+        "899302511": {
+            "id": 899302511,
+            "name": "Пешта",
+            "name:en": "Peshta",
+            "lat": 41.0889567,
+            "lon": 21.7444797,
+			"category": "ruins",
+            "nodes": [
+                8355844800,
+                8355844801,
+                8355844802,
+                8355844803,
+                8355844804,
+                8355844805,
+                8355844806,
+                8355844807,
+                8355844808,
+                8355844809,
+                8355844810,
+                8355844811,
+                8355844812,
+                8355844813,
+                8355844814,
+                8355844815,
+                8355844816,
+                8355933617,
+                8355933618,
+                8355933619,
+                8355933620,
+                8355933621,
+                8355933622,
+                8355933623,
+                8355933624,
+                8355933625,
+                8355933626,
+                8355844800
+            ]
+        },
+        "899461223": {
+            "id": 899461223,
+            "name": "Марков Ѕид",
+            "name:en": "Markos Wall",
+            "lat": 41.2993472,
+            "lon": 21.5894706,
+			"category": "ruins",
+            "nodes": [
+                8357266624,
+                8357266625,
+                8357266626,
+                8357266627,
+                8357266624
+            ]
+        },
+        "899465453": {
+            "id": 899465453,
+            "name": "Мариовски Манастир",
+            "name:en": "Monastery of Mariovo",
+            "lat": 41.1645364,
+            "lon": 21.7251172,
+			"category": "ruins",
+            "nodes": [
+                8357322066,
+                8357322067,
+                8357322068,
+                8357322069,
+                8357322070,
+                8357322071,
+                8357322072,
+                8357322073,
+                8357322074,
+                8357322075,
+                8357322076,
+                8357322077,
+                8357322078,
+                8357322079,
+                8357322080,
+                8357322081,
+                8357322082,
+                8357322083,
+                8357322084,
+                8357322085,
+                8357322086,
+                8357322087,
+                8357322088,
+                8357322089,
+                8357322090,
+                8357322091,
+                8357322092,
+                8357322093,
+                8357322094,
+                8357322066
+            ]
+        },
+        "905876263": {
+            "id": 905876263,
+            "name": "1. Бригада",
+            "name:en": "1 Бригада",
+            "lat": 41.3660204,
+            "lon": 20.6485817,
+			"category": "museum",
+            "nodes": [
+                8412381201,
+                8412381202,
+                8412381203,
+                8412381204,
+                8412381201
+            ]
+        },
+     
+        "1044325422": {
+            "id": 1044325422,
+            "name": "Споменик на Слободата",
+            "name:en": "Freedom Monument",
+            "lat": 41.9190815,
+            "lon": 22.4067964,
+			"category": "monument",
+            "nodes": [
+                9609546323,
+                9609546349,
+                9609546324,
+                9609546325,
+                9609546326,
+                9609546348,
+                9609546327,
+                9609546347,
+                9609546346,
+                9609546328,
+                9609546345,
+                9609546344,
+                9609546329,
+                9609546330,
+                9609546339,
+                9609546343,
+                9609546342,
+                9609546341,
+                9609546340,
+                9609546338,
+                9609546331,
+                9609546332,
+                9609546333,
+                9609546334,
+                9609546335,
+                9609546336,
+                9609546337,
+                9609546323
+            ]
+        },
+        "1050278253": {
+            "id": 1050278253,
+            "name": "Девини Кули",
+            "name:en": "Devini Kuli",
+            "lat": 41.5419074,
+            "lon": 21.238681,
+			"category": "ruins",
+            "nodes": [
+                9651804827,
+                9651804826,
+                9651804825,
+                9651804824,
+                9651804823,
+                9651804822,
+                9651804821,
+                9651804820,
+                9651804819,
+                9651804818,
+                9651804817,
+                9651804845,
+                9651804844,
+                9651804843,
+                9651804842,
+                9651804841,
+                9651804839,
+                9651804838,
+                9651804837,
+                9651804836,
+                9651804835,
+                9651804834,
+                9651804833,
+                9651804832,
+                9651804831,
+                9651804830,
+                9651804828,
+                9651804827
+            ]
+        },
+      
+      
+        "1126512716": {
+            "id": 1126512716,
+            "name": "Куќата на Ѓошеви",
+            "name:en": "House of Gjoshev",
+            "lat": 41.3587452,
+            "lon": 21.5326902,
+			"category": "building",
+            "nodes": [
+                10300851461,
+                10300851462,
+                10300851463,
+                10300851464,
+                10300851465,
+                10300851466,
+                10300851467,
+                10300851468,
+                10300851461
+            ]
+        },
+        "1127758201": {
+            "id": 1127758201,
+            "name": "Битолска Тврдина",
+            "name:en": "Fortress of Bitola",
+            "lat": 41.0161204,
+            "lon": 21.3311077,
+			"category": "building",
+            "nodes": [
+                10310880421,
+                10310880422,
+                10310880423,
+                10310880424,
+                10310880425,
+                10310880426,
+                10310880427,
+                10310880428,
+                10310880429,
+                10310880430,
+                10310880431,
+                10310880432,
+                10310880421
+            ]
+        },
+      
+        "1143766963": {
+            "id": 1143766963,
+            "name": "Музеј на Битола",
+            "name:en": "Museum of Bitola",
+            "lat": 41.0234533,
+            "lon":  21.3359067,
+			"category": "museum",
+            "nodes": [
+                10647549733,
+                10647549734,
+                10647549737,
+                10647549738,
+                10647549740,
+                10647549741,
+                10647549742,
+                10647549739,
+                10647549744,
+                10647549745,
+                10647549746,
+                10647549743,
+                10647549735,
+                10647549736,
+                10647549747,
+                10647549750,
+                10647549749,
+                10647549748,
+                10647549733
+            ]
+        },
+        "1144895703": {
+            "id": 1144895703,
+            "name": "Музеј Прилеп",
+            "name:en": "Museum Prilep",
+            "lat": 41.3429261,
+            "lon": 21.5591038,
+			"category": "museum",
+            "nodes": [
+                10655733688,
+                10655733689,
+                10655733690,
+                10655733691,
+                10655733688
+            ]
+        },
+        "1217195019": {
+            "id": 1217195019,
+            "name": "Меморијал Битола",
+            "name:en": "Memorial Bitola",
+            "lat": 41.0410392,
+            "lon": 21.3585444,
+			"category": "museum",
+            "nodes": [
+                9656080539,
+                11278281167,
+                11278281168,
+                11278281166,
+                9656080539
+            ]
+        },
+        "1218569938": {
+            "id": 1218569938,
+            "name": "Спомен-куќа на Татарчеви",
+            "name:en": "Tatarchev House",
+            "lat": 41.0884486,
+            "lon": 21.0137165,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		 "1218569940": {
+            "id": 1218569939,
+            "name": "Музеј на град Берово",
+            "name:en": "Berovo Town Museum",
+            "lat": 41.7077548,
+            "lon": 22.8566138,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		
+		"1218569941": {
+            "id": 1218569939,
+            "name": "Музеј Теракота",
+            "name:en": "Museum Teracotta",
+            "lat": 41.8841902,
+            "lon": 22.5049622,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		
+		"1218569942": {
+            "id": 1218569939,
+            "name": "Музеј на Виното",
+            "name:en": "Museum of Wine",
+            "lat": 41.4085959,
+            "lon": 22.2447656,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		"1218569944": {
+            "id": 1218569939,
+            "name": "Залив на коските",
+            "name:en": "Bay of Bones",
+            "lat": 40.9942972,
+            "lon": 20.7983138,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		"1218569945": {
+            "id": 1218569939,
+            "name": "Градски Музеј",
+            "name:en": "City Museum",
+            "lat": 42.2020133,
+            "lon": 22.3348959,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		"1218569956": {
+            "id": 1218569939,
+            "name": "Музеј на град Делчево",
+            "name:en": "City Museum",
+            "lat": 41.9664768,
+            "lon": 22.7729986,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		"1218569978": {
+            "id": 1218569939,
+            "name": "НУ Завод за заштита на спомениците на културата и Музеј-Охрид",
+            "name:en": "Institute for Protection of Monuments of Culture and Museum-Ohrid",
+            "lat": 41.1131718,
+            "lon": 20.7945858,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		"1218569999": {
+            "id": 1218569939,
+            "name": "Музеј на културното наследство на Галичник",
+            "name:en": "Museum of Galichniks cultural heritage",
+            "lat": 41.5939237,
+            "lon": 20.652723,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		"1218569966": {
+            "id": 1218569939,
+            "name": "Музеј на град Струмица",
+            "name:en": "City Museum",
+            "lat": 41.4354106,
+            "lon": 22.6364291,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		
+		"1218569955": {
+            "id": 1218569939,
+            "name": "Музеј на Македонија",
+            "name:en": "Museum of Macedonia",
+            "lat": 42.0026065,
+            "lon": 21.4360562,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		
+		"1218569923": {
+            "id": 1218569939,
+            "name": "Музеј на македонската борба",
+            "name:en": "Museum of the Macedonian struggle",
+            "lat": 41.9982848,
+            "lon": 21.4329425,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		
+		"1218569924": {
+            "id": 1218569939,
+            "name": "Музеј на Град Скопје",
+            "name:en": "Museum of the City of Skopje",
+            "lat": 41.9911943,
+            "lon": 21.428871,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		
+		"12185691234": {
+            "id": 1218569939,
+            "name": "Музеј на НОВ",
+            "name:en": "Museum of NOV",
+            "lat": 41.3755478,
+            "lon": 21.2458705,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		
+		"1218569677": {
+            "id": 1218569939,
+            "name": "Музеј на Илинденското востание и Крушевската Република",
+            "name:en": "Museum of the Ilinden Uprising and the Republic of Krushevo",
+            "lat": 41.3691258,
+            "lon": 21.2453442,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		"1218569900": {
+            "id": 1218569939,
+            "name": "Археолошки музеј на Македонија",
+            "name:en": "Archaeological Museum of Macedonia",
+            "lat": 41.9966002,
+            "lon": 21.4346323,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		
+		"1218569555": {
+            "id": 1218569939,
+            "name": "Музеј Штип",
+            "name:en": "Museum Shtip",
+            "lat": 41.7367604,
+            "lon": 22.1899111,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		
+		"12185699122": {
+            "id": 1218569939,
+            "name": "Народен музеј",
+            "name:en": "Folk museum",
+            "lat": 41.864921,
+            "lon": 21.9419399,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		
+		"1218569002": {
+            "id": 1218569939,
+            "name": "Меморијален музеј Народен херој Кузман Јосифоски-Питу",
+            "name:en": "Peoples hero Kuzman Josifoski-Pitu Memorial museum",
+            "lat": 41.3425836,
+            "lon": 21.5597314,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		
+		"1218569444": {
+            "id": 1218569939,
+            "name": "Музеј Кавадарци",
+            "name:en": "Museum Kavadarci",
+            "lat": 41.4343634,
+            "lon": 22.0163228,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        },
+		
+		"1218569934": {
+            "id": 1218569939,
+            "name": "Музеј на Дојран",
+            "name:en": "City museum Dojran",
+            "lat": 41.1871817,
+            "lon": 22.7221034,
+			"category": "museum",
+            "nodes": [
+                11291307339,
+                11291307340,
+                11291307341,
+                11291307342,
+                11291307339
+            ]
+        }
+		
+    }
+}
