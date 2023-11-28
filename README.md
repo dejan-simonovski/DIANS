@@ -1,6 +1,6 @@
 ![fcse_logo](https://2018.skopje.wordcamp.org/files/2018/09/Logo_FINKI_UKIM_EN.jpg)
 
-# Проект по ДИАНС
+# Проект по ДИАНС - KinMKD
 
 **Предмет:** Дизајн и архитектура на софтвер
 
@@ -18,7 +18,7 @@
 - проф. д-р Петре Ламески<br /> <br />
 
 
-# DIANS Project
+# DIANS Project - KinMKD
 
 **Subject**: Design and Architecture of Software
 
