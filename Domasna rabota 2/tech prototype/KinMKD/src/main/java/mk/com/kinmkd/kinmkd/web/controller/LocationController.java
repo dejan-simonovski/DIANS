@@ -11,31 +11,31 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class LocationController {
     @GetMapping("/search")
     public String getLocationSearchPage() {
-        return null;
+        return "search";
     }
 
     @PostMapping("/search")
     public String searchLocations() {
-        return null;
+        return "search";
     }
 
     @GetMapping("/{id}")
     public String getLocationDetailsPage(@PathVariable Long id) {
-        return null;
+        return "details";
     }
 
     @GetMapping("/{id}/my-review")
     public String getLocationReviewPage(@PathVariable Long id) {
-        return null;
+        return "myReview";
     }
 
     @PostMapping("/{id}/my-review/save")
     public String saveReviewForLocation(@PathVariable Long id) {
-        return null;
+        return String.format("redirect:/location/%d", id);
     }
 
     @PostMapping("/{id}/my-review/delete")
     public String deleteReviewForLocation(@PathVariable Long id) {
-        return null;
+        return String.format("redirect:/location/%d", id);
     }
 }

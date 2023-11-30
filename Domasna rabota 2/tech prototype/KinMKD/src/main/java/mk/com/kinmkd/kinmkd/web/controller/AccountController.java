@@ -10,26 +10,26 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class AccountController {
     @GetMapping("/register")
     public String getRegisterPage() {
-        return null;
+        return "signup";
     }
 
     @PostMapping("/register")
     public String registerUser() {
-        return null;
+        return "redirect:/home";
     }
 
     @GetMapping("/login")
     public String getLoginPage() {
-        return null;
+        return "login";
     }
 
     @PostMapping("/login")
     public String loginUser() {
-        return null;
+        return "redirect:/home";
     }
 
     @PostMapping("/logout")
     public String logoutUser() {
-        return null;
+        return "redirect:/home";
     }
 }

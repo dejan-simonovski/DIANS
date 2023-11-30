@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     @GetMapping("/home")
     public String getHomePage() {
-        return null;
+        return "index";
     }
 
     @GetMapping("/about")
     public String getAboutPage() {
-        return null;
+        return "about";
     }
 }
