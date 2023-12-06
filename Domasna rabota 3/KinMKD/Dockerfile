@@ -1,10 +1,5 @@
-FROM maven:3.8.4 AS build
+FROM openjdk:17
 WORKDIR /KinMKD
-COPY . .
-RUN mvn clean install
-
-FROM openjdk:17-oracle
-WORKDIR /KinMKD
-COPY . .
-
-CMD ["java", "-jar", "your-application-name.jar"]
+COPY target/KinMKD-0.0.1-SNAPSHOT.jar .
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","KinMKD-0.0.1-SNAPSHOT.jar"]

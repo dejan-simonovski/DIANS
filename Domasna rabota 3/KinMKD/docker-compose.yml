@@ -4,28 +4,27 @@ services:
   postgres:
     image: postgres
     restart: unless-stopped
-    env_file: ./.env
     environment:
-      - POSTGRES_USER=$POSTGRES_USER
-      - POSTGRES_PASSWORD=$POSTGRES_ROOT_PASSWORD
-      - POSTGRES_DB=$POSTGRES_DATABASE
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=KinMKD-DB
     ports:
-      - '8080'
+      - '5433:5432'
     volumes:
       - db:/var/lib/postgres
   app:
+    image: kinmkd
     depends_on:
       - postgres
     build: ./
     restart: on-failure
-    env_file: ./.env
     ports:
-      - '6868'
+      - '6868:8080'
     environment:
       SPRING_APPLICATION_JSON: '{
-        "spring.datasource.url"  : "jdbc:postgresql://postgres:$POSTGRES_DOCKER_PORT/$POSTGRES_DATABASE",
-        "spring.datasource.username" : "$POSTGRES_USER",
-        "spring.datasource.password" : "$POSTGRES_ROOT_PASSWORD",
+        "spring.datasource.url"  : "jdbc:postgresql:///postgres",
+        "spring.datasource.username" : "postgres",
+        "spring.datasource.password" : "admin",
         "spring.jpa.properties.hibernate.dialect" : "org.hibernate.dialect.PostgreSQLDialect",
         "spring.jpa.hibernate.ddl-auto" : "update"
       }'
