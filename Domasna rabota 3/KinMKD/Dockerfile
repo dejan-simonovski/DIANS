@@ -1,5 +1,5 @@
 FROM openjdk:17
 WORKDIR /KinMKD
-COPY target/KinMKD-0.0.1-SNAPSHOT.jar .
+COPY target/demo-0.0.1-SNAPSHOT.jar .
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","KinMKD-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","demo-0.0.1-SNAPSHOT.jar"]
