@@ -3,9 +3,10 @@ package mk.com.kinmkd.kinmkd.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
+@Data
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
@@ -13,7 +14,6 @@ import lombok.NoArgsConstructor;
 @Table(name = "locations")
 public class Location {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     private Double lat;
