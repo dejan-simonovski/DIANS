@@ -23,17 +23,17 @@ public class Location {
     private Double lon;
 
     private String name;
-    private String name_en;
+    private String nameEN;
 
     @Enumerated(EnumType.STRING)
     private Category categoryId;
 
-    public Location(Integer id, Double lat, Double lon, String name, String name_en, Category categoryId) {
+    public Location(Integer id, Double lat, Double lon, String name, String nameEN, Category categoryId) {
         this.id = id;
         this.lat = lat;
         this.lon = lon;
         this.name = name;
-        this.name_en = name_en;
+        this.nameEN = nameEN;
         this.categoryId = categoryId;
     }
 
