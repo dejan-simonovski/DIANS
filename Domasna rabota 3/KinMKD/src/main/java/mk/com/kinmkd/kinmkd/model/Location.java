@@ -16,6 +16,7 @@ import java.util.List;
 @Table(name = "locations")
 public class Location {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     private Double lat;
