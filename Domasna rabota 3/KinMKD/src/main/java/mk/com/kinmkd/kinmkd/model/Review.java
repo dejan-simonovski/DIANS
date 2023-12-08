@@ -13,4 +13,8 @@ public class Review {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer rating;
     private String comment;
+    @ManyToOne
+    private User user;
+    @ManyToOne
+    private Location location;
 }
