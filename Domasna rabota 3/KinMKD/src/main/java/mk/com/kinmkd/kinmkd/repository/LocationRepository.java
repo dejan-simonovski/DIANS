@@ -8,11 +8,11 @@ import mk.com.kinmkd.kinmkd.model.Location;
 import java.util.List;
 import java.util.Optional;
 
-@Repository
-public interface LocationRepository extends JpaRepository<Location, Integer> {
-    Location findLocationByName_enOrNameAndCategoryId(String text,Integer categoryId);
-    List<Location> findByName_enContainingIgnoreCaseOrNameContainingIgnoreCase(String text);
 
+public interface LocationRepository extends JpaRepository<Location, Integer> {
+
+    List<Location> findByNameENContainingIgnoreCaseOrNameContainingIgnoreCase(String text,String text2);
+    Location findByNameENOrNameAndAndCategoryId(String text1,String text2,String categoryId);
     Optional<Location> findById(Integer id);
-    List<Location> findByCategoryId(Integer categoryId);
+    List<Location> findByCategoryId(String categoryId);
 }

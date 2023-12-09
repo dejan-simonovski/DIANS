@@ -7,7 +7,9 @@ import mk.com.kinmkd.kinmkd.repository.LocationRepository;
 import mk.com.kinmkd.kinmkd.repository.ReviewRepository;
 import mk.com.kinmkd.kinmkd.repository.UserRepository;
 import mk.com.kinmkd.kinmkd.service.ReviewService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ReviewServiceImpl implements ReviewService {
     private final ReviewRepository reviewRepository;
     private final UserRepository userRepository;

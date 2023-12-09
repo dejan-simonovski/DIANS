@@ -13,10 +13,10 @@ public interface LocationService {
     List<Location> findAll();
 
     Location findById(Integer id);
-    Location findByNameAndCategory(String name,Integer categoryId);
+    Location findByNameAndCategory(String name,String category);
 
-    List<Location> findByLikeName(String name);
-    List<Location> findByCategory(Integer categoryId);
+    List<Location> findByLikeName(String text1,String text2);
+    List<Location> findByCategory(String category);
 
 
 

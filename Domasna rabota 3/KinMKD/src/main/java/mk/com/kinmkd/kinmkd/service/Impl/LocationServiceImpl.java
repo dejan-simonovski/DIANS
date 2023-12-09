@@ -1,7 +1,6 @@
 package mk.com.kinmkd.kinmkd.service.Impl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import mk.com.kinmkd.kinmkd.model.Category;
 import mk.com.kinmkd.kinmkd.model.Location;
 import mk.com.kinmkd.kinmkd.repository.LocationRepository;
 import mk.com.kinmkd.kinmkd.service.LocationService;
@@ -31,7 +30,7 @@ public class LocationServiceImpl implements LocationService {
                         location.getLat(),
                         location.getLon(),
                         location.getName(),
-                        location.getName_en(),
+                        location.getNameEN(),
                         location.getCategoryId());
 
                 this.locationRepository.save(newLocation);
@@ -52,17 +51,19 @@ public class LocationServiceImpl implements LocationService {
     }
 
     @Override
-    public Location findByNameAndCategory(String name, Integer categoryId) {
-        return locationRepository.findLocationByName_enOrNameAndCategoryId(name, categoryId);
+    public Location findByNameAndCategory(String name, String category) {
+        return locationRepository.findByNameENOrNameAndAndCategoryId(name,name,category);
     }
 
     @Override
-    public List<Location> findByLikeName(String name) {
-        return locationRepository.findByName_enContainingIgnoreCaseOrNameContainingIgnoreCase(name);
+    public List<Location> findByLikeName(String text1, String text2) {
+        return locationRepository.findByNameENContainingIgnoreCaseOrNameContainingIgnoreCase(text1,text2);
     }
 
     @Override
-    public List<Location> findByCategory(Integer categoryId) {
-        return locationRepository.findByCategoryId(categoryId);
+    public List<Location> findByCategory(String category) {
+        return locationRepository.findByCategoryId(category);
     }
+
+
 }
