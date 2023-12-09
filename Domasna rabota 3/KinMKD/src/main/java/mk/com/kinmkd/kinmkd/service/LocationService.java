@@ -19,6 +19,7 @@ public interface LocationService {
     List<Location> findByLikeName(String text1,String text2);
     List<Location> findByCategory(String category);
 
+    List<Location> findByNameLikeAndCategory(String categoryName, String text);
 
-
+    List<Location> performSearch(String categoryName, String text);
 }

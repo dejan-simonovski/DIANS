@@ -119,16 +119,18 @@
 <th:block xmlns:th="http://www.thymeleaf.org">
   <section class="who_section layout_padding" style="margin-top: 7%;margin-bottom: 2%">
     <div class="container">
-      <form id="form2">
-        <input type="text" id="input" placeholder="Search...">
-        <select>
-          <option value="all">All Categories</option>
-          <option value="category1">Category 1</option>
-          <option value="category2">Category 2</option>
-          <option value="category3">Category 3</option>
+      <form id="form2" th:method="POST" th:action="@{/location/search}">
+        <input type="text" id="input" placeholder="Search by keyword..." name="nameKeyword">
+        <select name="categoryName">
+          <option th:each="category : ${categories}" th:text="${category.name()}" th:value="${category.name()}"></option>
         </select>
         <button style="margin-left: 1%" id="searchByCategory" type="submit">Search</button>
       </form>
     </div>
   </section>
+  <th:block th:if="${hasBeenSearched}">
+    <ul>
+      <a th:each="location : ${resultLocations}" th:href="'/location/'+${location.id}" th:text="${location.name}"></a>
+    </ul>
+  </th:block>
 </th:block>

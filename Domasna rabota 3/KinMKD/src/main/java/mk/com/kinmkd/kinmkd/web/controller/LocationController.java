@@ -3,11 +3,14 @@ package mk.com.kinmkd.kinmkd.web.controller;
 import lombok.AllArgsConstructor;
 import mk.com.kinmkd.kinmkd.model.Category;
 import mk.com.kinmkd.kinmkd.model.Location;
+import mk.com.kinmkd.kinmkd.service.CategoryService;
 import mk.com.kinmkd.kinmkd.service.LocationService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 
 @Controller
@@ -15,9 +18,14 @@ import java.util.Optional;
 @AllArgsConstructor
 public class LocationController {
     private final LocationService locationService;
+    private final CategoryService categoryService;
 
     @GetMapping("/search")
     public String getLocationSearchPage(Model model) {
+        List<Category> categories = categoryService.findAll();
+        model.addAttribute("categories", categories);
+        model.addAttribute("hasBeenSearched", false);
+
         model.addAttribute("body", "search");
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "search-style.css");
@@ -28,7 +36,16 @@ public class LocationController {
     @PostMapping("/search")
     public String searchLocations(Model model,
                                   @RequestParam String nameKeyword,
-                                  @RequestParam Integer categoryId) {
+                                  @RequestParam String categoryName) {
+        List<Location> resultLocations = locationService.performSearch(categoryName, nameKeyword);
+        model.addAttribute("resultLocations", resultLocations);
+        model.addAttribute("keyword", nameKeyword);
+        model.addAttribute("categoryName", categoryName);
+
+        List<Category> categories = categoryService.findAll();
+        model.addAttribute("categories", categories);
+        model.addAttribute("hasBeenSearched", true);
+
         model.addAttribute("body", "search");
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "search-style.css");
