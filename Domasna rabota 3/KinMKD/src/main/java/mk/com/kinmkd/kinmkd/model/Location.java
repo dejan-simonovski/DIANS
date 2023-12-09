@@ -37,6 +37,6 @@ public class Location {
         this.categoryId = categoryId;
     }
 
-    @OneToMany
+    @OneToMany(mappedBy = "location")
     private List<Review> reviews;
 }

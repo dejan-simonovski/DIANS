@@ -17,7 +17,7 @@ public class User {
     private Integer id;
     private String email;
     private String password;
-    @OneToMany
+    @OneToMany(mappedBy = "user")
     private List<Review> reviews;
 
     private String hashPassword(String plainTextPassword) {

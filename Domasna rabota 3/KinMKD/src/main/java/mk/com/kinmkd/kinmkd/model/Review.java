@@ -11,12 +11,20 @@ import lombok.NoArgsConstructor;
 public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Integer Id;
+
+    private Integer id;
+
     private Integer rating;
     private String comment;
+
     @ManyToOne
+    @JoinColumn(name = "user_id")
     private User user;
+
     @ManyToOne
+    @JoinColumn(name = "location_id")
     private Location location;
 
 
