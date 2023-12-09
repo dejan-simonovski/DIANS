@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.List;
 
 @Service
 public class LocationServiceImpl implements LocationService {
@@ -29,7 +30,7 @@ public class LocationServiceImpl implements LocationService {
                         location.getLat(),
                         location.getLon(),
                         location.getName(),
-                        location.getName_en(),
+                        location.getNameEN(),
                         location.getCategoryId());
 
                 this.locationRepository.save(newLocation);
@@ -38,4 +39,31 @@ public class LocationServiceImpl implements LocationService {
             e.printStackTrace();
         }
     }
+
+    @Override
+    public List<Location> findAll() {
+        return locationRepository.findAll();
+    }
+
+    @Override
+    public Location findById(Integer id) {
+        return locationRepository.findById(id).get();
+    }
+
+    @Override
+    public Location findByNameAndCategory(String name, String category) {
+        return locationRepository.findByNameENOrNameAndAndCategoryId(name,name,category);
+    }
+
+    @Override
+    public List<Location> findByLikeName(String text1, String text2) {
+        return locationRepository.findByNameENContainingIgnoreCaseOrNameContainingIgnoreCase(text1,text2);
+    }
+
+    @Override
+    public List<Location> findByCategory(String category) {
+        return locationRepository.findByCategoryId(category);
+    }
+
+
 }

@@ -12,16 +12,26 @@ public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
+    private Integer Id;
+
     private Integer id;
 
     private Integer rating;
     private String comment;
 
     @ManyToOne
-    @JoinColumn(name = "user_id") // Specify the correct column name
+    @JoinColumn(name = "user_id")
     private User user;
 
     @ManyToOne
-    @JoinColumn(name = "location_id") // Specify the correct column name
+    @JoinColumn(name = "location_id")
     private Location location;
+
+
+    public Review(Integer rating, String comment, User user, Location location) {
+        this.rating = rating;
+        this.comment = comment;
+        this.user = user;
+        this.location = location;
+    }
 }
