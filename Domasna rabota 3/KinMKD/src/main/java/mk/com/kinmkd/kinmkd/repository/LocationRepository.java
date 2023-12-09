@@ -13,6 +13,6 @@ public interface LocationRepository extends JpaRepository<Location, Integer> {
 
     List<Location> findByNameENContainingIgnoreCaseOrNameContainingIgnoreCase(String text,String text2);
     Location findByNameENOrNameAndAndCategoryId(String text1,String text2,String categoryId);
-    Optional<Location> findById(Integer id);
+    //Optional<Location> findById(Integer id);
     List<Location> findByCategoryId(String categoryId);
 }

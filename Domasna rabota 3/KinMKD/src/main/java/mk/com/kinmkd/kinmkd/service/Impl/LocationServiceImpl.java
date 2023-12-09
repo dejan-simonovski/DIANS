@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class LocationServiceImpl implements LocationService {
@@ -46,8 +47,8 @@ public class LocationServiceImpl implements LocationService {
     }
 
     @Override
-    public Location findById(Integer id) {
-        return locationRepository.findById(id).get();
+    public Optional<Location> findById(Integer id) {
+        return locationRepository.findById(id);
     }
 
     @Override
