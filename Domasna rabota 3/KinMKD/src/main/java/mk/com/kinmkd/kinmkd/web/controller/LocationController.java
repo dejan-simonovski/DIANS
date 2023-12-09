@@ -1,17 +1,31 @@
 package mk.com.kinmkd.kinmkd.web.controller;
 
+import lombok.AllArgsConstructor;
+import mk.com.kinmkd.kinmkd.model.Category;
+import mk.com.kinmkd.kinmkd.model.Location;
+import mk.com.kinmkd.kinmkd.service.CategoryService;
+import mk.com.kinmkd.kinmkd.service.LocationService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
 
 @Controller
 @RequestMapping("/location")
+@AllArgsConstructor
 public class LocationController {
+    private final LocationService locationService;
+    private final CategoryService categoryService;
+
     @GetMapping("/search")
     public String getLocationSearchPage(Model model) {
+        List<Category> categories = categoryService.findAll();
+        model.addAttribute("categories", categories);
+        model.addAttribute("hasBeenSearched", false);
+
         model.addAttribute("body", "search");
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "search-style.css");
@@ -20,7 +34,18 @@ public class LocationController {
     }
 
     @PostMapping("/search")
-    public String searchLocations(Model model) {
+    public String searchLocations(Model model,
+                                  @RequestParam String nameKeyword,
+                                  @RequestParam String categoryName) {
+        List<Location> resultLocations = locationService.performSearch(categoryName, nameKeyword);
+        model.addAttribute("resultLocations", resultLocations);
+        model.addAttribute("keyword", nameKeyword);
+        model.addAttribute("categoryName", categoryName);
+
+        List<Category> categories = categoryService.findAll();
+        model.addAttribute("categories", categories);
+        model.addAttribute("hasBeenSearched", true);
+
         model.addAttribute("body", "search");
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "search-style.css");
@@ -29,8 +54,15 @@ public class LocationController {
     }
 
     @GetMapping("/{id}")
-    public String getLocationDetailsPage(@PathVariable Long id,
+    public String getLocationDetailsPage(@PathVariable Integer id,
                                          Model model) {
+
+        Optional<Location> location = locationService.findById(id);
+        if (location.isEmpty()) {
+            return "redirect:/location/search";
+        }
+        model.addAttribute("location", location.get());
+
         model.addAttribute("body", "details");
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "details.css");

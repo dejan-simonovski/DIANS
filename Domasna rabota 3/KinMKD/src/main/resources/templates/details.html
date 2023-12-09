@@ -168,16 +168,14 @@
             <div class="row">
                 <div class="col-md-5">
                     <div class="img-box">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11860.650926050406!2d21.4343423!3d41.996783!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135415aef89e7f7d%3A0x7f10f7b3ba13ae34!2z0JDRgNGF0LXQvtC70L7RiNC60Lgg0LzRg9C30LXRmCDQvdCwINCg0LXQv9GD0LHQu9C40LrQsCDQodC10LLQtdGA0L3QsCDQnNCw0LrQtdC00L7QvdC40ZjQsA!5e0!3m2!1smk!2smk!4v1701341344389!5m2!1smk!2smk" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe th:src="('https://www.google.com/maps/embed/v1/place?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&q='+${location.lat}+','+${location.lon})" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 <div class="col-md-7">
                     <div class="detail-box">
                         <div class="heading_container">
-                            <h2>
-                                Archaeological museum
-                            </h2>
-                            <h4>Category : museums</h4>
+                            <h2 th:text="${location.name}"></h2>
+                            <h4 th:text="('Category: '+${location.categoryId.name()})"></h4>
                         </div>
                        <div>
                            <div class="container">
