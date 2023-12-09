@@ -1,9 +1,7 @@
 package mk.com.kinmkd.kinmkd.Initializer;
 
 import jakarta.annotation.PostConstruct;
-import mk.com.kinmkd.kinmkd.repository.LocationRepository;
 import mk.com.kinmkd.kinmkd.service.LocationService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.File;
