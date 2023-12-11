@@ -2,15 +2,18 @@ package mk.com.kinmkd.kinmkd.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.mindrot.jbcrypt.BCrypt;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "users")
+@Data
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,6 +26,16 @@ public class User {
     private String hashPassword(String plainTextPassword) {
         String salt = BCrypt.gensalt();
         return BCrypt.hashpw(plainTextPassword, salt);
+    }
+
+    public void setPassword(String password) {
+        this.password = hashPassword(password);
+    }
+
+    public User(String email, String password) {
+        this.email = email;
+        setPassword(password);
+        reviews = new ArrayList<>();
     }
 
     public boolean verifyPassword(String candidatePassword) {

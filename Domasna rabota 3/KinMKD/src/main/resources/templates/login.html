@@ -126,11 +126,13 @@
     <div class="container">
       <div class="login form">
         <header>Login</header>
-        <form action="#">
-          <input type="text" placeholder="Enter your email">
-          <input type="password" placeholder="Enter your password">
-          <a href="#">Forgot password?</a>
-          <input type="button" class="button" value="Login">
+        <form th:action="@{/account/login}" th:method="POST">
+          <th:block th:if="${hasError}">
+            <p style="color: red" th:text="${error}"></p>
+          </th:block>
+          <input type="email" placeholder="Enter your email" required name="email">
+          <input type="password" placeholder="Enter your password" required name="password">
+          <input type="submit" class="button" value="Login">
         </form>
         <div class="signup">
         <span class="signup">Don't have an account?
