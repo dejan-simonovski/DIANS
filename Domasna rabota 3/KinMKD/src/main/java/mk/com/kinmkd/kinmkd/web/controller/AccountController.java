@@ -27,6 +27,7 @@ public class AccountController {
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "login&signup.css");
         model.addAttribute("hasCssFile", true);
+        model.addAttribute("user", null);
         return "master-layout";
     }
 
@@ -45,6 +46,7 @@ public class AccountController {
             model.addAttribute("hasBody", true);
             model.addAttribute("cssFile", "login&signup.css");
             model.addAttribute("hasCssFile", true);
+            model.addAttribute("user", null);
             return "master-layout";
         }
         return "redirect:/home";
@@ -60,6 +62,7 @@ public class AccountController {
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "login&signup.css");
         model.addAttribute("hasCssFile", true);
+        model.addAttribute("user", null);
         return "master-layout";
     }
 
@@ -79,6 +82,7 @@ public class AccountController {
             model.addAttribute("hasBody", true);
             model.addAttribute("cssFile", "login&signup.css");
             model.addAttribute("hasCssFile", true);
+            model.addAttribute("user", null);
             return "master-layout";
         }
         return "redirect:/home";
