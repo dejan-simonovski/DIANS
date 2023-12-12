@@ -6,7 +6,7 @@
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 18%;
+    margin-bottom: 1%;
     margin-top: 15%;
 }
 
@@ -38,4 +38,40 @@ form select {
 
 #searchByCategory:hover {
     background-color: #555;
+}
+
+#locationResults {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.location-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.location-row:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.location-info {
+    flex: 1;
+}
+
+.location-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.not-found{
+    text-align: center;
 }
