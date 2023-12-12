@@ -125,15 +125,18 @@
     <div class="container">
       <div class="registration form">
         <header>Signup</header>
-        <form action="#">
-          <input type="text" placeholder="Enter your email">
-          <input type="password" placeholder="Create a password">
-          <input type="password" placeholder="Confirm your password">
-          <input type="button" class="button" value="Signup">
+        <form th:action="@{/account/register}" th:method="POST">
+          <th:block th:if="${hasError}">
+            <p style="color: red" th:text="${error}"></p>
+          </th:block>
+          <input type="email" placeholder="Enter your email" required name="email">
+          <input type="password" placeholder="Create a password" required name="password">
+          <input type="password" placeholder="Confirm your password" required name="repeatPassword">
+          <input type="submit" class="button" value="Signup">
         </form>
         <div class="signup">
         <span class="signup">Already have an account?
-         <a th:href="@{/account/login}"><label >Login</label></a>
+         <a th:href="@{/account/login}"><label>Login</label></a>
         </span>
         </div>
       </div>

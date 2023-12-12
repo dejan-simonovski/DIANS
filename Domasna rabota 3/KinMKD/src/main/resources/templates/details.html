@@ -213,11 +213,13 @@
                                </div>
                            </div>
                     </div>
-                        <div>
-                            <a th:href="@{/location/1/my-review}">
-                                My Review
-                            </a>
-                        </div>
+                        <th:block th:if="${user!=null}">
+                            <div>
+                                <a th:href="@{/location/1/my-review}">
+                                    My Review
+                                </a>
+                            </div>
+                        </th:block>
                     </div>
                 </div>
             </div>
