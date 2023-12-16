@@ -5,7 +5,8 @@
 .container{
     position: relative;
     margin-top: 22%;
-    margin-bottom: -18%;
+    margin-bottom: -17%;
+    margin-left: 12%;
     left: 39%;
     transform: translate(-50%,-50%);
     max-width: 430px;
@@ -17,7 +18,10 @@
 
 .container .form{
     padding: 2rem;
+    margin-top: 300px;
+
 }
+
 .form header{
     font-size: 2rem;
     font-weight: 500;
