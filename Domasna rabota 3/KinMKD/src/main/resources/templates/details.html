@@ -179,38 +179,19 @@
                         </div>
                        <div>
                            <div class="container">
-                               <div class="d-flex py-2">
-                                   <div class="second py-2 px-2"> <span class="text1">Коментар од Martha...</span>
-                                       <div class="d-flex justify-content-between py-1 pt-2">
-                                           <div><img src="https://www.nicepng.com/png/full/128-1280406_view-user-icon-png-user-circle-icon-png.png" width="18"><span class="text2">Martha</span></div>
-                                           <div><span class="thumbup"><i class="fa fa-thumbs-o-up"></i></span><span class="text4">Оцена: 4</span></div>
+                               <th:block th:if="${!location.reviews.isEmpty()}" th:each="review : ${location.reviews}">
+                                   <div class="d-flex py-2">
+                                       <div class="second py-2 px-2"> <span class="text1" th:text="${review.comment}"></span>
+                                           <div class="d-flex justify-content-between py-1 pt-2">
+                                               <div><img src="https://www.nicepng.com/png/full/128-1280406_view-user-icon-png-user-circle-icon-png.png" width="18"><span class="text2" th:text="${review.user.email}"></span></div>
+                                               <div><span class="thumbup"><i class="fa fa-thumbs-o-up"></i></span><span class="text4" th:text="('Оцена: ' + ${review.rating})"></span></div>
+                                           </div>
                                        </div>
                                    </div>
-                               </div>
-                               <div class="d-flex py-2">
-                                   <div class="second py-2 px-2"> <span class="text1">Коментар од Dzoni...</span>
-                                       <div class="d-flex justify-content-between py-1 pt-2">
-                                           <div><img src="https://www.nicepng.com/png/full/128-1280406_view-user-icon-png-user-circle-icon-png.png" width="18"><span class="text2">Dzoni</span></div>
-                                           <div><span class="thumbup"><i class="fa fa-thumbs-o-up"></i></span><span class="text4">Оцена: 1</span></div>
-                                       </div>
-                                   </div>
-                               </div>
-                               <div class="d-flex py-2">
-                                   <div class="second py-2 px-2"> <span class="text1">Коментар од Beth...</span>
-                                       <div class="d-flex justify-content-between py-1 pt-2">
-                                           <div><img src="https://www.nicepng.com/png/full/128-1280406_view-user-icon-png-user-circle-icon-png.png" width="18" height="18"><span class="text2">Beth</span></div>
-                                           <div><span class="thumbup"><i class="fa fa-thumbs-up thumbupo"></i></span><span class="text4">Оцена: 3</span></div>
-                                       </div>
-                                   </div>
-                               </div>
-                               <div class="d-flex py-2">
-                                   <div class="second py-2 px-2"> <span class="text1">Коментар од Curtis...</span>
-                                       <div class="d-flex justify-content-between py-1 pt-2">
-                                           <div><img src="https://www.nicepng.com/png/full/128-1280406_view-user-icon-png-user-circle-icon-png.png" width="18"><span class="text2">Curtis</span></div>
-                                           <div><span class="thumbup"><i class="fa fa-thumbs-up thumbupo"></i></span><span class="text4">Оцена: 5</span></div>
-                                       </div>
-                                   </div>
-                               </div>
+                               </th:block>
+                               <th:block th:if="${location.reviews.isEmpty()}">
+                                   <p>No reviews available.</p>
+                               </th:block>
                            </div>
                     </div>
                         <th:block th:if="${user!=null}">
