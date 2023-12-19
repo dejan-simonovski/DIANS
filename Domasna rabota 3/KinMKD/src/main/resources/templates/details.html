@@ -215,7 +215,7 @@
                     </div>
                         <th:block th:if="${user!=null}">
                             <div>
-                                <a th:href="@{/location/1/my-review}">
+                                <a th:href="('/location/'+${location.id}+'/my-review')">
                                     My Review
                                 </a>
                             </div>

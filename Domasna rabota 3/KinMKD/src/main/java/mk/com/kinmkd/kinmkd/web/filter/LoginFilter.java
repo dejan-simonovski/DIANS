@@ -21,7 +21,7 @@ public class LoginFilter implements Filter {
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         User user = (User) request.getSession().getAttribute("user");
         String path = request.getServletPath();
-        if (path.matches("^/location/.*/my-review$") && user == null) {
+        if (path.matches("^/location/.*/(my-review|my-review/save|my-review/delete)$") && user == null) {
             response.sendRedirect("/account/login");
         } else {
             filterChain.doFilter(servletRequest, servletResponse);
