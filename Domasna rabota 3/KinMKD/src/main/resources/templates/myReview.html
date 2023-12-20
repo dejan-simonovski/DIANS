@@ -188,7 +188,7 @@
 
                   <div class="rating">
                     <th:block th:each="i : ${#numbers.sequence(1, 5, 1)}">
-                      <input th:checked="${hasReview && review.rating.equals(i)}" required type="radio" name="rating" th:value="${i}" th:id="${i}"><label th:for="${i}">☆</label>
+                      <input th:checked="${hasReview && review.rating.equals(6 - i)}" required type="radio" name="rating" th:value="${6 - i}" th:id="${6 - i}"><label th:for="${6 - i}">☆</label>
                     </th:block>
                   </div>
                   <div class="comment-area">
