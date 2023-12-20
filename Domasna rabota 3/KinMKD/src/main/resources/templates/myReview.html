@@ -167,57 +167,55 @@
 <th:block xmlns:th="http://www.thymeleaf.org">
   <section class="who_section layout_padding" style="margin-top: 7%;margin-bottom: 2%">
     <div class="container">
-      <div class="card">
+      <form id="review-form" th:action="${destPath}" th:method="POST">
+        <div class="card">
 
-        <div class="row">
+          <div class="row">
 
-          <div class="col-2">
-
-
-            <img src="https://www.nicepng.com/png/full/128-1280406_view-user-icon-png-user-circle-icon-png.png" width="70" class="rounded-circle mt-2">
+            <div class="col-2">
 
 
-          </div>
+              <img src="https://www.nicepng.com/png/full/128-1280406_view-user-icon-png-user-circle-icon-png.png" width="70" class="rounded-circle mt-2">
 
-          <div class="col-10">
 
-            <div class="comment-box ml-2">
+            </div>
 
-              <h4>Add a comment</h4>
+            <div class="col-10">
 
-              <div class="rating">
-                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
-                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
-                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
-                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
-                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
-              </div>
+              <div class="comment-box ml-2">
 
-              <div class="comment-area">
+                <h4 th:text="('Add a review for \'' + ${location.name} + '\'')"></h4>
 
-                <textarea class="form-control" placeholder="what is your view?" rows="4"></textarea>
-
-              </div>
-
-              <div class="comment-btns mt-2">
-
-                <div class="row">
-
-                  <div class="col-6">
-
-                    <div class="pull-left">
-
-                      <button class="btn btn-success btn-sm">Cancel</button>
-
-                    </div>
+                  <div class="rating">
+                    <th:block th:each="i : ${#numbers.sequence(1, 5, 1)}">
+                      <input th:checked="${hasReview && review.rating.equals(6 - i)}" required type="radio" name="rating" th:value="${6 - i}" th:id="${6 - i}"><label th:for="${6 - i}">☆</label>
+                    </th:block>
+                  </div>
+                  <div class="comment-area">
+                    <textarea th:text="${hasReview} ? ${review.comment} : ''" required name="comment" class="form-control" placeholder="what is your view?" rows="4"></textarea>
                   </div>
 
-                  <div class="col-6">
 
-                    <div class="pull-right">
+                <div class="comment-btns mt-2">
 
-                      <button class="btn btn-success send btn-sm">Send <i class="fa fa-long-arrow-right ml-1"></i></button>
+                  <div class="row">
 
+                    <div class="col-6">
+
+                      <div class="pull-left">
+                        <th:block th:if="${hasReview}">
+                          <a href="javascript:document.querySelector('#delete-review-form').submit()" class="btn btn-success btn-sm">Delete</a>
+                        </th:block>
+                      </div>
+                    </div>
+
+                    <div class="col-6">
+
+                      <div class="pull-right">
+
+                        <button class="btn btn-success send btn-sm">Send <i class="fa fa-long-arrow-right ml-1"></i></button>
+
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -225,7 +223,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </form>
     </div>
   </section>
+  <th:block th:if="${hasReview}">
+    <form id="delete-review-form" th:action="('/location/'+${location.id}+'/my-review/delete')" th:method="POST" style="display: none"></form>
+  </th:block>
 </th:block>

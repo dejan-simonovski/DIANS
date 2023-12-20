@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.AllArgsConstructor;
 import mk.com.kinmkd.kinmkd.model.Category;
 import mk.com.kinmkd.kinmkd.model.Location;
+import mk.com.kinmkd.kinmkd.model.exception.LocationNotFoundException;
 import mk.com.kinmkd.kinmkd.repository.CategoryRepository;
 import mk.com.kinmkd.kinmkd.repository.LocationRepository;
 import mk.com.kinmkd.kinmkd.service.CategoryService;
@@ -49,8 +50,11 @@ public class LocationServiceImpl implements LocationService {
     }
 
     @Override
-    public Optional<Location> findById(Integer id) {
-        return locationRepository.findById(id);
+    public Location findById(Integer id) {
+        Optional<Location> container = locationRepository.findById(id);
+        if (container.isEmpty())
+            throw new LocationNotFoundException();
+        return container.get();
     }
 
     @Override

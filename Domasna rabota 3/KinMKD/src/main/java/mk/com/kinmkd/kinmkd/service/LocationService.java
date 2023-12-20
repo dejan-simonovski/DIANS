@@ -13,7 +13,7 @@ public interface LocationService {
     void insertDataFromJsonFile(String jsonFilePath) throws IOException;
     List<Location> findAll();
 
-    Optional<Location> findById(Integer id);
+    Location findById(Integer id);
     Location findByNameAndCategory(String name,String category);
 
     List<Location> findByLikeName(String text1,String text2);
