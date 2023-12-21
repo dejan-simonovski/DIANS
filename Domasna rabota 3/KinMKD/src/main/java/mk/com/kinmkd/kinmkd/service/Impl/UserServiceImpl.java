@@ -2,10 +2,7 @@ package mk.com.kinmkd.kinmkd.service.Impl;
 
 import lombok.AllArgsConstructor;
 import mk.com.kinmkd.kinmkd.model.User;
-import mk.com.kinmkd.kinmkd.model.exception.EmailNotExistingException;
-import mk.com.kinmkd.kinmkd.model.exception.EmailTakenException;
-import mk.com.kinmkd.kinmkd.model.exception.IncorrectPasswordException;
-import mk.com.kinmkd.kinmkd.model.exception.PasswordsNotMatchingException;
+import mk.com.kinmkd.kinmkd.model.exception.*;
 import mk.com.kinmkd.kinmkd.repository.UserRepository;
 import mk.com.kinmkd.kinmkd.service.UserService;
 import org.springframework.stereotype.Service;
@@ -22,6 +19,8 @@ public class UserServiceImpl implements UserService {
         if (!password.equals(repeatPassword)) {
             throw new PasswordsNotMatchingException();
         }
+        if(!(password.length() >= 6 && password.matches(".*[0-9]+.*") && password.matches(".*[a-zA-Z]+.*")))
+            throw new PasswordWeakException();
         if (userRepository.findByEmail(email).isPresent()) {
             throw new EmailTakenException(email);
         }

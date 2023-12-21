@@ -3,10 +3,7 @@ package mk.com.kinmkd.kinmkd.web.controller;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.AllArgsConstructor;
 import mk.com.kinmkd.kinmkd.model.User;
-import mk.com.kinmkd.kinmkd.model.exception.EmailNotExistingException;
-import mk.com.kinmkd.kinmkd.model.exception.EmailTakenException;
-import mk.com.kinmkd.kinmkd.model.exception.IncorrectPasswordException;
-import mk.com.kinmkd.kinmkd.model.exception.PasswordsNotMatchingException;
+import mk.com.kinmkd.kinmkd.model.exception.*;
 import mk.com.kinmkd.kinmkd.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -38,7 +35,7 @@ public class AccountController {
                                Model model) {
         try {
             userService.register(email, password, repeatPassword);
-        } catch (PasswordsNotMatchingException | EmailTakenException e) {
+        } catch (PasswordsNotMatchingException | EmailTakenException | PasswordWeakException e) {
             model.addAttribute("hasError", true);
             model.addAttribute("error", e.getMessage());
 
