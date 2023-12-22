@@ -115,7 +115,6 @@
 
 <!--</html>-->
 
-
 <th:block xmlns:th="http://www.thymeleaf.org">
   <section class="who_section layout_padding" style="margin-top: 7%;margin-bottom: 2%">
     <div class="container">
@@ -126,22 +125,21 @@
         </select>
         <button style="margin-left: 1%" id="searchByCategory" type="submit">Search</button>
       </form>
-      <div id="locationResults" th:if="${hasBeenSearched}">
-        <div th:each="location : ${resultLocations}" class="location-row" th:onclick="'window.location.href=\'/location/' + ${location.id}\'">
-          <div class="location-info">
-            <div th:text="${location.name}"></div>
-            <div th:text="${location.nameEN}"></div>
-            <div th:text="${location.categoryId}"></div>
+      <div class="container" style="max-height: 300px; overflow: auto;">
+        <div id="locationResults" th:if="${hasBeenSearched}">
+          <div th:each="location : ${resultLocations}" class="location-row" th:onclick="'window.location.href=\'/location/' + ${location.id}\'">
+            <div class="location-info">
+              <div th:text="${location.name}"></div>
+              <div th:text="${location.nameEN}"></div>
+              <div th:text="${location.categoryId}"></div>
+            </div>
+            <a th:href="'/location/' + ${location.id}" class="location-link">View Details</a>
           </div>
-          <a th:href="'/location/' + ${location.id}" class="location-link">View Details</a>
+          <div th:if="${#lists.isEmpty(resultLocations)}">
+            <p class="location-info not-found">No locations found.</p>
+          </div>
         </div>
-        <div th:if="${#lists.isEmpty(resultLocations)}">
-          <p class="location-info not-found">No locations found.</p>
-        </div>
-
       </div>
-
-
     </div>
   </section>
 
