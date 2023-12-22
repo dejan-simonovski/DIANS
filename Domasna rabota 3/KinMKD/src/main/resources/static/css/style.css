@@ -194,6 +194,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   color: #ffffff;
+
 }
 
 .slider_section .detail-box {
@@ -686,6 +687,7 @@ a:focus {
   margin-right: 25px;
 }
 
+
 /* footer section*/
 .footer_section {
   background-color: #232323;
@@ -696,6 +698,7 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+
 }
 
 .footer_section p {
