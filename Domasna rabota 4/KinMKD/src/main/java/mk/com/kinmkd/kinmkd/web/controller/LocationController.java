@@ -14,9 +14,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+
+/**
+ * Controller handling location-related operations.
+ */
 
 @Controller
 @RequestMapping("/location")
@@ -26,6 +29,12 @@ public class LocationController {
     private final CategoryService categoryService;
     private final ReviewService reviewService;
 
+    /**
+     * Displays the location search page.
+     * @param model - the model for the view
+     * @param req - the HTTP servlet request
+     * @return the master layout view for the location search page
+     */
     @GetMapping("/search")
     public String getLocationSearchPage(Model model, HttpServletRequest req) {
         List<Category> categories = categoryService.findAll();
@@ -40,6 +49,14 @@ public class LocationController {
         return "master-layout";
     }
 
+    /**
+     * Handles the search for locations based on given parameters.
+     * @param model - the model for the view
+     * @param nameKeyword - keyword for location name search
+     * @param categoryName - selected category for filtering
+     * @param req - the HTTP servlet request
+     * @return the master layout view for the location search page with search results
+     */
     @PostMapping("/search")
     public String searchLocations(Model model,
                                   @RequestParam String nameKeyword,
@@ -62,6 +79,13 @@ public class LocationController {
         return "master-layout";
     }
 
+    /**
+     * Displays the details page for a specific location.
+     * @param id - the ID of the location to display details for
+     * @param model - the model for the view
+     * @param req - the HTTP servlet request
+     * @return the master layout view for the location details page
+     */
     @GetMapping("/{id}")
     public String getLocationDetailsPage(@PathVariable Integer id,
                                          Model model,
@@ -81,6 +105,13 @@ public class LocationController {
         return "master-layout";
     }
 
+    /**
+     * Displays the review page for a specific location.
+     * @param id - the ID of the location to display reviews for
+     * @param model - the model for the view
+     * @param req - the HTTP servlet request
+     * @return the master layout view for the location review page
+     */
     @GetMapping("/{id}/my-review")
     public String getLocationReviewPage(@PathVariable Integer id,
                                         Model model,
@@ -112,6 +143,14 @@ public class LocationController {
         return "master-layout";
     }
 
+    /**
+     * Saves a review for a specific location.
+     * @param id - the ID of the location to save the review for
+     * @param comment - the user's comment for the review
+     * @param rating - the user's rating for the location
+     * @param req - the HTTP servlet request
+     * @return redirects to the location details page after saving the review
+     */
     @PostMapping("/{id}/my-review/save")
     public String saveReviewForLocation(@PathVariable Integer id,
                                         @RequestParam String comment,
@@ -130,6 +169,12 @@ public class LocationController {
         return String.format("redirect:/location/%d", id);
     }
 
+    /**
+     * Deletes a review for a specific location.
+     * @param id - the ID of the location to delete the review for
+     * @param req - the HTTP servlet request
+     * @return redirects to the location details page after deleting the review
+     */
     @PostMapping("/{id}/my-review/delete")
     public String deleteReviewForLocation(@PathVariable Integer id,
                                           HttpServletRequest req) {
