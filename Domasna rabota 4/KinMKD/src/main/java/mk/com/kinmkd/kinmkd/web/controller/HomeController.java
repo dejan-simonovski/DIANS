@@ -5,11 +5,10 @@ import mk.com.kinmkd.kinmkd.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("")
 public class HomeController {
+
     @GetMapping("/home")
     public String getHomePage(Model model,
                               HttpServletRequest req) {
@@ -19,6 +18,11 @@ public class HomeController {
         model.addAttribute("hasCssFile", false);
         model.addAttribute("user", (User) req.getSession().getAttribute("user"));
         return "master-layout";
+    }
+
+    @GetMapping
+    public String getHomeRedirect(){
+        return "redirect:/home";
     }
 
     @GetMapping("/about")
