@@ -1,0 +1,2106 @@
+[
+    {
+        "id": 1,
+        "lat": 41.9936737,
+        "lon": 21.433319,
+        "name": "Питу Гули",
+        "nameEN": "Pitu Guli",
+        "categoryId": 1
+    },
+    {
+        "id": 2,
+        "lat": 42.0032812,
+        "lon": 21.4233737,
+        "name": "Гоце Делчев",
+        "nameEN": "Goce Delchev",
+        "categoryId": 1
+    },
+    {
+        "id": 3,
+        "lat": 42.0008716,
+        "lon": 21.4338778,
+        "name": "Влез на Скопското кале",
+        "nameEN": "Skopje Fortress Gate",
+        "categoryId": 2
+    },
+    {
+        "id": 4,
+        "lat": 42.0195738,
+        "lon": 20.960153,
+        "name": "Тетовско Кале",
+        "nameEN": "Tetovo Fortress",
+        "categoryId": 2
+    },
+    {
+        "id": 5,
+        "lat": 41.4325212,
+        "lon": 22.0228463,
+        "name": "Костурница",
+        "nameEN": "Kosturnica",
+        "categoryId": 1
+    },
+    {
+        "id": 6,
+        "lat": 41.1155576,
+        "lon": 20.7914836,
+        "name": "Лихнид",
+        "nameEN": "Lichnid",
+        "categoryId": 3
+    },
+    {
+        "id": 7,
+        "lat": 41.3377228,
+        "lon": 21.257898,
+        "name": "Мечкин Камен",
+        "nameEN": "Mechkin Kamen",
+        "categoryId": 1
+    },
+    {
+        "id": 8,
+        "lat": 41.3880768,
+        "lon": 21.2273776,
+        "name": "Слива",
+        "nameEN": "Sliva",
+        "categoryId": 1
+    },
+    {
+        "id": 9,
+        "lat": 41.5113691,
+        "lon": 21.6904592,
+        "name": "Споменин на паднатите борци",
+        "nameEN": "Monument of fallen fighters",
+        "categoryId": 1
+    },
+    {
+        "id": 10,
+        "lat": 41.9188903,
+        "lon": 22.4069917,
+        "name": "Споменик на слободата",
+        "nameEN": "Monument of Freedom",
+        "categoryId": 1
+    },
+    {
+        "id": 11,
+        "lat": 42.2916094,
+        "lon": 22.3507979,
+        "name": "Борба од втората светска војна - 17та македонска бригада против бугарската армија",
+        "nameEN": "WWII Battle - 17th Macedonian Brigade ws Bulgarian army",
+        "categoryId": 1
+    },
+    {
+        "id": 12,
+        "lat": 41.1776616,
+        "lon": 20.679835,
+        "name": "Споменик на Револуцијата",
+        "nameEN": "Monument of the Revolution",
+        "categoryId": 1
+    },
+    {
+        "id": 13,
+        "lat": 41.9959035,
+        "lon": 21.4314474,
+        "name": "Споменик на Александар Македонски",
+        "nameEN": "Statue of Alexander the Great",
+        "categoryId": 1
+    },
+    {
+        "id": 14,
+        "lat": 42.0586697,
+        "lon": 21.3527926,
+        "name": "Римска црква",
+        "nameEN": "Roman church",
+        "categoryId": 2
+    },
+    {
+        "id": 15,
+        "lat": 42.0843452,
+        "lon": 21.3548716,
+        "name": "Давина Кула",
+        "nameEN": "Davina Kula",
+        "categoryId": 2
+    },
+    {
+        "id": 16,
+        "lat": 42.0587494,
+        "lon": 21.2786993,
+        "name": "Голема Кула - Кучково",
+        "nameEN": "Great Tower - Kuchkovo",
+        "categoryId": 2
+    },
+    {
+        "id": 17,
+        "lat": 42.0585741,
+        "lon": 21.2844339,
+        "name": "Мала Кула - Кучково",
+        "nameEN": "Small Tower - Kuchkovo",
+        "categoryId": 2
+    },
+    {
+        "id": 18,
+        "lat": 42.1355189,
+        "lon": 21.7200501,
+        "name": "Јосип Броз Тито",
+        "nameEN": "Josip Broz Tito",
+        "categoryId": 1
+    },
+    {
+        "id": 19,
+        "lat": 42.0766913,
+        "lon": 21.398848,
+        "name": "Археолошки парк Бразда",
+        "nameEN": "Archeological Park Brazda",
+        "categoryId": 3
+    },
+    {
+        "id": 20,
+        "lat": 41.9505936,
+        "lon": 21.2991931,
+        "name": "Манастир Св. Андреј",
+        "nameEN": "Monastery St. Andrej",
+        "categoryId": 2
+    },
+    {
+        "id": 21,
+        "lat": 42.0017233,
+        "lon": 21.4617772,
+        "name": "Филип Втори",
+        "nameEN": "Philip II",
+        "categoryId": 1
+    },
+    {
+        "id": 22,
+        "lat": 41.9984602,
+        "lon": 21.4349949,
+        "name": "Филип II Македонски",
+        "nameEN": "Philip II of Macedon",
+        "categoryId": 1
+    },
+    {
+        "id": 23,
+        "lat": 41.9983057,
+        "lon": 21.4254968,
+        "name": "Св. Климент Охридски",
+        "nameEN": "Clement of Ohrid",
+        "categoryId": 1
+    },
+    {
+        "id": 24,
+        "lat": 41.9993163,
+        "lon": 21.437162,
+        "name": "Скендербег",
+        "nameEN": "Skanderbeg",
+        "categoryId": 1
+    },
+    {
+        "id": 25,
+        "lat": 40.8570205,
+        "lon": 21.1195933,
+        "name": "Маркова Нога",
+        "nameEN": "Markova Noga",
+        "categoryId": 1
+    },
+    {
+        "id": 26,
+        "lat": 42.1706665,
+        "lon": 21.809838,
+        "name": "Костоперска Карпа",
+        "nameEN": "Kostoperska Karpa",
+        "categoryId": 1
+    },
+    {
+        "id": 27,
+        "lat": 42.2633818,
+        "lon": 21.953118,
+        "name": "Кокино",
+        "nameEN": "Kokino",
+        "categoryId": 3
+    },
+    {
+        "id": 28,
+        "lat": 42.1355778,
+        "lon": 21.7194275,
+        "name": "Јосип Броз - Тито",
+        "nameEN": "Josip Broz - Tito",
+        "categoryId": 1
+    },
+    {
+        "id": 29,
+        "lat": 42.2782511,
+        "lon": 21.8500367,
+        "name": "Меморијален центар АСНОМ",
+        "nameEN": "Memorial Center ASNOM",
+        "categoryId": 2
+    },
+    {
+        "id": 30,
+        "lat": 41.794932,
+        "lon": 20.9108574,
+        "name": "Саат кула",
+        "nameEN": "Clock tower",
+        "categoryId": 2
+    },
+    {
+        "id": 31,
+        "lat": 42.1068795,
+        "lon": 21.1545235,
+        "name": "Орашко Кале",
+        "nameEN": "Orashko Kale",
+        "categoryId": 2
+    },
+    {
+        "id": 32,
+        "lat": 41.5119269,
+        "lon": 20.9702432,
+        "name": "Саат кула",
+        "nameEN": "Clock tower",
+        "categoryId": 2
+    },
+    {
+        "id": 33,
+        "lat": 41.7140782,
+        "lon": 21.7840512,
+        "name": "Саат кула",
+        "nameEN": "Clock tower",
+        "categoryId": 2
+    },
+    {
+        "id": 34,
+        "lat": 41.2775784,
+        "lon": 22.4937679,
+        "name": "Исар Марвинци",
+        "nameEN": "Isar Marvinci",
+        "categoryId": 3
+    },
+    {
+        "id": 35,
+        "lat": 41.3451182,
+        "lon": 21.5519842,
+        "name": "Народен Херој Кузман Јосифоски-Питу",
+        "nameEN": "Peoples hero Kuzman Josifoski-Pitu",
+        "categoryId": 1
+    },
+    {
+        "id": 36,
+        "lat": 41.3451518,
+        "lon": 21.554267,
+        "name": "Пеце Атанасоски",
+        "nameEN": "Pece Atanasovski",
+        "categoryId": 1
+    },
+    {
+        "id": 37,
+        "lat": 41.3452617,
+        "lon": 21.5522173,
+        "name": "Ѓорче Петров",
+        "nameEN": "Gjorche Petrov",
+        "categoryId": 1
+    },
+    {
+        "id": 38,
+        "lat": 41.3748344,
+        "lon": 21.2480535,
+        "name": "Питу Гули",
+        "nameEN": "Pitu Guli",
+        "categoryId": 1
+    },
+    {
+        "id": 39,
+        "lat": 41.3748686,
+        "lon": 21.2482546,
+        "name": "Тоше Проески",
+        "nameEN": "Tose Proeski",
+        "categoryId": 1
+    },
+    {
+        "id": 40,
+        "lat": 41.3736665,
+        "lon": 21.2463296,
+        "name": "Никола Карев",
+        "nameEN": "Nikola Karev",
+        "categoryId": 1
+    },
+    {
+        "id": 41,
+        "lat": 41.024615,
+        "lon": 21.3368929,
+        "name": "Стефан Наумов-Стив",
+        "nameEN": "Stefan Naumov-Stiv",
+        "categoryId": 1
+    },
+    {
+        "id": 42,
+        "lat": 41.3649692,
+        "lon": 21.2497316,
+        "name": "Споменик на Питу Гули",
+        "nameEN": "Statue of Pitu Guli",
+        "categoryId": 1
+    },
+    {
+        "id": 43,
+        "lat": 41.3653856,
+        "lon": 21.2484409,
+        "name": "Наум Наумоски-Борче",
+        "nameEN": "Naum Naumoski-Borche",
+        "categoryId": 1
+    },
+    {
+        "id": 44,
+        "lat": 41.5516379,
+        "lon": 21.9751675,
+        "name": "Римски театар",
+        "nameEN": "Roman theater",
+        "categoryId": 2
+    },
+    {
+        "id": 45,
+        "lat": 42.0836218,
+        "lon": 21.9862589,
+        "name": "Цоцев Камен",
+        "nameEN": "Cocev Kamen",
+        "categoryId": 3
+    },
+    {
+        "id": 46,
+        "lat": 40.9765203,
+        "lon": 20.9119981,
+        "name": "Преспанско Советување",
+        "nameEN": "Prespansko Sovetuvanje",
+        "categoryId": 1
+    },
+    {
+        "id": 47,
+        "lat": 41.3475544,
+        "lon": 21.5564074,
+        "name": "Карпалак",
+        "nameEN": "Karpalak",
+        "categoryId": 1
+    },
+    {
+        "id": 48,
+        "lat": 42.1491368,
+        "lon": 21.7853235,
+        "name": "Спомен Зебрњак",
+        "nameEN": "Spomen Zebrnjak",
+        "categoryId": 2
+    },
+    {
+        "id": 49,
+        "lat": 41.1126936,
+        "lon": 20.7995376,
+        "name": "Свети Климент Охридски",
+        "nameEN": "Monument St. Clement Ohridski",
+        "categoryId": 1
+    },
+    {
+        "id": 50,
+        "lat": 41.1120476,
+        "lon": 20.799994,
+        "name": "Свети Кирил и Методиј",
+        "nameEN": "Monuments of Saints Cyril and Methodius",
+        "categoryId": 1
+    },
+    {
+        "id": 51,
+        "lat": 41.1122955,
+        "lon": 20.7990226,
+        "name": "Свети Наум Охридски Чудотворец",
+        "nameEN": "Monument to St. Naum of Ohrid",
+        "categoryId": 1
+    },
+    {
+        "id": 52,
+        "lat": 41.1124606,
+        "lon": 20.7977703,
+        "name": "Долна Порта",
+        "nameEN": "Lower Gate",
+        "categoryId": 2
+    },
+    {
+        "id": 53,
+        "lat": 42.0853984,
+        "lon": 21.9627449,
+        "name": "Мачка камен",
+        "nameEN": "Macka kamen",
+        "categoryId": 3
+    },
+    {
+        "id": 54,
+        "lat": 41.4182291,
+        "lon": 21.0770931,
+        "name": "Христо Узунов",
+        "nameEN": "Hristo Uzunov",
+        "categoryId": 1
+    },
+    {
+        "id": 55,
+        "lat": 41.0596796,
+        "lon": 20.8135106,
+        "name": "Св. Никола",
+        "nameEN": "Sv. Nikola",
+        "categoryId": 2
+    },
+    {
+        "id": 56,
+        "lat": 41.9062629,
+        "lon": 20.9636151,
+        "name": "Споменик на жртви од НОВ",
+        "nameEN": "Spomenik na zhrtvi od NOV",
+        "categoryId": 1
+    },
+    {
+        "id": 57,
+        "lat": 41.3460556,
+        "lon": 21.5524989,
+        "name": "Александар Македонски",
+        "nameEN": "Alexander Macedonian",
+        "categoryId": 1
+    },
+    {
+        "id": 58,
+        "lat": 41.3462544,
+        "lon": 21.5528281,
+        "name": "Методија Андонов-Ченто",
+        "nameEN": "Metodija Andonov-Chento",
+        "categoryId": 1
+    },
+    {
+        "id": 59,
+        "lat": 41.822914,
+        "lon": 21.7360635,
+        "name": "Масакр кај Пуста Кула",
+        "nameEN": "Masakr kaj Pusta Kula",
+        "categoryId": 1
+    },
+    {
+        "id": 60,
+        "lat": 41.3434323,
+        "lon": 21.5479723,
+        "name": "Карпалак 2001",
+        "nameEN": "Karpalak 2001",
+        "categoryId": 1
+    },
+    {
+        "id": 61,
+        "lat": 41.3341123,
+        "lon": 21.554646,
+        "name": "Крипта",
+        "nameEN": "Cript",
+        "categoryId": 1
+    },
+    {
+        "id": 62,
+        "lat": 41.345456,
+        "lon": 21.5548417,
+        "name": "Итар Пејо",
+        "nameEN": "Sly Peter",
+        "categoryId": 1
+    },
+    {
+        "id": 63,
+        "lat": 41.975162,
+        "lon": 22.8187714,
+        "name": "Дедо Јаким - Воденица",
+        "nameEN": "Dedo Jakim - Mill",
+        "categoryId": 2
+    },
+    {
+        "id": 64,
+        "lat": 41.9769054,
+        "lon": 22.8193451,
+        "name": "Илин Камен",
+        "nameEN": "Ilin Kamen",
+        "categoryId": 1
+    },
+    {
+        "id": 65,
+        "lat": 41.9668611,
+        "lon": 22.7768724,
+        "name": "Гоце Делчев (Биста)",
+        "nameEN": "Goce Delchev",
+        "categoryId": 1
+    },
+    {
+        "id": 66,
+        "lat": 41.9643843,
+        "lon": 22.7742882,
+        "name": "Гоце Делчев",
+        "nameEN": "Goce Delchev",
+        "categoryId": 1
+    },
+    {
+        "id": 67,
+        "lat": 41.9653801,
+        "lon": 22.7716387,
+        "name": "Споменик на паднати борци во НОБ",
+        "nameEN": "Monument for The fallen warriors of NOB",
+        "categoryId": 1
+    },
+    {
+        "id": 68,
+        "lat": 41.9425359,
+        "lon": 22.7954411,
+        "name": "Кула",
+        "nameEN": "Kula",
+        "categoryId": 3
+    },
+    {
+        "id": 69,
+        "lat": 41.9952169,
+        "lon": 21.426153,
+        "name": "Јосип Броз Титo",
+        "nameEN": "Josip Broz Tito",
+        "categoryId": 1
+    },
+    {
+        "id": 70,
+        "lat": 41.9682709,
+        "lon": 21.4313461,
+        "name": "Маркови Кули",
+        "nameEN": "Markovi Kuli",
+        "categoryId": 3
+    },
+    {
+        "id": 71,
+        "lat": 41.139367,
+        "lon": 22.5093733,
+        "name": "Леонид Јанков",
+        "nameEN": "Leonid Jankov",
+        "categoryId": 1
+    },
+    {
+        "id": 72,
+        "lat": 41.9977079,
+        "lon": 21.4339766,
+        "name": "Св. Кирил и Методиј",
+        "nameEN": "Saints Cyril and Methodius",
+        "categoryId": 1
+    },
+    {
+        "id": 73,
+        "lat": 41.9975624,
+        "lon": 21.4341509,
+        "name": "Св. Климент Охридски и Наум Охридски Чудотворец",
+        "nameEN": "Saints Clement of Ohrid and Naum",
+        "categoryId": 1
+    },
+    {
+        "id": 74,
+        "lat": 41.9953917,
+        "lon": 21.4313414,
+        "name": "Цар Самоил",
+        "nameEN": "Tsar Samuel",
+        "categoryId": 1
+    },
+    {
+        "id": 75,
+        "lat": 41.9964949,
+        "lon": 21.4321474,
+        "name": "Даме Груев",
+        "nameEN": "Dame Gruev",
+        "categoryId": 1
+    },
+    {
+        "id": 76,
+        "lat": 41.9968799,
+        "lon": 21.4323054,
+        "name": "Јустинијан I",
+        "nameEN": "Justinian I",
+        "categoryId": 1
+    },
+    {
+        "id": 77,
+        "lat": 41.9979046,
+        "lon": 21.4344182,
+        "name": "Олимпија",
+        "nameEN": "Olympias",
+        "categoryId": 1
+    },
+    {
+        "id": 78,
+        "lat": 41.993303,
+        "lon": 21.4337226,
+        "name": "Прометеј",
+        "nameEN": "Prometheus",
+        "categoryId": 1
+    },
+    {
+        "id": 79,
+        "lat": 41.9834333,
+        "lon": 21.439106,
+        "name": "Тодор Александров",
+        "nameEN": "Todor Aleksandrov",
+        "categoryId": 1
+    },
+    {
+        "id": 80,
+        "lat": 41.9936684,
+        "lon": 21.4317487,
+        "name": "Бегова кула",
+        "nameEN": "Beygov Tower",
+        "categoryId": 2
+    },
+    {
+        "id": 81,
+        "lat": 41.4166941,
+        "lon": 22.7549207,
+        "name": "Гоце Делчев",
+        "nameEN": "Goce Delcev",
+        "categoryId": 1
+    },
+    {
+        "id": 82,
+        "lat": 41.3661079,
+        "lon": 21.6749495,
+        "name": "Борка Талески-Модерното / Лазо Филиповски-Лавски",
+        "nameEN": "Borka Taleski / Lazo Filipovski",
+        "categoryId": 1
+    },
+    {
+        "id": 83,
+        "lat": 40.9142149,
+        "lon": 20.7412554,
+        "name": "Свети Наум",
+        "nameEN": "St. Naum",
+        "categoryId": 1
+    },
+    {
+        "id": 84,
+        "lat": 41.736405,
+        "lon": 22.1903758,
+        "name": "Споменик на загинатите евреи",
+        "nameEN": "Monument for the fallen Jews",
+        "categoryId": 1
+    },
+    {
+        "id": 85,
+        "lat": 42.000853,
+        "lon": 21.4375046,
+        "name": "Мустафа-пашина џамија",
+        "nameEN": "Murat Pasha Mosque",
+        "categoryId": 2
+    },
+    {
+        "id": 86,
+        "lat": 41.9130467,
+        "lon": 21.4333848,
+        "name": "Vila Varvarka",
+        "nameEN": "Vila Varvarka",
+        "categoryId": 2
+    },
+    {
+        "id": 87,
+        "lat": 41.9949279,
+        "lon": 21.4108745,
+        "name": "Споменик на Јуриј Гагарин",
+        "nameEN": "Yuri Gagarin Monument",
+        "categoryId": 2
+    },
+    {
+        "id": 88,
+        "lat": 41.9930188,
+        "lon": 21.4332009,
+        "name": "Никола Карев",
+        "nameEN": "Nikola Karev",
+        "categoryId": 2
+    },
+    {
+        "id": 89,
+        "lat": 42.0016804,
+        "lon": 21.4283664,
+        "name": "Вера Јоциќ",
+        "nameEN": "Vera Jocik",
+        "categoryId": 1
+    },
+    {
+        "id": 90,
+        "lat": 41.3455416,
+        "lon": 21.5532375,
+        "name": "Марко Мрњавчевиќ",
+        "nameEN": "Marko Mrnjavchevikj",
+        "categoryId": 1
+    },
+    {
+        "id": 91,
+        "lat": 41.3450704,
+        "lon": 21.5505634,
+        "name": "Круме Кепески",
+        "nameEN": "Krume Kepeski",
+        "categoryId": 1
+    },
+    {
+        "id": 92,
+        "lat": 41.3451329,
+        "lon": 21.5506707,
+        "name": "Блаже Конески",
+        "nameEN": "Blazhe Koneski",
+        "categoryId": 1
+    },
+    {
+        "id": 93,
+        "lat": 41.3451792,
+        "lon": 21.5505581,
+        "name": "Марко Цепенков",
+        "nameEN": "Marko Cepenkov",
+        "categoryId": 1
+    },
+    {
+        "id": 94,
+        "lat": 41.5130946,
+        "lon": 20.9663459,
+        "name": "Китино Кале",
+        "nameEN": "Kita Castle",
+        "categoryId": 2
+    },
+    {
+        "id": 95,
+        "lat": 41.158263,
+        "lon": 22.5006786,
+        "name": "Споменик на слободата",
+        "nameEN": "Monument of freedom",
+        "categoryId": 1
+    },
+    {
+        "id": 96,
+        "lat": 42.0048505,
+        "lon": 21.4368762,
+        "name": "Џамија",
+        "nameEN": "Haji Balaban Masjid",
+        "categoryId": 2
+    },
+    {
+        "id": 97,
+        "lat": 41.3738524,
+        "lon": 21.5025867,
+        "name": "Борецот",
+        "nameEN": "Fighter",
+        "categoryId": 1
+    },
+    {
+        "id": 98,
+        "lat": 41.1736526,
+        "lon": 20.6783749,
+        "name": "Сергеј Есенин",
+        "nameEN": "Sergej Esenin",
+        "categoryId": 1
+    },
+    {
+        "id": 99,
+        "lat": 42.0769461,
+        "lon": 22.1823517,
+        "name": "Емин-бегова кула",
+        "nameEN": "Emin Bey Tower",
+        "categoryId": 2
+    },
+    {
+        "id": 100,
+        "lat": 42.0768838,
+        "lon": 22.1826261,
+        "name": "Крстева кула",
+        "nameEN": "Krsteva Tower",
+        "categoryId": 2
+    },
+    {
+        "id": 101,
+        "lat": 41.1949939,
+        "lon": 22.6878453,
+        "name": "Споменик „Солунски фронт“ од I светска војна",
+        "nameEN": "World War I Salonica Front memorial",
+        "categoryId": 1
+    },
+    {
+        "id": 102,
+        "lat": 42.0768628,
+        "lon": 22.1822635,
+        "name": "Хаџикостова кула",
+        "nameEN": "Hadji Kostov Tower",
+        "categoryId": 2
+    },
+    {
+        "id": 103,
+        "lat": 42.0792053,
+        "lon": 22.1818109,
+        "name": "Саат-кула",
+        "nameEN": "Clock Tower",
+        "categoryId": 2
+    },
+    {
+        "id": 104,
+        "lat": 42.0788289,
+        "lon": 22.1809805,
+        "name": "Златковичева кула",
+        "nameEN": "Zlatkovich Tower",
+        "categoryId": 2
+    },
+    {
+        "id": 105,
+        "lat": 42.0786957,
+        "lon": 22.1794714,
+        "name": "Симиќева кула",
+        "nameEN": "Simikj Tower",
+        "categoryId": 2
+    },
+    {
+        "id": 106,
+        "lat": 41.1142035,
+        "lon": 20.7958058,
+        "name": "Григор Прличев",
+        "nameEN": "Grigor Prlicev grave",
+        "categoryId": 1
+    },
+    {
+        "id": 107,
+        "lat": 41.1745272,
+        "lon": 20.6778868,
+        "name": "Никола Кукунешоски - Дунѓерски",
+        "nameEN": "Nikola Kukuneshoski - Dungjerski",
+        "categoryId": 1
+    },
+    {
+        "id": 108,
+        "lat": 41.1747311,
+        "lon": 20.6779485,
+        "name": "Крсте Јовановски",
+        "nameEN": "Krste Jovanovski",
+        "categoryId": 1
+    },
+    {
+        "id": 109,
+        "lat": 41.1749451,
+        "lon": 20.6779833,
+        "name": "Димче Кошаркоски",
+        "nameEN": "Dimche Kosharoski",
+        "categoryId": 1
+    },
+    {
+        "id": 110,
+        "lat": 41.1756537,
+        "lon": 20.6782194,
+        "name": "Боро Шаин",
+        "nameEN": "Boro Shain",
+        "categoryId": 1
+    },
+    {
+        "id": 111,
+        "lat": 41.1755185,
+        "lon": 20.6781791,
+        "name": "Јово Стефановски - Риле",
+        "nameEN": "Jovo Stefanovski - Rile",
+        "categoryId": 1
+    },
+    {
+        "id": 112,
+        "lat": 41.1753893,
+        "lon": 20.6781416,
+        "name": "Разме Малески",
+        "nameEN": "Razme Maleski",
+        "categoryId": 1
+    },
+    {
+        "id": 113,
+        "lat": 41.1752843,
+        "lon": 20.6781067,
+        "name": "Петре Гончески - Гиле",
+        "nameEN": "Petre Gonceski - Gile",
+        "categoryId": 1
+    },
+    {
+        "id": 114,
+        "lat": 41.05924,
+        "lon": 20.8033957,
+        "name": "Св. Благовештение",
+        "nameEN": "Sv. Blagoveshtenie",
+        "categoryId": 2
+    },
+    {
+        "id": 115,
+        "lat": 41.9963577,
+        "lon": 21.4323793,
+        "name": "Гоце Делчев",
+        "nameEN": "Goce Delchev",
+        "categoryId": 1
+    },
+    {
+        "id": 116,
+        "lat": 42.1003011,
+        "lon": 21.9665342,
+        "name": "Коњув",
+        "nameEN": "Konjuh",
+        "categoryId": 3
+    },
+    {
+        "id": 117,
+        "lat": 41.7995125,
+        "lon": 22.289829,
+        "name": "Баргала",
+        "nameEN": "Bargala",
+        "categoryId": 3
+    },
+    {
+        "id": 118,
+        "lat": 41.3825161,
+        "lon": 22.7542141,
+        "name": "Римски бањи",
+        "nameEN": "Roman Bathhouse",
+        "categoryId": 3
+    },
+    {
+        "id": 119,
+        "lat": 41.9963717,
+        "lon": 21.4339472,
+        "name": "Мост на цивилизациите",
+        "nameEN": "The Bridge of Civilizations in Macedonia",
+        "categoryId": 2
+    },
+    {
+        "id": 120,
+        "lat": 41.9952759,
+        "lon": 21.4319995,
+        "name": "Спомен плоча на Мајка Тереза",
+        "nameEN": "Mother Teresa Old House Place",
+        "categoryId": 2
+    },
+    {
+        "id": 121,
+        "lat": 41.1057278,
+        "lon": 20.8078335,
+        "name": "Ард ден Долард",
+        "nameEN": "Aard den Dolaard",
+        "categoryId": 1
+    },
+    {
+        "id": 122,
+        "lat": 41.9957136,
+        "lon": 21.4306041,
+        "name": "Методија Андонов - Ченто",
+        "nameEN": "Metodija Andonov - Cento",
+        "categoryId": 1
+    },
+    {
+        "id": 123,
+        "lat": 41.7213441,
+        "lon": 22.6569551,
+        "name": "Споменик на Малешевскиот (Малешки) народноослободителен одред",
+        "nameEN": "Monument of the hero from Maleshevo",
+        "categoryId": 1
+    },
+    {
+        "id": 124,
+        "lat": 41.0043725,
+        "lon": 20.9282003,
+        "name": "Кале",
+        "nameEN": "Kale",
+        "categoryId": 2
+    },
+    {
+        "id": 125,
+        "lat": 41.9856377,
+        "lon": 22.5905605,
+        "name": "Калата",
+        "nameEN": "Kalata",
+        "categoryId": 3
+    },
+    {
+        "id": 126,
+        "lat": 41.6952366,
+        "lon": 21.628172,
+        "name": "Бањичко Кале",
+        "nameEN": "Banjica Fortress",
+        "categoryId": 2
+    },
+    {
+        "id": 127,
+        "lat": 41.3747079,
+        "lon": 20.7630424,
+        "name": "Мирче Ацев Баталјон",
+        "nameEN": "Mirche Acev Bataljon",
+        "categoryId": 1
+    },
+    {
+        "id": 128,
+        "lat": 41.9943288,
+        "lon": 21.4307922,
+        "name": "2 музичари и еден танцер",
+        "nameEN": "2 musicians and one dancing man",
+        "categoryId": 1
+    },
+    {
+        "id": 129,
+        "lat": 41.1120953,
+        "lon": 20.795694,
+        "name": "Коста Абраш",
+        "nameEN": "Kosta Abrash",
+        "categoryId": 1
+    },
+    {
+        "id": 130,
+        "lat": 41.2754595,
+        "lon": 21.3684104,
+        "name": "Љубе Грујоски",
+        "nameEN": "Ljube Grujoski",
+        "categoryId": 1
+    },
+    {
+        "id": 131,
+        "lat": 41.1857198,
+        "lon": 22.7227512,
+        "name": "Споменик на Дојрана",
+        "nameEN": "Dojrana",
+        "categoryId": 1
+    },
+    {
+        "id": 132,
+        "lat": 41.1825947,
+        "lon": 22.7233826,
+        "name": "Чешма Света Петка",
+        "nameEN": "Faucet St. Petka",
+        "categoryId": 2
+    },
+    {
+        "id": 133,
+        "lat": 41.3724643,
+        "lon": 21.5605466,
+        "name": "Дабнички масакр",
+        "nameEN": "Masacre of Dabnica",
+        "categoryId": 1
+    },
+    {
+        "id": 134,
+        "lat": 41.2064953,
+        "lon": 21.6536957,
+        "name": "Толе Паша",
+        "nameEN": "Tole Pasha",
+        "categoryId": 1
+    },
+    {
+        "id": 135,
+        "lat": 42.022416,
+        "lon": 21.5476216,
+        "name": "Ацо Ангеловски",
+        "nameEN": "Aco Angelovski",
+        "categoryId": 1
+    },
+    {
+        "id": 136,
+        "lat": 42.0225556,
+        "lon": 21.5480468,
+        "name": "Кирил Петрушевски",
+        "nameEN": "Kiril Petrushevski",
+        "categoryId": 1
+    },
+    {
+        "id": 137,
+        "lat": 42.0227044,
+        "lon": 21.5486015,
+        "name": "Ерол Готак",
+        "nameEN": "Erol Gotak",
+        "categoryId": 1
+    },
+    {
+        "id": 138,
+        "lat": 41.9764851,
+        "lon": 21.1660504,
+        "name": "Нане Наумоски",
+        "nameEN": "Nane Naumoski",
+        "categoryId": 1
+    },
+    {
+        "id": 139,
+        "lat": 41.977847,
+        "lon": 21.1773385,
+        "name": "Сашо Китаноски",
+        "nameEN": "Sasho Kitanoski",
+        "categoryId": 1
+    },
+    {
+        "id": 140,
+        "lat": 41.97753,
+        "lon": 21.1679024,
+        "name": "Бранко Секулоски",
+        "nameEN": "Branko Sekuloski",
+        "categoryId": 1
+    },
+    {
+        "id": 141,
+        "lat": 41.9781971,
+        "lon": 21.1745241,
+        "name": "Горан Миноски",
+        "nameEN": "Goran Minoski",
+        "categoryId": 1
+    },
+    {
+        "id": 142,
+        "lat": 41.977893,
+        "lon": 21.1713626,
+        "name": "Марко Деспотоски",
+        "nameEN": "Marko Despotoski",
+        "categoryId": 1
+    },
+    {
+        "id": 143,
+        "lat": 41.9767167,
+        "lon": 21.1675604,
+        "name": "Ердован Шабаноски",
+        "nameEN": "Erdovan Shabanoski",
+        "categoryId": 1
+    },
+    {
+        "id": 144,
+        "lat": 41.9772958,
+        "lon": 21.1694976,
+        "name": "Љубе Грујоски",
+        "nameEN": "Ljube Grujoski",
+        "categoryId": 1
+    },
+    {
+        "id": 145,
+        "lat": 41.9770406,
+        "lon": 21.1717935,
+        "name": "Дарко Велјаноски",
+        "nameEN": "Darko Veljanoski",
+        "categoryId": 1
+    },
+    {
+        "id": 146,
+        "lat": 41.9767893,
+        "lon": 21.1747438,
+        "name": "Веби Рушитоски",
+        "nameEN": "Vebi Rushitoski",
+        "categoryId": 1
+    },
+    {
+        "id": 147,
+        "lat": 41.977042,
+        "lon": 21.1770879,
+        "name": "Пеце Секулоски",
+        "nameEN": "Pece Sekuloski",
+        "categoryId": 1
+    },
+    {
+        "id": 148,
+        "lat": 41.3575814,
+        "lon": 21.6256855,
+        "name": "Карпалак",
+        "nameEN": "Karpalak",
+        "categoryId": 1
+    },
+    {
+        "id": 149,
+        "lat": 41.4014262,
+        "lon": 22.0284286,
+        "name": "Масакр во Ваташа",
+        "nameEN": "Vatasha Massacre",
+        "categoryId": 1
+    },
+    {
+        "id": 150,
+        "lat": 41.3428704,
+        "lon": 21.5583071,
+        "name": "Пере Тошев",
+        "nameEN": "Pere Toshev",
+        "categoryId": 1
+    },
+    {
+        "id": 151,
+        "lat": 41.4436592,
+        "lon": 20.8721449,
+        "name": "Дуко Ташев",
+        "nameEN": "Duko Tasev",
+        "categoryId": 1
+    },
+    {
+        "id": 152,
+        "lat": 41.4831122,
+        "lon": 20.9229426,
+        "name": "Гоце Делчев",
+        "nameEN": "Goce Delcev",
+        "categoryId": 1
+    },
+    {
+        "id": 153,
+        "lat": 41.483575,
+        "lon": 20.9222623,
+        "name": "Христо Узунов",
+        "nameEN": "Hristo Uzunov",
+        "categoryId": 1
+    },
+    {
+        "id": 154,
+        "lat": 41.4528994,
+        "lon": 20.9658462,
+        "name": "Битката на Ѓурѓејца",
+        "nameEN": "Battle of Gjurgjejca",
+        "categoryId": 1
+    },
+    {
+        "id": 155,
+        "lat": 41.8646892,
+        "lon": 21.942062,
+        "name": "Споменик Св. Никола",
+        "nameEN": "Monument of St. Nicholas",
+        "categoryId": 1
+    },
+    {
+        "id": 156,
+        "lat": 41.8644645,
+        "lon": 21.9410121,
+        "name": "Споменик Лазар Колишевски",
+        "nameEN": "Monument Lazar Kolishevski",
+        "categoryId": 1
+    },
+    {
+        "id": 157,
+        "lat": 41.9156602,
+        "lon": 22.412778,
+        "name": "Споменик на Никола Карев",
+        "nameEN": "Monument to Nikola Karev",
+        "categoryId": 1
+    },
+    {
+        "id": 158,
+        "lat": 41.3464944,
+        "lon": 21.5629735,
+        "name": "Кире Гаврилоски-Јане / Круме Волнароски-Коља",
+        "nameEN": "Kire Gavriloski-Jane / Krume Volnaroski-Kolja",
+        "categoryId": 1
+    },
+    {
+        "id": 159,
+        "lat": 41.3421058,
+        "lon": 21.5572532,
+        "name": "Александар Македонски",
+        "nameEN": "Alexander The Great",
+        "categoryId": 1
+    },
+    {
+        "id": 160,
+        "lat": 41.3761727,
+        "lon": 21.2464617,
+        "name": "Мирослав Јоксимовиќ",
+        "nameEN": "Miroslav Joksimovikj",
+        "categoryId": 1
+    },
+    {
+        "id": 161,
+        "lat": 41.3653786,
+        "lon": 21.2488407,
+        "name": "Кица Петрески",
+        "nameEN": "Kica Petreski",
+        "categoryId": 1
+    },
+    {
+        "id": 162,
+        "lat": 41.366045,
+        "lon": 20.6489384,
+        "name": "1. Бригада",
+        "nameEN": "1st Brigade",
+        "categoryId": 1
+    },
+    {
+        "id": 163,
+        "lat": 41.9998632,
+        "lon": 21.4292436,
+        "name": "Ослободителите на Скопје",
+        "nameEN": "Monument to the Liberators of Skopje",
+        "categoryId": 1
+    },
+    {
+        "id": 164,
+        "lat": 41.9998618,
+        "lon": 21.4485415,
+        "name": "Генерал Михаило Апостолски",
+        "nameEN": "General Mihailo Apostoloski",
+        "categoryId": 1
+    },
+    {
+        "id": 165,
+        "lat": 41.9960184,
+        "lon": 21.4412009,
+        "name": "Крсте Петков Мисирков",
+        "nameEN": "Krste Petkov Misirkov",
+        "categoryId": 1
+    },
+    {
+        "id": 166,
+        "lat": 41.9960802,
+        "lon": 21.4408764,
+        "name": "Блаже Конески",
+        "nameEN": "Blaze Koneski",
+        "categoryId": 1
+    },
+    {
+        "id": 167,
+        "lat": 41.1119818,
+        "lon": 20.799333,
+        "name": "Фаќач на чесниот крст",
+        "nameEN": "Beholder of the Holy Cross",
+        "categoryId": 1
+    },
+    {
+        "id": 168,
+        "lat": 41.9945304,
+        "lon": 21.4326511,
+        "name": "Павел Шатев",
+        "nameEN": "Pavel Šatev",
+        "categoryId": 1
+    },
+    {
+        "id": 169,
+        "lat": 41.993726,
+        "lon": 21.4332709,
+        "name": "Невена Георгиева-Дуња",
+        "nameEN": "Nevena Georgieva-Dunja",
+        "categoryId": 1
+    },
+    {
+        "id": 170,
+        "lat": 42.0640097,
+        "lon": 21.0288552,
+        "name": "Ѓоко Лазаревски",
+        "nameEN": "Gjoko Lazarevski",
+        "categoryId": 1
+    },
+    {
+        "id": 171,
+        "lat": 42.0700178,
+        "lon": 21.027212,
+        "name": "Теодорит",
+        "nameEN": "Teodorit",
+        "categoryId": 1
+    },
+    {
+        "id": 172,
+        "lat": 42.0669654,
+        "lon": 21.0282911,
+        "name": "Кирил Пејчиновиќ-Тетоец",
+        "nameEN": "Kiril Pejchinovikj-Tetoec",
+        "categoryId": 1
+    },
+    {
+        "id": 173,
+        "lat": 42.0668701,
+        "lon": 21.0285176,
+        "name": "Загинати Лешочани во војните 1903-2001",
+        "nameEN": "Fallen during the wars in Leshochani 1903-2001",
+        "categoryId": 1
+    },
+    {
+        "id": 174,
+        "lat": 41.1141534,
+        "lon": 20.798276,
+        "name": "Нада Филева",
+        "nameEN": "Nada Fileva",
+        "categoryId": 1
+    },
+    {
+        "id": 175,
+        "lat": 41.9986089,
+        "lon": 21.4377285,
+        "name": "Воин со пушка на коњ",
+        "nameEN": "Soldier with gun on horse",
+        "categoryId": 1
+    },
+    {
+        "id": 176,
+        "lat": 42.0043082,
+        "lon": 21.4185013,
+        "name": "Дане Краптзев",
+        "nameEN": "Dane Kraptzev",
+        "categoryId": 1
+    },
+    {
+        "id": 177,
+        "lat": 41.9918182,
+        "lon": 21.4296159,
+        "name": "Атентат на Киро Глигоров",
+        "nameEN": "Atentat of Kiro Gligorov",
+        "categoryId": 1
+    },
+    {
+        "id": 178,
+        "lat": 41.9135927,
+        "lon": 22.4105061,
+        "name": "Браќата Просветители Св. Кирил и Методиј",
+        "nameEN": "Brothers St. Cyrill and Methodius",
+        "categoryId": 1
+    },
+    {
+        "id": 179,
+        "lat": 41.9143473,
+        "lon": 22.410612,
+        "name": "Љупчо Сантов",
+        "nameEN": "Ljupco Santov",
+        "categoryId": 1
+    },
+    {
+        "id": 180,
+        "lat": 41.8768098,
+        "lon": 22.5027575,
+        "name": "Виничко Кале",
+        "nameEN": "Vinichko Kale",
+        "categoryId": 3
+    },
+    {
+        "id": 181,
+        "lat": 41.1757975,
+        "lon": 20.6778798,
+        "name": "Нико Нестор-Дживджан",
+        "nameEN": "Niko Nestor-Dzhivdzhan",
+        "categoryId": 1
+    },
+    {
+        "id": 182,
+        "lat": 41.9964125,
+        "lon": 21.4328484,
+        "name": "Споменик „Солунски атентатори и Гемиџии“",
+        "nameEN": "Monument Boatmen of Thessaloniki",
+        "categoryId": 1
+    },
+    {
+        "id": 183,
+        "lat": 41.9538189,
+        "lon": 21.288822,
+        "name": "Света Троица и Свети Ѓорѓија",
+        "nameEN": "Holy Trinity and Holy George",
+        "categoryId": 2
+    },
+    {
+        "id": 184,
+        "name": "Самуилова тврдина",
+        "nameEN": "Samuils Fortress",
+        "lat": 41.115889,
+        "lon": 20.7918305,
+        "categoryId": 2
+    },
+    {
+        "id": 185,
+        "name": "Антички театар",
+        "nameEN": "Ancient Theatre",
+        "lat": 41.114509,
+        "lon": 20.7935224,
+        "categoryId": 2
+    },
+    {
+        "id": 186,
+        "name": "Плаошник",
+        "nameEN": "Plaoshnik",
+        "lat": 41.1137069,
+        "lon": 20.7904973,
+        "categoryId": 2
+    },
+    {
+        "id": 187,
+        "name": "Споменик Сила, Слава и Победа",
+        "nameEN": "Monument power, fame and victory",
+        "lat": 42.0004656,
+        "lon": 21.4322943,
+        "categoryId": 1
+    },
+    {
+        "id": 188,
+        "name": "Хераклеа Линкестис",
+        "nameEN": "Heraclea Lyncestis",
+        "lat": 41.011223,
+        "lon": 21.3434247,
+        "categoryId": 3
+    },
+    {
+        "id": 189,
+        "name": "Меморијален центар на холокаустот на Евреите од Македонија",
+        "nameEN": "Holocaust Memorial Center for the Jews of Macedonia",
+        "lat": 41.9984101,
+        "lon": 21.4331205,
+        "categoryId": 2
+    },
+    {
+        "id": 190,
+        "name": "Антички македонски град Стоби",
+        "nameEN": "Ancient Macedonian city of Stobi",
+        "lat": 41.5509169,
+        "lon": 21.9763618,
+        "categoryId": 3
+    },
+    {
+        "id": 191,
+        "name": "Манастир „Свети Наум“",
+        "nameEN": "Monastery of Saint Naum",
+        "lat": 40.913963,
+        "lon": 20.7404962,
+        "categoryId": 2
+    },
+    {
+        "id": 192,
+        "name": "Аквадукт Скопје",
+        "nameEN": "Skopje Aqueduct",
+        "lat": 42.0237958,
+        "lon": 21.4188676,
+        "categoryId": 3
+    },
+    {
+        "id": 193,
+        "name": "Манастир Св. Јоаким Осоговски",
+        "nameEN": "Monastery of St. Joakim Osogovski",
+        "lat": 42.2091103,
+        "lon": 22.3613619,
+        "categoryId": 2
+    },
+    {
+        "id": 194,
+        "name": "Лесновски манастир",
+        "nameEN": "Lesnovo Monastery",
+        "lat": 42.0133138,
+        "lon": 22.2274526,
+        "categoryId": 2
+    },
+    {
+        "id": 195,
+        "name": "Манастир Св. Богородица",
+        "nameEN": "St. Holy Mother of God Monastery",
+        "lat": 42.1252224,
+        "lon": 21.4280757,
+        "categoryId": 2
+    },
+    {
+        "id": 196,
+        "name": "Манастир Св. Никола",
+        "nameEN": "Saint Nicholas Monastery",
+        "lat": 42.1096091,
+        "lon": 21.4692395,
+        "categoryId": 2
+    },
+    {
+        "id": 197,
+        "name": "Средновековна Кула",
+        "nameEN": "Medieval Tower",
+        "lat": 41.9215823,
+        "lon": 22.4090133,
+        "categoryId": 2
+    },
+    {
+        "id": 198,
+        "name": "Баргала",
+        "nameEN": "Bargala",
+        "lat": 41.8007957,
+        "lon": 22.2883548,
+        "categoryId": 3
+    },
+    {
+        "id": 199,
+        "name": "Китино Кале",
+        "nameEN": "Kita Castle",
+        "lat": 41.5130747,
+        "lon": 20.9666504,
+        "categoryId": 2
+    },
+    {
+        "id": 200,
+        "name": "Римска тврдина",
+        "nameEN": "Roman fortress",
+        "lat": 40.9964577,
+        "lon": 20.7969313,
+        "categoryId": 2
+    },
+    {
+        "id": 201,
+        "name": "Стара базилика",
+        "nameEN": "Old Basilica",
+        "lat": 40.867063,
+        "lon": 20.9886913,
+        "categoryId": 3
+    },
+    {
+        "id": 202,
+        "name": "Римска цистерна",
+        "nameEN": "Roman Cisterna",
+        "lat": 40.8681553,
+        "lon": 20.9903828,
+        "categoryId": 3
+    },
+    {
+        "id": 203,
+        "name": "Старохристијанска базилика",
+        "nameEN": "Old Basilica",
+        "lat": 40.8688965,
+        "lon": 20.9908415,
+        "categoryId": 3
+    },
+    {
+        "id": 204,
+        "name": "Римска Куќа",
+        "nameEN": "Roman house",
+        "lat": 40.8685639,
+        "lon": 20.9909817,
+        "categoryId": 2
+    },
+    {
+        "id": 205,
+        "name": "Ранохристијанска базилика",
+        "nameEN": "Basilica",
+        "lat": 40.8692246,
+        "lon": 20.9909743,
+        "categoryId": 3
+    },
+    {
+        "id": 206,
+        "name": "Цареви Кули",
+        "nameEN": "Czar’s Towers",
+        "lat": 41.4326225,
+        "lon": 22.6296717,
+        "categoryId": 2
+    },
+    {
+        "id": 207,
+        "name": "Спомен куќа Тоше Проески",
+        "nameEN": "Memorial house of Tose Proeski",
+        "lat": 41.3743763,
+        "lon": 21.2460773,
+        "categoryId": 2
+    },
+    {
+        "id": 208,
+        "name": "Македониум",
+        "nameEN": "Macedonium",
+        "lat": 41.377518,
+        "lon": 21.2484459,
+        "categoryId": 2
+    },
+    {
+        "id": 209,
+        "name": "Базилика Свети Еразмо",
+        "nameEN": "Basilica St. Erazmo",
+        "lat": 41.140609,
+        "lon": 20.7635431,
+        "categoryId": 3
+    },
+    {
+        "id": 210,
+        "name": "Манастир „Свети Наум",
+        "nameEN": "The Monastery of Saint Naum",
+        "lat": 40.9140882,
+        "lon": 20.7404917,
+        "categoryId": 2
+    },
+    {
+        "id": 211,
+        "name": "Вардарски Рид",
+        "nameEN": "Vardar Hill",
+        "lat": 41.1493831,
+        "lon": 22.5215329,
+        "categoryId": 3
+    },
+    {
+        "id": 212,
+        "name": "Порта Македонија",
+        "nameEN": "Porta Macedonia",
+        "lat": 41.9944086,
+        "lon": 21.4324977,
+        "categoryId": 2
+    },
+    {
+        "id": 213,
+        "name": "Шарена Џамија",
+        "nameEN": "Pashas Mosque",
+        "lat": 42.0057897,
+        "lon": 20.9666022,
+        "categoryId": 2
+    },
+    {
+        "id": 214,
+        "name": "Остатоци од Виа Егнатиа",
+        "nameEN": "Remains of Via Egnatia",
+        "lat": 41.0995115,
+        "lon": 20.6329722,
+        "categoryId": 3
+    },
+    {
+        "id": 215,
+        "name": "Стибера",
+        "nameEN": "Stibera",
+        "lat": 41.2440347,
+        "lon": 21.3984335,
+        "categoryId": 3
+    },
+    {
+        "id": 216,
+        "name": "Безистен",
+        "nameEN": "Bezisten",
+        "lat": 42.0016202,
+        "lon": 21.437018,
+        "categoryId": 4
+    },
+    {
+        "id": 217,
+        "name": "Антигона",
+        "nameEN": "Antigona",
+        "lat": 41.5022538,
+        "lon": 22.0999915,
+        "categoryId": 1
+    },
+    {
+        "id": 218,
+        "name": "Могила на непобедените",
+        "nameEN": "Mound of the undefeated",
+        "lat": 41.333929,
+        "lon": 21.5547667,
+        "categoryId": 1
+    },
+    {
+        "id": 219,
+        "name": "Камен мост",
+        "nameEN": "Stone Bridge",
+        "lat": 41.997767,
+        "lon": 21.4341939,
+        "categoryId": 2
+    },
+    {
+        "id": 220,
+        "name": "Меморијален комплекс на паднатите борци на Револуцијата",
+        "nameEN": "Memorial for the fallen warriors of the Revolution",
+        "lat": 41.7384674,
+        "lon": 22.1872731,
+        "categoryId": 4
+    },
+    {
+        "id": 221,
+        "name": "Исар - Штипска Тврдина",
+        "nameEN": "Isar - Shtip Fortress",
+        "lat": 41.7372077,
+        "lon": 22.186455,
+        "categoryId": 3
+    },
+    {
+        "id": 222,
+        "name": "Штакле",
+        "nameEN": "Castle Stakle",
+        "lat": 42.0054446,
+        "lon": 21.4475868,
+        "categoryId": 3
+    },
+    {
+        "id": 223,
+        "name": "Билазора",
+        "nameEN": "Bilazora",
+        "lat": 42.0054446,
+        "lon": 21.4475868,
+        "categoryId": 3
+    },
+    {
+        "id": 224,
+        "name": "Колонада независна Македонија",
+        "nameEN": "Colonnade Independent Macedonia",
+        "lat": 41.9963659,
+        "lon": 21.4359221,
+        "categoryId": 2
+    },
+    {
+        "id": 225,
+        "name": "Римска - Османлиска бања",
+        "nameEN": "Roman - Ottoman Bathouse",
+        "lat": 41.3829596,
+        "lon": 22.7533399,
+        "categoryId": 3
+    },
+    {
+        "id": 226,
+        "name": "Александар Македонски",
+        "nameEN": "Alexander Macedonian",
+        "lat": 41.7372426,
+        "lon": 22.1940888,
+        "categoryId": 1
+    },
+    {
+        "id": 227,
+        "name": "Велешки Гемиџија",
+        "nameEN": "Veles assassin",
+        "lat": 41.7161334,
+        "lon": 21.7834044,
+        "categoryId": 1
+    },
+    {
+        "id": 228,
+        "name": "Музеј на икони",
+        "nameEN": "Museum of icons",
+        "lat": 41.34388,
+        "lon": 21.5584745,
+        "categoryId": 4
+    },
+    {
+        "id": 229,
+        "name": "Спомен плоча - Ѓурѓејца",
+        "nameEN": "Gjurgjejca",
+        "lat": 41.4531014,
+        "lon": 20.9660085,
+        "categoryId": 1
+    },
+    {
+        "id": 230,
+        "name": "Споменик на Народоослободителната борба",
+        "nameEN": "Monument for The national liberation struggle",
+        "lat": 41.8648032,
+        "lon": 21.938984,
+        "categoryId": 1
+    },
+    {
+        "id": 231,
+        "name": "Археолошко наоѓалиште на Маневци",
+        "nameEN": "Archaeological site of Mancevci",
+        "lat": 41.1127715,
+        "lon": 20.7933692,
+        "categoryId": 3
+    },
+    {
+        "id": 232,
+        "name": "Пешта",
+        "nameEN": "Peshta",
+        "lat": 41.0889567,
+        "lon": 21.7444797,
+        "categoryId": 3
+    },
+    {
+        "id": 233,
+        "name": "Марков Ѕид",
+        "nameEN": "Markos Wall",
+        "lat": 41.2993472,
+        "lon": 21.5894706,
+        "categoryId": 3
+    },
+    {
+        "id": 234,
+        "name": "Мариовски Манастир",
+        "nameEN": "Monastery of Mariovo",
+        "lat": 41.1645364,
+        "lon": 21.7251172,
+        "categoryId": 3
+    },
+    {
+        "id": 235,
+        "name": "1. Бригада",
+        "nameEN": "1 Бригада",
+        "lat": 41.3660204,
+        "lon": 20.6485817,
+        "categoryId": 4
+    },
+    {
+        "id": 236,
+        "name": "Споменик на Слободата",
+        "nameEN": "Freedom Monument",
+        "lat": 41.9190815,
+        "lon": 22.4067964,
+        "categoryId": 1
+    },
+    {
+        "id": 237,
+        "name": "Девини Кули",
+        "nameEN": "Devini Kuli",
+        "lat": 41.5419074,
+        "lon": 21.238681,
+        "categoryId": 3
+    },
+    {
+        "id": 238,
+        "name": "Куќата на Ѓошеви",
+        "nameEN": "House of Gjoshev",
+        "lat": 41.3587452,
+        "lon": 21.5326902,
+        "categoryId": 2
+    },
+    {
+        "id": 239,
+        "name": "Битолска Тврдина",
+        "nameEN": "Fortress of Bitola",
+        "lat": 41.0161204,
+        "lon": 21.3311077,
+        "categoryId": 2
+    },
+    {
+        "id": 240,
+        "name": "Музеј на Битола",
+        "nameEN": "Museum of Bitola",
+        "lat": 41.0234533,
+        "lon": 21.3359067,
+        "categoryId": 4
+    },
+    {
+        "id": 241,
+        "name": "Музеј Прилеп",
+        "nameEN": "Museum Prilep",
+        "lat": 41.3429261,
+        "lon": 21.5591038,
+        "categoryId": 4
+    },
+    {
+        "id": 242,
+        "name": "Меморијал Битола",
+        "nameEN": "Memorial Bitola",
+        "lat": 41.0410392,
+        "lon": 21.3585444,
+        "categoryId": 4
+    },
+    {
+        "id": 243,
+        "name": "Спомен-куќа на Татарчеви",
+        "nameEN": "Tatarchev House",
+        "lat": 41.0884486,
+        "lon": 21.0137165,
+        "categoryId": 4
+    },
+    {
+        "id": 244,
+        "name": "Музеј на град Берово",
+        "nameEN": "Berovo Town Museum",
+        "lat": 41.7077548,
+        "lon": 22.8566138,
+        "categoryId": 4
+    },
+    {
+        "id": 245,
+        "name": "Музеј Теракота",
+        "nameEN": "Museum Teracotta",
+        "lat": 41.8841902,
+        "lon": 22.5049622,
+        "categoryId": 4
+    },
+    {
+        "id": 246,
+        "name": "Музеј на Виното",
+        "nameEN": "Museum of Wine",
+        "lat": 41.4085959,
+        "lon": 22.2447656,
+        "categoryId": 4
+    },
+    {
+        "id": 247,
+        "name": "Залив на коските",
+        "nameEN": "Bay of Bones",
+        "lat": 40.9942972,
+        "lon": 20.7983138,
+        "categoryId": 4
+    },
+    {
+        "id": 248,
+        "name": "Градски Музеј",
+        "nameEN": "City Museum",
+        "lat": 42.2020133,
+        "lon": 22.3348959,
+        "categoryId": 4
+    },
+    {
+        "id": 249,
+        "name": "Музеј на град Делчево",
+        "nameEN": "City Museum",
+        "lat": 41.9664768,
+        "lon": 22.7729986,
+        "categoryId": 4
+    },
+    {
+        "id": 250,
+        "name": "НУ Завод за заштита на спомениците на културата и Музеј-Охрид",
+        "nameEN": "Institute for Protection of Monuments of Culture and Museum-Ohrid",
+        "lat": 41.1131718,
+        "lon": 20.7945858,
+        "categoryId": 4
+    },
+    {
+        "id": 251,
+        "name": "Музеј на културното наследство на Галичник",
+        "nameEN": "Museum of Galichniks cultural heritage",
+        "lat": 41.5939237,
+        "lon": 20.652723,
+        "categoryId": 4
+    },
+    {
+        "id": 252,
+        "name": "Музеј на град Струмица",
+        "nameEN": "City Museum",
+        "lat": 41.4354106,
+        "lon": 22.6364291,
+        "categoryId": 4
+    },
+    {
+        "id": 253,
+        "name": "Музеј на Македонија",
+        "nameEN": "Museum of Macedonia",
+        "lat": 42.0026065,
+        "lon": 21.4360562,
+        "categoryId": 4
+    },
+    {
+        "id": 254,
+        "name": "Музеј на македонската борба",
+        "nameEN": "Museum of the Macedonian struggle",
+        "lat": 41.9982848,
+        "lon": 21.4329425,
+        "categoryId": 4
+    },
+    {
+        "id": 255,
+        "name": "Музеј на Град Скопје",
+        "nameEN": "Museum of the City of Skopje",
+        "lat": 41.9911943,
+        "lon": 21.428871,
+        "categoryId": 4
+    },
+    {
+        "id": 256,
+        "name": "Музеј на НОВ",
+        "nameEN": "Museum of NOV",
+        "lat": 41.3755478,
+        "lon": 21.2458705,
+        "categoryId": 4
+    },
+    {
+        "id": 257,
+        "name": "Музеј на Илинденското востание и Крушевската Република",
+        "nameEN": "Museum of the Ilinden Uprising and the Republic of Krushevo",
+        "lat": 41.3691258,
+        "lon": 21.2453442,
+        "categoryId": 4
+    },
+    {
+        "id": 258,
+        "name": "Археолошки музеј на Македонија",
+        "nameEN": "Archaeological Museum of Macedonia",
+        "lat": 41.9966002,
+        "lon": 21.4346323,
+        "categoryId": 4
+    },
+    {
+        "id": 259,
+        "name": "Музеј Штип",
+        "nameEN": "Museum Shtip",
+        "lat": 41.7367604,
+        "lon": 22.1899111,
+        "categoryId": 4
+    },
+    {
+        "id": 260,
+        "name": "Народен музеј",
+        "nameEN": "Folk museum",
+        "lat": 41.864921,
+        "lon": 21.9419399,
+        "categoryId": 4
+    },
+    {
+        "id": 261,
+        "name": "Меморијален музеј Народен херој Кузман Јосифоски-Питу",
+        "nameEN": "Peoples hero Kuzman Josifoski-Pitu Memorial museum",
+        "lat": 41.3425836,
+        "lon": 21.5597314,
+        "categoryId": 4
+    },
+    {
+        "id": 262,
+        "name": "Музеј Кавадарци",
+        "nameEN": "Museum Kavadarci",
+        "lat": 41.4343634,
+        "lon": 22.0163228,
+        "categoryId": 4
+    },
+    {
+        "id": 263,
+        "name": "Музеј на Дојран",
+        "nameEN": "City museum Dojran",
+        "lat": 41.1871817,
+        "lon": 22.7221034,
+        "categoryId": 4
+    }
+]
