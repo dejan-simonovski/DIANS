@@ -21,12 +21,10 @@ public class AccountController {
     /**
      * Displays the registration page.
      * @param model - the model for the view
-     * @param req - the HTTP servlet request
      * @return the master layout view for registration
      */
     @GetMapping("/register")
-    public String getRegisterPage(Model model, HttpServletRequest req) {
-        req.getSession().invalidate();
+    public String getRegisterPage(Model model) {
         model.addAttribute("hasError", false);
 
         model.addAttribute("body", "signup");
@@ -61,7 +59,6 @@ public class AccountController {
             model.addAttribute("hasBody", true);
             model.addAttribute("cssFile", "login&signup.css");
             model.addAttribute("hasCssFile", true);
-            model.addAttribute("user", null);
             return "master-layout";
         }
         return "redirect:/home";
@@ -70,61 +67,19 @@ public class AccountController {
     /**
      * Displays the login page.
      * @param model - the model for the view
-     * @param req - the HTTP servlet request
+     * @param error - message in case of authentication error
      * @return the master layout view for the login page
      */
     @GetMapping("/login")
     public String getLoginPage(Model model,
-                               HttpServletRequest req) {
-        req.getSession().invalidate();
-        model.addAttribute("hasError", false);
+                               @RequestParam(required = false) String error) {
+        model.addAttribute("hasError", error != null);
+        model.addAttribute("error", error);
 
         model.addAttribute("body", "login");
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "login&signup.css");
         model.addAttribute("hasCssFile", true);
-        model.addAttribute("user", null);
         return "master-layout";
-    }
-
-    /**
-     * Handles the login of a user.
-     * @param email - the user's email
-     * @param password - the user's password
-     * @param req - the HTTP servlet request
-     * @param model - the model for the view
-     * @return redirects to the home page if login is successful, else returns to the login page with an error message
-     */
-    @PostMapping("/login")
-    public String loginUser(@RequestParam String email,
-                            @RequestParam String password,
-                            HttpServletRequest req,
-                            Model model) {
-        try {
-            User user = userService.login(email, password);
-            req.getSession().setAttribute("user", user);
-        } catch (EmailNotExistingException | IncorrectPasswordException e) {
-            model.addAttribute("hasError", true);
-            model.addAttribute("error", e.getMessage());
-
-            model.addAttribute("body", "login");
-            model.addAttribute("hasBody", true);
-            model.addAttribute("cssFile", "login&signup.css");
-            model.addAttribute("hasCssFile", true);
-            model.addAttribute("user", null);
-            return "master-layout";
-        }
-        return "redirect:/home";
-    }
-
-    /**
-     * Handles the logout of a user.
-     * @param req - the HTTP servlet request
-     * @return redirects to the home page after invalidating the session
-     */
-    @PostMapping("/logout")
-    public String logoutUser(HttpServletRequest req) {
-        req.getSession().invalidate();
-        return "redirect:/home";
     }
 }
