@@ -7,12 +7,12 @@ import mk.com.kinmkd.kinmkd.model.Location;
 import mk.com.kinmkd.kinmkd.model.exception.LocationNotFoundException;
 import mk.com.kinmkd.kinmkd.repository.CategoryRepository;
 import mk.com.kinmkd.kinmkd.repository.LocationRepository;
-import mk.com.kinmkd.kinmkd.service.CategoryService;
 import mk.com.kinmkd.kinmkd.service.LocationService;
 import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
@@ -29,16 +29,16 @@ public class LocationServiceImpl implements LocationService {
         try {
             Location[] locationsArray = objectMapper.readValue(jsonContent, Location[].class);
 
-            for (Location location : locationsArray) {
-                Location newLocation = new Location(location.getId(),
-                        location.getLat(),
-                        location.getLon(),
-                        location.getName(),
-                        location.getNameEN(),
-                        location.getCategoryId());
-
-                this.locationRepository.save(newLocation);
-            }
+            Arrays.stream(locationsArray)
+                    .map(location -> new Location(
+                            location.getId(),
+                            location.getLat(),
+                            location.getLon(),
+                            location.getName(),
+                            location.getNameEN(),
+                            location.getCategoryId())
+                    )
+                    .forEach(locationRepository::save);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -51,10 +51,8 @@ public class LocationServiceImpl implements LocationService {
 
     @Override
     public Location findById(Integer id) {
-        Optional<Location> container = locationRepository.findById(id);
-        if (container.isEmpty())
-            throw new LocationNotFoundException();
-        return container.get();
+        return locationRepository.findById(id)
+                .orElseThrow(LocationNotFoundException::new);
     }
 
     @Override

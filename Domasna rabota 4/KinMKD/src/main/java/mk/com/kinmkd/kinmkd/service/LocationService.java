@@ -1,12 +1,8 @@
 package mk.com.kinmkd.kinmkd.service;
 
-import mk.com.kinmkd.kinmkd.model.Category;
 import mk.com.kinmkd.kinmkd.model.Location;
-import org.springframework.stereotype.Service;
-
 import java.io.IOException;
 import java.util.List;
-import java.util.Optional;
 
 public interface LocationService {
 
