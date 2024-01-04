@@ -10,7 +10,6 @@ import mk.com.kinmkd.kinmkd.model.exception.LocationNotFoundException;
 import mk.com.kinmkd.kinmkd.service.CategoryService;
 import mk.com.kinmkd.kinmkd.service.LocationService;
 import mk.com.kinmkd.kinmkd.service.ReviewService;
-import mk.com.kinmkd.kinmkd.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -29,7 +28,6 @@ public class LocationController {
     private final LocationService locationService;
     private final CategoryService categoryService;
     private final ReviewService reviewService;
-    private final UserService userService;
 
     /**
      * Displays the location search page.
@@ -38,7 +36,7 @@ public class LocationController {
      * @return the master layout view for the location search page
      */
     @GetMapping("/search")
-    public String getLocationSearchPage(Model model) {
+    public String getLocationSearchPage(Model model, HttpServletRequest req) {
         List<Category> categories = categoryService.findAll();
         model.addAttribute("categories", categories);
         model.addAttribute("hasBeenSearched", false);
@@ -47,6 +45,7 @@ public class LocationController {
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "search-style.css");
         model.addAttribute("hasCssFile", true);
+        model.addAttribute("user", (User) req.getSession().getAttribute("user"));
         return "master-layout";
     }
 
@@ -61,7 +60,8 @@ public class LocationController {
     @PostMapping("/search")
     public String searchLocations(Model model,
                                   @RequestParam String nameKeyword,
-                                  @RequestParam String categoryName) {
+                                  @RequestParam String categoryName,
+                                  HttpServletRequest req) {
         List<Location> resultLocations = locationService.performSearch(categoryName, nameKeyword);
         model.addAttribute("resultLocations", resultLocations);
         model.addAttribute("keyword", nameKeyword);
@@ -75,6 +75,7 @@ public class LocationController {
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "search-style.css");
         model.addAttribute("hasCssFile", true);
+        model.addAttribute("user", (User) req.getSession().getAttribute("user"));
         return "master-layout";
     }
 
@@ -87,7 +88,8 @@ public class LocationController {
      */
     @GetMapping("/{id}")
     public String getLocationDetailsPage(@PathVariable Integer id,
-                                         Model model) {
+                                         Model model,
+                                         HttpServletRequest req) {
         try {
             Location location = locationService.findById(id);
             model.addAttribute("location", location);
@@ -99,6 +101,7 @@ public class LocationController {
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "details.css");
         model.addAttribute("hasCssFile", true);
+        model.addAttribute("user", (User) req.getSession().getAttribute("user"));
         return "master-layout";
     }
 
@@ -117,8 +120,7 @@ public class LocationController {
             Location location = locationService.findById(id);
             model.addAttribute("location", location);
 
-            String email = req.getRemoteUser();
-            Integer userId = userService.findByEmail(email).getId();
+            Integer userId = ((User) req.getSession().getAttribute("user")).getId();
             Optional<Review> review = reviewService.findByUserIdAndLocationId(userId, id);
 
             if (review.isEmpty()) {
@@ -137,6 +139,7 @@ public class LocationController {
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "review.css");
         model.addAttribute("hasCssFile", true);
+        model.addAttribute("user", (User) req.getSession().getAttribute("user"));
         return "master-layout";
     }
 
@@ -157,7 +160,7 @@ public class LocationController {
             reviewService.create(
                     rating,
                     comment,
-                    userService.findByEmail(req.getRemoteUser()).getId(),
+                    ((User) req.getSession().getAttribute("user")).getId(),
                     id
             );
         } catch (LocationNotFoundException e) {
@@ -176,7 +179,7 @@ public class LocationController {
     public String deleteReviewForLocation(@PathVariable Integer id,
                                           HttpServletRequest req) {
         reviewService.deleteByUserIdAndLocationId(
-                userService.findByEmail(req.getRemoteUser()).getId(),
+                ((User) req.getSession().getAttribute("user")).getId(),
                 id
         );
         return String.format("redirect:/location/%d", id);
