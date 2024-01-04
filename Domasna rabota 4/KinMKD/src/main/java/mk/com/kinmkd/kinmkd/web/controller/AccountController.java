@@ -16,15 +16,13 @@ public class AccountController {
     private final UserService userService;
 
     @GetMapping("/register")
-    public String getRegisterPage(Model model, HttpServletRequest req) {
-        req.getSession().invalidate();
+    public String getRegisterPage(Model model) {
         model.addAttribute("hasError", false);
 
         model.addAttribute("body", "signup");
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "login&signup.css");
         model.addAttribute("hasCssFile", true);
-        model.addAttribute("user", null);
         return "master-layout";
     }
 
@@ -43,7 +41,6 @@ public class AccountController {
             model.addAttribute("hasBody", true);
             model.addAttribute("cssFile", "login&signup.css");
             model.addAttribute("hasCssFile", true);
-            model.addAttribute("user", null);
             return "master-layout";
         }
         return "redirect:/home";
@@ -51,43 +48,14 @@ public class AccountController {
 
     @GetMapping("/login")
     public String getLoginPage(Model model,
-                               HttpServletRequest req) {
-        req.getSession().invalidate();
-        model.addAttribute("hasError", false);
+                               @RequestParam(required = false) String error) {
+        model.addAttribute("hasError", error != null);
+        model.addAttribute("error", error);
 
         model.addAttribute("body", "login");
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "login&signup.css");
         model.addAttribute("hasCssFile", true);
-        model.addAttribute("user", null);
         return "master-layout";
-    }
-
-    @PostMapping("/login")
-    public String loginUser(@RequestParam String email,
-                            @RequestParam String password,
-                            HttpServletRequest req,
-                            Model model) {
-        try {
-            User user = userService.login(email, password);
-            req.getSession().setAttribute("user", user);
-        } catch (EmailNotExistingException | IncorrectPasswordException e) {
-            model.addAttribute("hasError", true);
-            model.addAttribute("error", e.getMessage());
-
-            model.addAttribute("body", "login");
-            model.addAttribute("hasBody", true);
-            model.addAttribute("cssFile", "login&signup.css");
-            model.addAttribute("hasCssFile", true);
-            model.addAttribute("user", null);
-            return "master-layout";
-        }
-        return "redirect:/home";
-    }
-
-    @PostMapping("/logout")
-    public String logoutUser(HttpServletRequest req) {
-        req.getSession().invalidate();
-        return "redirect:/home";
     }
 }
