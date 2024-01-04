@@ -30,7 +30,7 @@
                                </th:block>
                            </div>
                     </div>
-                        <th:block th:if="${user!=null}">
+                        <th:block sec:authorize="isAuthenticated()">
                             <div>
                                 <a th:href="('/location/'+${location.id}+'/my-review')">
                                     My Review
