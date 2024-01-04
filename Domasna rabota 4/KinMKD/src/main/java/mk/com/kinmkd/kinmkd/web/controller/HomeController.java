@@ -5,11 +5,19 @@ import mk.com.kinmkd.kinmkd.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 
+/**
+ * Controller handling home and about page-related operations.
+ */
 @Controller
-@RequestMapping("")
 public class HomeController {
+
+    /**
+     * Displays the home page.
+     * @param model - the model for the view
+     * @param req - the HTTP servlet request
+     * @return the master layout view for the home page
+     */
     @GetMapping("/home")
     public String getHomePage(Model model) {
         model.addAttribute("body", null);
@@ -19,6 +27,21 @@ public class HomeController {
         return "master-layout";
     }
 
+    /**
+     * Redirects to the home page.
+     * @return redirects to the "/home" endpoint
+     */
+    @GetMapping
+    public String getHomeRedirect(){
+        return "redirect:/home";
+    }
+
+    /**
+     * Displays the about page.
+     * @param model - the model for the view
+     * @param req - the HTTP servlet request
+     * @return the master layout view for the about page
+     */
     @GetMapping("/about")
     public String getAboutPage(Model model) {
         model.addAttribute("body", "about");

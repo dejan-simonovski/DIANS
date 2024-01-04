@@ -10,10 +10,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.Optional;
 
 @Service
 @AllArgsConstructor
@@ -23,11 +20,9 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User register(String email, String password, String repeatPassword) {
-        if (!password.equals(repeatPassword)) {
-            throw new PasswordsNotMatchingException();
-        }
-        if(!(password.length() >= 6 && password.matches(".*[0-9]+.*") && password.matches(".*[a-zA-Z]+.*")))
-            throw new PasswordWeakException();
+
+        validatePassword(password, repeatPassword);
+
         if (userRepository.findByEmail(email).isPresent()) {
             throw new EmailTakenException(email);
         }
@@ -48,5 +43,23 @@ public class UserServiceImpl implements UserService {
                 user.getPassword(),
                 Collections.singletonList(new SimpleGrantedAuthority("ROLE_USER"))
         );
+    public User login(String email, String password) {
+
+        User user = userRepository.findByEmail(email)
+                .orElseThrow(() -> new EmailNotExistingException(email));
+
+        if (!user.verifyPassword(password)) {
+            throw new IncorrectPasswordException();
+        }
+        return user;
+    }
+
+    private void validatePassword(String password, String repeatPassword) {
+        if (!password.equals(repeatPassword)) {
+            throw new PasswordsNotMatchingException();
+        }
+        if (!(password.length() >= 6 && password.matches(".*[0-9]+.*") && password.matches(".*[a-zA-Z]+.*"))) {
+            throw new PasswordWeakException();
+        }
     }
 }

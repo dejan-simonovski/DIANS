@@ -1,8 +1,6 @@
 package mk.com.kinmkd.kinmkd.service;
 
 import mk.com.kinmkd.kinmkd.model.Review;
-import mk.com.kinmkd.kinmkd.model.User;
-
 import java.util.Optional;
 
 public interface ReviewService {
