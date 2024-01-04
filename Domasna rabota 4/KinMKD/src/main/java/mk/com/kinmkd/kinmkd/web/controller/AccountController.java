@@ -25,13 +25,15 @@ public class AccountController {
      * @return the master layout view for registration
      */
     @GetMapping("/register")
-    public String getRegisterPage(Model model) {
+    public String getRegisterPage(Model model, HttpServletRequest req) {
+        req.getSession().invalidate();
         model.addAttribute("hasError", false);
 
         model.addAttribute("body", "signup");
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "login&signup.css");
         model.addAttribute("hasCssFile", true);
+        model.addAttribute("user", null);
         return "master-layout";
     }
 
@@ -59,6 +61,7 @@ public class AccountController {
             model.addAttribute("hasBody", true);
             model.addAttribute("cssFile", "login&signup.css");
             model.addAttribute("hasCssFile", true);
+            model.addAttribute("user", null);
             return "master-layout";
         }
         return "redirect:/home";
@@ -72,14 +75,15 @@ public class AccountController {
      */
     @GetMapping("/login")
     public String getLoginPage(Model model,
-                               @RequestParam(required = false) String error) {
-        model.addAttribute("hasError", error != null);
-        model.addAttribute("error", error);
+                               HttpServletRequest req) {
+        req.getSession().invalidate();
+        model.addAttribute("hasError", false);
 
         model.addAttribute("body", "login");
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", "login&signup.css");
         model.addAttribute("hasCssFile", true);
+        model.addAttribute("user", null);
         return "master-layout";
     }
 

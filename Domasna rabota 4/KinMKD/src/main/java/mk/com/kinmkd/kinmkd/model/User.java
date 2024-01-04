@@ -23,9 +23,22 @@ public class User {
     @OneToMany(mappedBy = "user")
     private List<Review> reviews;
 
+    private String hashPassword(String plainTextPassword) {
+        String salt = BCrypt.gensalt();
+        return BCrypt.hashpw(plainTextPassword, salt);
+    }
+
+    public void setPassword(String password) {
+        this.password = hashPassword(password);
+    }
+
     public User(String email, String password) {
         this.email = email;
-        this.password = password;
+        setPassword(password);
         reviews = new ArrayList<>();
+    }
+
+    public boolean verifyPassword(String candidatePassword) {
+        return BCrypt.checkpw(candidatePassword, this.password);
     }
 }
