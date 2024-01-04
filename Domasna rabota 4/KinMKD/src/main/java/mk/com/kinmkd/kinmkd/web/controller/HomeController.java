@@ -15,17 +15,14 @@ public class HomeController {
     /**
      * Displays the home page.
      * @param model - the model for the view
-     * @param req - the HTTP servlet request
      * @return the master layout view for the home page
      */
     @GetMapping("/home")
-    public String getHomePage(Model model,
-                              HttpServletRequest req) {
+    public String getHomePage(Model model) {
         model.addAttribute("body", null);
         model.addAttribute("hasBody", false);
         model.addAttribute("cssFile", null);
         model.addAttribute("hasCssFile", false);
-        model.addAttribute("user", (User) req.getSession().getAttribute("user"));
         return "master-layout";
     }
 
@@ -41,17 +38,14 @@ public class HomeController {
     /**
      * Displays the about page.
      * @param model - the model for the view
-     * @param req - the HTTP servlet request
      * @return the master layout view for the about page
      */
     @GetMapping("/about")
-    public String getAboutPage(Model model,
-                               HttpServletRequest req) {
+    public String getAboutPage(Model model) {
         model.addAttribute("body", "about");
         model.addAttribute("hasBody", true);
         model.addAttribute("cssFile", null);
         model.addAttribute("hasCssFile", false);
-        model.addAttribute("user", (User) req.getSession().getAttribute("user"));
         return "master-layout";
     }
 }

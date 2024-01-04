@@ -1,4 +1,4 @@
-<header class="header_section">
+<header class="header_section" xmlns:th="http://www.thymeleaf.org">
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
             <a class="navbar-brand" th:href="@{/home}">
@@ -19,7 +19,7 @@
                         <li class="nav-item">
                             <a class="nav-link" th:href="@{/about}"> About </a>
                         </li>
-                        <th:block th:if="${user == null}">
+                        <th:block sec:authorize="isAnonymous()">
                             <li class="nav-item">
                                 <a class="nav-link" th:href="@{/account/login}"> Login </a>
                             </li>
@@ -27,7 +27,7 @@
                                 <a class="nav-link" th:href="@{/account/register}"> Signup </a>
                             </li>
                         </th:block>
-                        <th:block th:if="${user != null}">
+                        <th:block sec:authorize="isAuthenticated()">
                             <li class="nav-item">
                                 <a class="nav-link" href="javascript:document.querySelector('#logout-form').submit()">Log out</a>
                                 <form th:action="@{/account/logout}" th:method="POST" style="display: none" id="logout-form"></form>
@@ -35,9 +35,6 @@
                         </th:block>
                     </ul>
                     <div class="user_option">
-<!--                        <a href="">-->
-<!--                            <img th:src="@{/images/user.png}" alt="">-->
-<!--                        </a>-->
                         <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                             <a class="btn  my-2 my-sm-0 nav_search-btn" th:href="@{/location/search}"></a>
                         </form>
