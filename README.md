@@ -1,4 +1,4 @@
-![fcse_logo](https://2018.skopje.wordcamp.org/files/2018/09/Logo_FINKI_UKIM_EN.jpg)
+![fcse_logo](https://finki.ukim.mk/sites/default/files/logo_10.png)
 
 # Проект по ДИАНС - KinMKD
 
