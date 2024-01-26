@@ -12,10 +12,49 @@ services:
     volumes:
       - db:/var/lib/postgres
 
+  eureka-server:
+    container_name: eureka-server
+    build:
+      context: .
+      dockerfile: ../eureka-server/Dockerfile
+    image: eureka-server:latest
+    expose:
+      - 8761
+    ports:
+      - "8761:8761"
+    logging:
+      driver: json-file
+    networks:
+      - spring-cloud-network
+    hostname: 'eureka-server'
+
+  location-service:
+    container_name: location-service
+    build:
+      context: .
+      dockerfile: ../location-service/Dockerfile
+    image: location-service:latest
+    expose:
+      - 8081
+    ports:
+      - "8081:8081"
+    depends_on:
+      - eureka-server
+    logging:
+      driver: json-file
+    networks:
+      - spring-cloud-network
+    links:
+      - eureka-server:eureka-server
+    hostname: 'PARKING-SERVICE'
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://eureka-server:8761/eureka/
+
   app:
     image: kinmkd
     depends_on:
       - postgres
+      - eureka-server
     build: ./
     restart: on-failure
     ports:
@@ -26,12 +65,17 @@ services:
           "spring.datasource.username" : "postgres",
           "spring.datasource.password" : "admin",
           "spring.jpa.properties.hibernate.dialect" : "org.hibernate.dialect.PostgreSQLDialect",
-          "spring.jpa.hibernate.ddl-auto" : "update"
+          "spring.jpa.hibernate.ddl-auto" : "update",
+          "eureka.client.serviceUrl.defaultZone": "http://eureka-server:8761/eureka/"
       }'
     volumes:
       - .m2:/root/.m2
     stdin_open: true
     tty: true
+    links:
+      - eureka-server:eureka-server
+      - location-service:location-service
+
 
 volumes:
   db:
