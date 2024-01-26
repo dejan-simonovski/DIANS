@@ -8,19 +8,23 @@ import mk.com.kinmkd.kinmkd.model.exception.LocationNotFoundException;
 import mk.com.kinmkd.kinmkd.repository.CategoryRepository;
 import mk.com.kinmkd.kinmkd.repository.LocationRepository;
 import mk.com.kinmkd.kinmkd.service.LocationService;
+import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 @Service
 @AllArgsConstructor
 public class LocationServiceImpl implements LocationService {
     private final LocationRepository locationRepository;
-    private final CategoryRepository categoryRepository;
+    private final RestTemplate restTemplate;
 
     public void insertDataFromJsonFile(String jsonFilePath) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
@@ -45,58 +49,18 @@ public class LocationServiceImpl implements LocationService {
     }
 
     @Override
-    public List<Location> findAll() {
-        return locationRepository.findAll();
-    }
-
-    @Override
     public Location findById(Integer id) {
         return locationRepository.findById(id)
                 .orElseThrow(LocationNotFoundException::new);
     }
 
     @Override
-    public Location findByNameAndCategory(String name, String category) {
-        return locationRepository.findByNameENOrNameAndAndCategoryId(name,name,category);
-    }
-
-    @Override
-    public List<Location> findByLikeName(String text1, String text2) {
-        return locationRepository.findAllByNameENContainsIgnoreCaseOrNameContainsIgnoreCase(text1,text2);
-    }
-
-    @Override
-    public List<Location> findByCategory(String category) {
-        Optional<Category> cHolder = categoryRepository.findByName(category);
-        Category c = cHolder.get();
-        return locationRepository.findAllByCategoryId(c);
-    }
-
-    @Override
-    public List<Location> findByNameLikeAndCategory(String categoryName, String text) {
-        Optional<Category> cHolder = categoryRepository.findByName(categoryName);
-        Category category = cHolder.get();
-        return locationRepository.findAllByCategoryIdAndNameContainsIgnoreCaseOrCategoryIdAndNameENContainsIgnoreCase(
-                category, text, category, text
-        );
-    }
-
-    @Override
     public List<Location> performSearch(String categoryName, String text) {
-        if (categoryName.equals("NONE") && checkIfEmpty(text)) {
-            return findAll();
-        } else if (categoryName.equals("NONE") && !checkIfEmpty(text)) {
-            return findByLikeName(text, text);
-        } else if (!categoryName.equals("NONE") && checkIfEmpty(text)) {
-            return findByCategory(categoryName);
-        } else {
-            return findByNameLikeAndCategory(
-                    categoryName, text
-            );
-        }
-    }
-
-    private boolean checkIfEmpty(String value) {
-        return value == null || value.isEmpty();
+        return Arrays.asList(Objects.requireNonNull(
+                restTemplate.exchange(String.format("http://localhost:8761/eureka?nameKeyword=%s&categoryName=%s",text,categoryName),
+                        HttpMethod.POST,
+                        null,
+                        Location[].class
+                ).getBody()));
     }
 }
