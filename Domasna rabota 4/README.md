@@ -7,4 +7,4 @@ http://20.215.82.141:8080
 
 (both links lead to the same hosted container)
 
-This app utilizes Spring MVC and Singleton design patterns.
+This app utilizes MVC and Singleton design patterns.
